@@ -62,7 +62,9 @@ use_course("XXXXXX")
 
 ### Piazza and Communications
 
-We will use Piazza[LINK?] for communication (announcements and questions). You should ask questions about class material and assignments through the Piazza website so that everyone can benefit from the discussion. We encourage you to respond to each other’s questions as well. Questions of a personal nature can be emailed to us directly.
+We will use Piazza for communication (announcements and questions). You should ask questions about class material and assignments through the Piazza website so that everyone can benefit from the discussion. We encourage you to respond to each other’s questions as well. Questions of a personal nature can be emailed to us directly.
+
+Find our class signup link at: https://piazza.com/uchicago/fall2020/3i
 
 ### Zoom:
 
