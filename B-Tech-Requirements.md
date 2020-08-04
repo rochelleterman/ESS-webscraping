@@ -52,6 +52,16 @@ install.packages("tinytex")
 tinytex::install_tinytex() 
 ```
 
+## Modern Web Browser
+
+You will need to have a modern web browser installed to perform some of the tasks in this class. The recommended browser for this class is [Google Chrome](https://www.google.co.uk/intl/en_uk/chrome/).
+
+## Selector Gadget
+
+As part of the webscraping process, you will need to examine HTML elements in your data. In this class we will be using [Selector Gadget](https://selectorgadget.com/) for this purpose.
+
+If using Google Chrome, you can simply install the [Selector Gadget Chrome extension](https://chrome.google.com/webstore/detail/selectorgadget/mhjhnkcfbdhnjickkkdbjoemdmbfginb?hl=en). Otherwise, you can follow the instructions on the [Select Gadget website](https://selectorgadget.com/).
+
 ## Troubleshooting
 
 Software Carpentry maintains a list of common issues that occur during installation may be useful for our class here: [Configuration Problems and Solutions wiki page.](https://github.com/swcarpentry/workshop-template/wiki/Configuration-Problems-and-Solutions)
