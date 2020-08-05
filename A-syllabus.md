@@ -72,8 +72,7 @@ All Zoom sessions available here: https://essex-university.zoom.us/j/3214418327 
 
 ### Exams
 
-XXXXXXX
-
+Students taking the course for credit will complete two exams. More details forthcoming.
 
 ### Tentative Schedule
 
