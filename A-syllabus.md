@@ -57,7 +57,7 @@ Download the materials on your computer by running the following code in RStudio
 install.packages("tidyverse")
 
 library("usethis")
-use_course("XXXXXX")
+use_course("rochelleterman/ESS-webscraping")
 ```
 
 ### Piazza and Communications
