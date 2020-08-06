@@ -45,7 +45,7 @@ You will need to have a modern web browser installed to perform some of the task
 
 As part of the webscraping process, you will need to examine HTML elements in your data. In this class we will be using [Selector Gadget](https://selectorgadget.com/) for this purpose.
 
-If using Google Chrome, you can simply install the [Selector Gadget Chrome extension](https://chrome.google.com/webstore/detail/selectorgadget/mhjhnkcfbdhnjickkkdbjoemdmbfginb?hl=en). Otherwise, you can follow the instructions on the [Selector Gadget website](https://selectorgadget.com/).
+If using Google Chrome, you can simply install the [Selector Gadget Chrome extension](https://chrome.google.com/webstore/detail/selectorgadget/mhjhnkcfbdhnjickkkdbjoemdmbfginb?hl=en). If for any reason you can't use Chrome extensions (including on Chrome itself), you can instead install selector gadget by following the instructions on the [Selector Gadget website](https://selectorgadget.com/).
 
 ## Troubleshooting
 
