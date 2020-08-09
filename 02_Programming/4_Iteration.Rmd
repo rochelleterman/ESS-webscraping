@@ -1,0 +1,238 @@
+---
+title: "Iteration"
+author: "Rochelle Terman"
+date: "Fall 2020"
+output:
+  prettydoc::html_pretty:
+    theme: hpstr
+    highlight: github
+---
+
+```{r setup, include=FALSE}
+library(knitr)
+
+set.seed(1014)
+options(digits = 3)
+options(dplyr.print_min = 6, dplyr.print_max = 6)
+
+knitr::opts_chunk$set(
+  comment = "#>",
+  collapse = TRUE,
+  out.width = "70%",
+  fig.align = 'center',
+  fig.width = 6,
+  fig.asp = 0.618,  # 1 / phi
+  fig.show = "hold"
+)
+```
+
+```{r message=F}
+library(tidyverse)
+library(gapminder)
+```
+
+## Iteration
+
+In the last unit, we talked about how important it is to reduce duplication in your code by creating functions instead of copying-and-pasting. Avoiding duplication allows for more readable, more flexible, and less error-prone code.
+
+Functions are one method of reducing duplication in your code. Another tool for reducing duplication is **iteration**, which lets you do the same task to multiple inputs.
+
+In this chapter you’ll learn about four approaches to iteratation:
+
+1. Vectorized functions
+2. `map` and functional programming
+3. Scoped verbs in `dplyr`
+
+### Vectorized Functions
+
+Most of R’s built-in functions are **vectorized**, meaning that the function will operate on all elements of a vector without needing to loop through and act on each element at a time. 
+
+That means you should never need to perform explicit iteration when performing simple mathematical computations.
+
+```{r}
+x <- 1:4
+x * 2
+```
+
+Notice that the multiplication happened to each element of the vector. Most built-in functions also operate element-wise on vectors:
+
+```{r}
+x <- 1:4
+log(x)
+```
+
+We can also add two vectors together:
+
+```{r}
+x <- 1:4
+y <- 6:9
+x + y
+```
+
+Notice that each element of x was added to its corresponding element of y:
+
+```{r eval = F}
+x:  1  2  3  4
+    +  +  +  +
+y:  6  7  8  9
+---------------
+    7  9 11 13
+```
+
+What happens if you add two vectors of different lengths?
+
+```{r}
+1:10 + 1:2
+```
+
+Here, R will expand the shortest vector to the same length as the longest. This is called **recycling**. This usually (but not always) happens silently, meaning R will not warn you. Beware! 
+
+### Functional Programming and `map`
+
+You might have used for-loops in other languages. Loops are not as important in R as they are in other languages because R is a **functional** programming language. This means that it’s possible to wrap up `for` loops in a function, and call that function instead of using the for loop directly.
+
+The pattern of looping over a vector, doing something to each element and saving the results is so common that the `purrr` package provides a family of functions to do it for you. They effectively eliminate the need for many common `for` loops. 
+
+There is one function for each type of output:
+
+1. `map()` makes a list.
+2. `map_lgl()` makes a logical vector.
+3. `map_int()` makes an integer vector.
+4. `map_dbl()` makes a double vector.
+5. `map_chr()` makes a character vector.
+
+Each function takes a vector as input, applies a function to each piece, and then returns a new vector that’s the same length (and has the same names) as the input.
+
+**NB**: Some people will tell you to avoid `for` loops because they are slow. They’re wrong! (Well, at least they’re rather out of date, as for loops haven’t been slow for many years). The main benefit of using functions like `map()` is not speed, but clarity: they make your code easier to write and to read.
+
+To see how `map` works, consider this simple data frame:
+
+```{r}
+df <- data.frame(
+  a = rnorm(10),
+  b = rnorm(10),
+  c = rnorm(10),
+  d = rnorm(10)
+)
+```
+
+What if we wanted to calculate the mean, median, and standard deviation of each column?
+
+```{r}
+map_dbl(df, mean)
+map_dbl(df, median)
+map_dbl(df, sd)
+```
+
+The data can even be piped!
+
+```{r}
+df %>% map_dbl(mean)
+df %>% map_dbl(median)
+df %>% map_dbl(sd)
+```
+
+We can also pass additional arguments. For example, the function `mean` passes an optional argument `trim`. From the help file: "the fraction (0 to 0.5) of observations to be trimmed from each end of `x` before the `mean`is computed.
+
+```{r}
+map_dbl(df, mean, trim = 0.5)
+```
+
+Check out other fun applications of `map` functions [here](https://r4ds.had.co.nz/iteration.html#the-map-functions)
+
+
+### Challenges
+
+Write code that uses one of the map functions to:
+
+#### Challenge 1 {-}
+
+Calculates the arithmetic mean for every column in `mtcars`.
+
+#### Challenge 2 {-}
+
+Calculates the number of unique values in each column of `iris`. 
+
+#### Challenge 3 {-}
+
+Generate 10 random normals for each of $\mu = -10$, $0$, $10$, and $100$.
+
+
+### Scoped Verbs
+
+The last iteration technique we'll discuss is scoped verbs in `dplyr`.
+
+Frequently, when working with dataframes, we want to apply a function to multiple columns. For example, let's say we want to calculate the mean value of each column in `mtcars`. 
+
+If we wanted to calculate the average of a single column, it would be pretty simple using just regular `dplyr` functions:
+
+```{r}
+mtcars %>%
+  summarize(mpg = mean(mpg))
+```
+
+But if we want to calculate the mean for all of them, we’d have to duplicate this code many times over:
+
+```{r}
+mtcars %>%
+  summarize(mpg = mean(mpg),
+            cyl = mean(cyl),
+            disp = mean(disp),
+            hp = mean(hp),
+            drat = mean(drat),
+            wt = mean(wt),
+            qsec = mean(qsec),
+            vs = mean(vs),
+            am = mean(am),
+            gear = mean(gear),
+            carb = mean(carb))
+```
+
+This is very repetitive and prone to mistakes! 
+
+We just saw one approach to solve this problem: `map`. Another approach is __scoped verbs__. 
+
+Scoped verbs allow you to use standard verbs (or functions) in `dplyr` that affect multiple variables at once.
+
+- `_if` allows you to pick variables based on a predicate function like `is.numeric()` or `is.character()`
+- `_at` allows you to pick variables using the same syntax as `select()`
+- `_all` operates on all variables
+
+These verbs can apply to `summarize`, `filter`, or `mutate`. Let's go over `summarize`:
+
+#### `summarize_all()` {-}
+
+`summarize_all()` takes a dataframe and a function and applies that function to each column:
+
+```{r}
+mtcars %>%
+  summarize_all(.funs = mean)
+```
+
+
+#### `summarize_at()` {-}
+
+`summarize_at()` allows you to pick columns in the same way as `select()`, that is, based on their names. There is one small difference: you need to wrap the complete selection with the `vars()` helper (this avoids ambiguity).
+
+```{r}
+mtcars %>%
+  summarize_at(.vars = vars(mpg, wt), .funs = mean)
+```
+
+#### `summarize_if()` {-}
+
+`summarize_if()` allows you to pick variables to summarize based on some property of the column. For example, what if we want to apply a numeric summary function only to numeric columns:
+
+```{r}
+iris %>%
+  summarize_if(.predicate = is.numeric, .funs = mean)
+```
+
+`mutate` and `filter` work in a similar way. To see more, check out [Scoped verbs by the Data Challenge Lab](https://dcl-2017-04.github.io/curriculum/manip-scoped.html)
+
+#### Acknowledgments {-}
+
+A good portion of this lesson is based on:
+
+- [R for Data Science](https://r4ds.had.co.nz/)
+- [Computing for Social Sciences](https://cfss.uchicago.edu)

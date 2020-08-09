@@ -1,0 +1,167 @@
+---
+title: "Conditional Flow"
+author: "Rochelle Terman"
+date: "Fall 2020"
+output:
+  prettydoc::html_pretty:
+    theme: hpstr
+    highlight: github
+---
+
+```{r setup, include=FALSE}
+library(knitr)
+
+set.seed(1014)
+options(digits = 3)
+options(dplyr.print_min = 6, dplyr.print_max = 6)
+
+knitr::opts_chunk$set(
+  comment = "#>",
+  collapse = TRUE,
+  out.width = "70%",
+  fig.align = 'center',
+  fig.width = 6,
+  fig.asp = 0.618,  # 1 / phi
+  fig.show = "hold"
+)
+```
+
+```{r message=F}
+library(tidyverse)
+library(gapminder)
+```
+
+## Conditional Flow 
+
+Sometimes you only want to execute code if a certain condition is met. To do that, we use an **if-else statement.** It looks like this:
+
+```{r eval = F}
+if (condition) {
+  # code executed when condition is TRUE
+} else {
+  # code executed when condition is FALSE
+}
+```
+
+`condition` is a statement that must always evaluate to either `TRUE` or `FALSE`. This is similar to `filter()`, except `condition` can only be a single value (i.e. a vector of length 1), whereas `filter()` works for entire vectors (or columns).
+
+Let's look at a simple example:
+
+```{r}
+age = 84
+if (age > 60) {
+    print("OK Boomer")
+} else {
+    print("But you don't look like a professor!")
+}
+```
+
+We refer to the first `print` command as the first *branch*. 
+
+Let's change the `age` variable to execute the second branch:
+
+```{r}
+age = 20
+if (age > 60) {
+    print("OK Boomer")
+} else {
+    print("But you don't look like a professor!")
+}
+```
+
+### Multiple Conditions
+
+You can chain conditional statements together:
+
+```{r eval = F}
+if (this) {
+  # do that
+} else if (that) {
+  # do something else
+} else {
+  # do something completely different
+}
+```
+
+### Complex Statements
+
+We can generate more complex conditional statements with boolean operators like `&` and `|`:
+
+```{r}
+age = 45 
+
+if (age > 60) {
+    print("OK Boomer")
+} else if (age < 60 & age > 40) {
+    print("How's the midlife crisis?")
+} else {
+    print("But you don't look like a professor!")
+}
+```
+
+### Code Style
+
+Both `if` and `function` should (almost) always be followed by squiggly brackets (`{}`), and the contents should be indented. This makes it easier to see the hierarchy in your code by skimming the left-hand margin.
+
+An opening curly brace should never go on its own line and should always be followed by a new line. A closing curly brace should always go on its own line, unless it’s followed by else. Always indent the code inside curly braces.
+
+```{r eval=F}
+# Bad
+if (y < 0 && debug)
+message("Y is negative")
+
+if (y == 0) {
+  log(x)
+} 
+else {
+  y ^ x
+}
+
+# Good
+if (y < 0 && debug) {
+  message("Y is negative")
+}
+
+if (y == 0) {
+  log(x)
+} else {
+  y ^ x
+}
+```
+
+### `if` vs. `if_else`
+
+Because if-else conditional statements like the ones outlined above must always resolve to a single `TRUE` or `FALSE`, they cannot be used for vector operations. Vector operations are where you make multiple comparisons simultaneously for each value stored inside a vector. 
+
+Consider the `gapminder` data and imagine you wanted to create a new column identifying whether or not a country-year observation has a life expectancy of at least 35.
+
+```{r}
+gap <- gapminder
+kable(head(gap))
+```
+
+This sounds like a classic if-else operation. For each observation, if `lifeExp` is greater than or equal to `35`, then the value in the new column should be `1`. Otherwise, it should be `0`. But what happens if we try to implement this using an if-else operation like above?
+
+```{r}
+gap_if <- gap %>%
+   mutate(life.35 = if(lifeExp >= 35){
+     1
+   } else {
+     0
+   })
+
+head(gap_if)
+```
+
+This did not work correctly. Because `if()` can only handle a single `TRUE/FALSE` value, it only checked the first row of the data frame. That row contained `28.801`, so it generated a vector of length 1704 with each value being `0`.
+
+Because we in fact want to make this if-else comparison 1704 times, we should instead use **`if_else()`**. This **vectorizes** the if-else comparison and makes a separate comparison for each row of the data frame. This allows us to correctly generate this new column.
+
+```{r}
+gap_ifelse <- gap %>%
+  mutate(life.35 = if_else(lifeExp >= 35, 1, 0))
+
+kable(head(gap_ifelse))
+```
+
+

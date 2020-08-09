@@ -1,0 +1,203 @@
+---
+title: "Strings"
+author: "Rochelle Terman"
+date: "Fall 2020"
+output:
+  prettydoc::html_pretty:
+    theme: hpstr
+    highlight: github
+---
+
+```{r setup, include=FALSE}
+library(knitr)
+
+set.seed(1014)
+options(digits = 3)
+options(dplyr.print_min = 6, dplyr.print_max = 6)
+
+knitr::opts_chunk$set(
+  comment = "#>",
+  collapse = TRUE,
+  out.width = "70%",
+  fig.align = 'center',
+  fig.width = 6,
+  fig.asp = 0.618,  # 1 / phi
+  fig.show = "hold"
+)
+```
+
+# Programming in R
+
+This unit covers some more advanced programming in R - namely:
+
+1. Strings
+2. Conditional Flow
+3. Functions
+4. Iteration
+
+Mastering these skills will make you virtually invincible in R!
+
+Note that these concepts are __not specific to R__. While the syntax might vary, the basic idea of strings, flow, functions, and iteration are common across all scripting languages. So if you ever think of picking up Python or something else, it's critical to familiarize yourself with these concepts.
+
+## Strings
+
+This unit focuses on chracter (or "string") data. We'll focus on **string basics**, such as concatinating and subsettings. For more advanced topics, see [this chapter on strings and regular expressions.](https://plsc-31101.github.io/course/strings-and-regular-expressions.html)
+
+This chapter will focus on the __`stringr`__ package for string manipulation. `stringr` is not part of the core `tidyverse` because you don't always have textual data, so we need to load it explicitly.
+
+```{r message = FALSE}
+library(tidyverse)
+library(stringr)
+```
+
+### Creating Strings
+
+You can create strings with either single quotes or double quotes. Unlike other languages, there is no difference in behavior. I recommend always using `"`, unless you want to create a string that contains multiple `"`.
+
+```{r}
+string1 <- "This is a string"
+string2 <- 'If I want to include a "quote" inside a string, I use single quotes'
+```
+
+### Escape and Special Characters 
+
+Single and double quotes are known as "metacharacters," meaning that they have special meaning to the R language. To include a literal single or double quote in a string you can use `\` to "escape" it:
+
+```{r}
+double_quote <- "\"" # or '"'
+single_quote <- '\'' # or "'"
+```
+
+That means if you want to include a literal backslash, you'll need to double it up: `"\\"`.
+
+Beware that the printed representation of a string is not the same as string itself, because the printed representation shows the escapes. To see the raw contents of the string, use `writeLines()`:
+
+```{r}
+x <- c("\"", "\\")
+x
+writeLines(x)
+```
+
+There are a handful of other special characters. The most common are `"\n"`, newline, and `"\t"`, tab, but you can see the complete list by requesting help on `"`: `?'"'`, or `?"'"`. 
+
+You'll also sometimes see strings like `"\u00b5"`, this is a way of writing non-English characters that works on all platforms:
+
+```{r}
+x <- "\u00b5"
+x
+```
+
+Multiple strings are often stored in a character vector, which you can create with `c()`:
+
+```{r}
+c("one", "two", "three")
+```
+
+### String length
+
+Base R contains many functions to work with strings but we'll avoid them because they can be inconsistent, which makes them hard to remember. 
+
+Instead we'll use functions from `stringr`. These have more intuitive names, and all start with `str_`. For example, `str_length()` tells you the number of characters in a string:
+
+```{r}
+str_length(c("a", "R for data science", NA))
+```
+
+The common `str_` prefix is particularly useful if you use RStudio, because typing `str_` will trigger autocomplete, allowing you to see all `stringr` functions:
+
+### Combining strings
+
+To combine two or more strings, use `str_c()`:
+
+```{r}
+str_c("x", "y")
+str_c("x", "y", "z")
+```
+
+Use the `sep` argument to control how they're separated:
+
+```{r}
+str_c("x", "y", sep = ", ")
+```
+
+`str_c()` is vectorised, and it automatically recycles shorter vectors to the same length as the longest:
+
+```{r}
+x <- c("a", "b", "c")
+str_c("prefix-", x)
+```
+
+To collapse a vector of strings into a single string, use `collapse`:
+
+```{r}
+x <- c("x", "y", "z")
+str_c(x, sep = ", ") # ths won't work
+str_c(x, collapse = ", ") # but this will
+```
+
+### Subsetting strings
+
+You can extract parts of a string using `str_sub()`. As well as the string, `str_sub()` takes `start` and `end` arguments, which give the (inclusive) position of the substring:
+
+```{r}
+x <- c("Rochelle is the GOAT")
+str_sub(x, 1, 8)
+
+# negative numbers count backwards from end
+str_sub(x, -8, -1)
+```
+
+You can also use the assignment form of `str_sub()` to modify strings:
+
+```{r}
+x <- c("Rochelle is the GOAT")
+str_sub(x, 1, 1) <- str_to_lower(str_sub(x, 1, 1))
+x
+```
+
+### Locales
+
+Above I used `str_to_lower()` to change the text to lower case. You can also use `str_to_upper()` or `str_to_title()`. However, changing case is more complicated than it might at first appear because different languages have different rules for changing case. You can pick which set of rules to use by specifying a locale:
+
+```{r}
+# Turkish has two i's: with and without a dot, and it
+# has a different rule for capitalising them:
+str_to_upper(c("i", "ı"))
+str_to_upper(c("i", "ı"), locale = "tr")
+```
+
+The locale is specified as a ISO 639 language code, which is a two or three letter abbreviation. If you don't already know the code for your language, [Wikipedia](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) has a good list. If you leave the locale blank, it will use the current locale, as provided by your operating system.
+
+Another important operation that's affected by the locale is sorting. The base R `order()` and `sort()` functions sort strings using the current locale. If you want robust behaviour across different computers, you may want to use `str_sort()` and `str_order()` which take an additional `locale` argument:
+
+```{r}
+x <- c("apple", "eggplant", "banana")
+str_sort(x, locale = "en")  # English
+str_sort(x, locale = "haw") # Hawaiian
+```
+
+### Challenges
+
+#### Challenge 1. {-}
+
+In code that doesn't use `stringr`, you'll often see `paste()` and `paste0()`. What's the difference between the two functions? What `stringr` function are they equivalent to? How do the functions differ in their handling of  `NA`?
+    
+#### Challenge 2. {-}
+
+In your own words, describe the difference between the `sep` and `collapse` arguments to `str_c()`.
+
+#### Challenge 3. {-}
+
+Use `str_length()` and `str_sub()` to extract the middle character from 
+    a string. What will you do if the string has an even number of characters?
+
+#### Challenge 4. {-}
+
+What does `str_trim()` do? What's the opposite of `str_trim()`?
+
+
+### More on Strings
+
+For more information on strings, including regular expressions, read [this chapter](https://plsc-31101.github.io/course/strings-and-regular-expressions.html).
+
+

@@ -1,0 +1,323 @@
+---
+title: "Functions"
+author: "Rochelle Terman"
+date: "Fall 2020"
+output:
+  prettydoc::html_pretty:
+    theme: hpstr
+    highlight: github
+---
+
+```{r setup, include=FALSE}
+library(knitr)
+
+set.seed(1014)
+options(digits = 3)
+options(dplyr.print_min = 6, dplyr.print_max = 6)
+
+knitr::opts_chunk$set(
+  comment = "#>",
+  collapse = TRUE,
+  out.width = "70%",
+  fig.align = 'center',
+  fig.width = 6,
+  fig.asp = 0.618,  # 1 / phi
+  fig.show = "hold"
+)
+```
+
+```{r message=F}
+library(tidyverse)
+library(gapminder)
+```
+
+## Functions
+
+Functions are the basic building blocks of programs. Think of them as "mini-scripts" or "tiny commands." We've already used dozens of functions created by others (e.g. `filter()`, `mean()`.) 
+
+This lesson teaches you how to write you own functions, and why you would want to do so.  The details are pretty simple, but this is one of those ideas where it's good to get lots of practice!
+
+### Why Write Functions? 
+
+Functions allow you to automate common tasks in a more powerful and general way than copy-and-pasting. For example, take a look at the following code:
+
+```{r eval = F}
+df <- data.frame(
+  a = rnorm(10),
+  b = rnorm(10),
+  c = rnorm(10),
+  d = rnorm(10)
+)
+
+df$a <- (df$a - min(df$a)) / (max(df$a) - min(df$a))
+df$b <- (df$b - min(df$b)) / (max(df$b) - min(df$a))
+df$c <- (df$c - min(df$c)) / (max(df$c) - min(df$c))
+df$d <- (df$d - min(df$d)) / (max(df$d) - min(df$d))
+```
+
+You might be able to puzzle out that this rescales each column to have a range from 0 to 1. But did you spot the mistake? I made an error when copying-and-pasting the code for `df$b`: I forgot to change an `a` to a `b`.
+
+Functions have a number of advantages over this "copy-and-paste" approach:
+
+- **They are easy to reuse.** If you need to change things, you only have to update code in one place, instead of many.
+
+- **They are self-documenting.** Functions name pieces of code the way variables name strings and numbers. Give your function a good name and you will easily remember the function and its purpose.
+
+- **They are easier to debug.** There are fewer chances to make mistakes because the code only exists in one location (i.e. updating a variable name in one place, but not in another).
+
+### Anatomy of a Function
+
+Functions have three key components:
+
+1. A **name**. This should be informative and describe what the function does.
+2. The **arguments**, or list of inputs, to the function. They go inside the parentheses in `function()`.
+3. The **body**. This is the block of code within `{}` that immediately follows `function(...)`, and is the code that you develop to perform the action described in the name using the arguments you provide.
+
+```{r eval = F}
+my_function <- function(x, y){
+  # do
+  # something
+  # here
+  return(result)
+}
+```
+
+In this example, `my_function` is the **name** of the function, `x` and `y` are the **arguments**, and the stuff inside the `{}` is the **body**.
+
+### Writing a Function
+
+Let's re-write the scaling code above as a function. To write a function you need to first analyze the code. How many inputs does it have?
+
+```{r}
+df <- data.frame(
+  a = rnorm(10),
+  b = rnorm(10),
+  c = rnorm(10),
+  d = rnorm(10)
+)
+
+(df$a - min(df$a)) / (max(df$a) - min(df$a))
+```
+
+This code only has one input: `df$a`. To make the inputs more clear, it's a good idea to rewrite the code using temporary variables with general names. Here this code only requires a single numeric vector, which I’ll call `x`:
+
+```{r}
+x <- df$a
+(x - min(x)) / (max(x) - min(x))
+```
+
+There is some duplication in this code. We're computing the range of the data three times, so it makes sense to do it in one step:
+
+```{r}
+rng <- range(x)
+rng
+
+(x - rng[1]) / (rng[2] - rng[1])
+```
+
+Pulling out intermediate calculations into named variables is a good practice because it becomes more clear what the code is doing. Now that I’ve simplified the code, and checked that it still works, I can turn it into a function:
+
+```{r}
+rescale01 <- function(x) {
+  rng <- range(x)
+  scaled <- (x - rng[1]) / (rng[2] - rng[1])
+  return(scaled)
+}
+```
+
+Note the overall process: I only made the function after I’d figured out how to make it work with a simple input. It’s easier to start with working code and turn it into a function; it’s harder to create a function and then try to make it work.
+
+At this point it’s a good idea to check your function with a few different inputs:
+
+```{r}
+rescale01(c(-10, 0, 10))
+
+rescale01(c(1, 2, 3, 5))
+```
+
+### Using a Function
+
+Two important points about using (or *calling**) functions:
+
+1. Notice that when we **call** a function, we're passing a value into it that is assigned to the parameter we defined when writing the function. In this case, the parameter `x` is automatically assigned to `c(-10, 0, 10)`.
+
+2. When using functions, by default the returned object is merely printed to the screen. If you want it saved, you need to assign it to an object.
+
+Let's see if we can simplify the original example with our brand new function:
+
+```{r eval = F}
+df$a <- rescale01(df$a)
+df$b <- rescale01(df$b)
+df$c <- rescale01(df$c)
+df$d <- rescale01(df$d)
+```
+
+Compared to the original, this code is easier to understand and we’ve eliminated one class of copy-and-paste errors. There is still quite a bit of duplication since we’re doing the same thing to multiple columns. We’ll learn how to eliminate that duplication in the lesson on iteration.
+
+Another advantage of functions is that if our requirements change, we only need to make the change in one place. For example, we might discover that some of our variables include `NA` values, and `rescale01()` fails:
+
+```{r}
+rescale01(c(1, 2, NA, 3, 4, 5))
+```
+
+Because we’ve extracted the code into a function, we only need to make the fix in one place:
+
+```{r}
+rescale01 <- function(x) {
+  rng <- range(x, na.rm = TRUE)
+  (x - rng[1]) / (rng[2] - rng[1])
+}
+rescale01(c(1, 2, NA, 3, 4, 5))
+```
+
+### Variable Scope
+
+Analyze the following function:
+
+1. Identify the name, arguments, and body
+2. What does it do?
+3. If `a = 3` and `b = 4`, what should we expect the output to be?
+
+```{r}
+pythagorean <- function(a, b){
+  hypotenuse <- sqrt(a^2 + b^2)
+  return(hypotenuse)
+}
+```
+
+Now take a look at the following code:
+
+```{r error = T}
+pythagorean(a = 3, b = 4)
+
+hypotenuse
+```
+
+Why does this generate an error? Why can we not see the results of `hypotenuse`? After all, it was generated by `pythagorean`, right?
+
+When you call a function, a temporary workspace is set up that will be destroyed when the function returns, either by:
+
+1. getting to the end, or
+2. an explicit return statement
+
+So think of functions as an alternative reality, where objects are created and destroyed in a function call. 
+
+This is why you do not see hypotenuse listed in the environment - it has already been destroyed.
+
+#### Global vs. Local Environments {-}
+
+Things can get confusing when you use the same names for variables both inside and outside a function. Check out this example:
+
+```{r error = T}
+pressure = 103.9
+adjust <- function(t){
+    temperature = t * 1.43 / pressure
+    return(temperature)
+}
+pressure
+temperature
+```
+
+`t` and `temperature` are **local** variables in `adjust`.  Local variables are:
+
+- Defined in the function.
+- Not visible in the main program.
+- Remember: a function parameter is a variable that is automatically assigned a value when the function is called.
+
+`pressure` is a **global** variable. Global variables are:
+
+- Defined outside any particular function.
+- Visible everywhere.
+
+This difference is referred to as **scope**. The **scope** of a variable is the part of a program that can 'see' that variable. 
+
+### Arguments
+
+Functions do not need to take input.
+
+```{r}
+print_hello <- function(){
+    print("hello")
+}
+print_hello()
+```
+
+But if a function takes input, arguments can be passed to functions in different ways.
+
+1) **Positional arguments** are mandatory and have no default values.
+
+```{r}
+send <- function(message, recipient){
+  message <- paste(message, recipient)
+  return(message)
+}
+send("Hello", "world")
+```
+
+In the case above, it is possible to use argument **names** when calling the functions and, by doing so, it is possible to switch the order of arguments. For instance:
+
+```{r}
+send(recipient='World', message='Hello')
+```
+
+However, positional arguments (`send('Hello', 'World')`) are greatly perfered over names (`send(recipient='World', message='Hello')`), as it is very easy to accidentally specifying incorrect argument values.
+
+
+2) **Keyword arguments** are not mandatory and have default values. They are often used for optional parameters sent to the function.
+
+```{r}
+send <- function(message, recipient, cc=NULL){
+  message <- paste(message, recipient, "cc:", cc)
+  return(message)
+}
+send("Hello", "world") 
+send("Hello", "world", "rochelle")
+```
+Here `cc` and bcc are `optional`, and evaluate to `NULL` when they are not passed another value.
+
+### Challenges
+
+#### Challenge 1 {-}
+
+Write a function that calculates the sum of the squared value of two numbers. For instance, it should generate the following output:
+
+```{r eval = F}
+my_function(3, 4)
+# [1] 25
+```
+
+#### Challenge 2 {-}
+
+Write `both_na()`, a function that takes two vectors of the same length and returns the number of positions that have an NA in both vectors.
+
+#### Challenge 3 {-}
+
+Fill in the blanks to create a function that takes a name like "Rochelle Terman" and returns that name in uppercase and reversed, like "TERMAN, ROCHELLE"
+
+```{r eval = F}
+standard_names <- function(name){
+    upper_case = toupper(____) # make upper
+    upper_case_vec = strsplit(_____, split = ' ')[[1]] # turn into a vector
+    first_name = ______ # take first name
+    last_name = _______ # take last name
+    reversed_name = paste(______, _______, sep = ", ") # reverse and separate by a comma and space
+    return(reversed_name)
+}
+```
+
+#### Challenge 4 {-}
+
+Look at the following function:
+
+```{r}
+print_date <- function(year, month, day){
+    joined = paste(as.character(year), as.character(month), as.character(day), sep = "/")
+    return(joined)
+}
+```
+
+What does this short program print?
+
+```{r eval = F}
+print_date(day=1, month=2, year=2003)
+```
