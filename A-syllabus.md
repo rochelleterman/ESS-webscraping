@@ -21,7 +21,7 @@ This course is geared towards social scientists who work with are interested in 
 1.  Understand basic legal and ethical issues surrounding web scraping.
 2.  Collect data via RESTful APIs:
     * Master key principles and concepts of RESTful APIs.
-    * Use plug-n-play Ra.   packages for popular APIs such as Twitter, Google Translate, and others.
+    * Use plug-n-play R packages for popular APIs such as Twitter, Google Translate, and others.
     * Write a custom API query to extract data from RESTful APIs, such as the New York Times Article API.
 3.  Collect data via web scraping:
     * Understand how HTML & CSS work to display a website.
