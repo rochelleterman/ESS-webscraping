@@ -9,8 +9,6 @@ output:
 ---
 
 ```{r setup, include=FALSE}
-rm(list = ls())
-
 library(knitr)
 
 set.seed(1014)
