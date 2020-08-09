@@ -1,0 +1,6263 @@
+"CTRY","YEAR","PHYSINT"
+"Afghanistan",1981,0
+"Afghanistan",1982,0
+"Afghanistan",1983,0
+"Afghanistan",1984,0
+"Afghanistan",1985,0
+"Afghanistan",1986,0
+"Afghanistan",1987,0
+"Afghanistan",1988,0
+"Afghanistan",1989,0
+"Afghanistan",1990,0
+"Afghanistan",1991,1
+"Afghanistan",1992,NA
+"Afghanistan",1993,NA
+"Afghanistan",1994,NA
+"Afghanistan",1995,NA
+"Afghanistan",1996,0
+"Afghanistan",1997,0
+"Afghanistan",1998,0
+"Afghanistan",1999,0
+"Afghanistan",2000,0
+"Afghanistan",2001,0
+"Afghanistan",2002,3
+"Afghanistan",2003,NA
+"Afghanistan",2004,NA
+"Afghanistan",2005,4
+"Afghanistan",2006,4
+"Afghanistan",2007,4
+"Afghanistan",2008,3
+"Afghanistan",2009,4
+"Afghanistan",2010,3
+"Afghanistan",2011,4
+"Albania",1981,1
+"Albania",1982,2
+"Albania",1983,2
+"Albania",1984,1
+"Albania",1985,NA
+"Albania",1986,NA
+"Albania",1987,NA
+"Albania",1988,NA
+"Albania",1989,NA
+"Albania",1990,3
+"Albania",1991,4
+"Albania",1992,6
+"Albania",1993,6
+"Albania",1994,7
+"Albania",1995,4
+"Albania",1996,4
+"Albania",1997,4
+"Albania",1998,5
+"Albania",1999,5
+"Albania",2000,3
+"Albania",2001,6
+"Albania",2002,6
+"Albania",2003,5
+"Albania",2004,6
+"Albania",2005,7
+"Albania",2006,6
+"Albania",2007,7
+"Albania",2008,7
+"Albania",2009,7
+"Albania",2010,7
+"Albania",2011,6
+"Algeria",1981,7
+"Algeria",1982,8
+"Algeria",1983,7
+"Algeria",1984,5
+"Algeria",1985,7
+"Algeria",1986,6
+"Algeria",1987,5
+"Algeria",1988,4
+"Algeria",1989,5
+"Algeria",1990,5
+"Algeria",1991,4
+"Algeria",1992,2
+"Algeria",1993,2
+"Algeria",1994,2
+"Algeria",1995,0
+"Algeria",1996,3
+"Algeria",1997,0
+"Algeria",1998,4
+"Algeria",1999,0
+"Algeria",2000,4
+"Algeria",2001,4
+"Algeria",2002,2
+"Algeria",2003,1
+"Algeria",2004,5
+"Algeria",2005,5
+"Algeria",2006,1
+"Algeria",2007,4
+"Algeria",2008,5
+"Algeria",2009,6
+"Algeria",2010,5
+"Algeria",2011,4
+"Andorra",1981,NA
+"Andorra",1982,NA
+"Andorra",1983,NA
+"Andorra",1984,NA
+"Andorra",1985,NA
+"Andorra",1986,NA
+"Andorra",1987,NA
+"Andorra",1988,NA
+"Andorra",1989,NA
+"Andorra",1990,NA
+"Andorra",1991,NA
+"Andorra",1992,NA
+"Andorra",1993,NA
+"Andorra",1994,NA
+"Andorra",1995,NA
+"Andorra",1996,NA
+"Andorra",1997,NA
+"Andorra",1998,NA
+"Andorra",1999,NA
+"Andorra",2000,NA
+"Andorra",2001,8
+"Andorra",2002,NA
+"Andorra",2003,8
+"Andorra",2004,8
+"Andorra",2005,8
+"Andorra",2006,8
+"Andorra",2007,8
+"Andorra",2008,8
+"Andorra",2009,8
+"Andorra",2010,8
+"Andorra",2011,8
+"Angola",1981,5
+"Angola",1982,2
+"Angola",1983,2
+"Angola",1984,3
+"Angola",1985,5
+"Angola",1986,4
+"Angola",1987,3
+"Angola",1988,4
+"Angola",1989,1
+"Angola",1990,3
+"Angola",1991,1
+"Angola",1992,NA
+"Angola",1993,2
+"Angola",1994,2
+"Angola",1995,1
+"Angola",1996,0
+"Angola",1997,0
+"Angola",1998,1
+"Angola",1999,2
+"Angola",2000,1
+"Angola",2001,1
+"Angola",2002,2
+"Angola",2003,3
+"Angola",2004,3
+"Angola",2005,3
+"Angola",2006,4
+"Angola",2007,2
+"Angola",2008,3
+"Angola",2009,2
+"Angola",2010,4
+"Angola",2011,4
+"Antigua and Barbuda",1981,NA
+"Antigua and Barbuda",1982,NA
+"Antigua and Barbuda",1983,NA
+"Antigua and Barbuda",1984,NA
+"Antigua and Barbuda",1985,NA
+"Antigua and Barbuda",1986,NA
+"Antigua and Barbuda",1987,NA
+"Antigua and Barbuda",1988,NA
+"Antigua and Barbuda",1989,NA
+"Antigua and Barbuda",1990,NA
+"Antigua and Barbuda",1991,NA
+"Antigua and Barbuda",1992,NA
+"Antigua and Barbuda",1993,NA
+"Antigua and Barbuda",1994,NA
+"Antigua and Barbuda",1995,NA
+"Antigua and Barbuda",1996,NA
+"Antigua and Barbuda",1997,NA
+"Antigua and Barbuda",1998,NA
+"Antigua and Barbuda",1999,NA
+"Antigua and Barbuda",2000,NA
+"Antigua and Barbuda",2001,7
+"Antigua and Barbuda",2002,NA
+"Antigua and Barbuda",2003,7
+"Antigua and Barbuda",2004,7
+"Antigua and Barbuda",2005,7
+"Antigua and Barbuda",2006,7
+"Antigua and Barbuda",2007,7
+"Antigua and Barbuda",2008,7
+"Antigua and Barbuda",2009,7
+"Antigua and Barbuda",2010,7
+"Antigua and Barbuda",2011,7
+"Argentina",1981,1
+"Argentina",1982,5
+"Argentina",1983,6
+"Argentina",1984,6
+"Argentina",1985,7
+"Argentina",1986,8
+"Argentina",1987,6
+"Argentina",1988,6
+"Argentina",1989,7
+"Argentina",1990,4
+"Argentina",1991,6
+"Argentina",1992,6
+"Argentina",1993,5
+"Argentina",1994,5
+"Argentina",1995,7
+"Argentina",1996,5
+"Argentina",1997,5
+"Argentina",1998,3
+"Argentina",1999,4
+"Argentina",2000,3
+"Argentina",2001,3
+"Argentina",2002,4
+"Argentina",2003,5
+"Argentina",2004,4
+"Argentina",2005,6
+"Argentina",2006,5
+"Argentina",2007,6
+"Argentina",2008,5
+"Argentina",2009,5
+"Argentina",2010,4
+"Argentina",2011,5
+"Armenia",1981,NA
+"Armenia",1982,NA
+"Armenia",1983,NA
+"Armenia",1984,NA
+"Armenia",1985,NA
+"Armenia",1986,NA
+"Armenia",1987,NA
+"Armenia",1988,NA
+"Armenia",1989,NA
+"Armenia",1990,NA
+"Armenia",1991,NA
+"Armenia",1992,8
+"Armenia",1993,7
+"Armenia",1994,7
+"Armenia",1995,5
+"Armenia",1996,5
+"Armenia",1997,5
+"Armenia",1998,4
+"Armenia",1999,6
+"Armenia",2000,4
+"Armenia",2001,6
+"Armenia",2002,6
+"Armenia",2003,6
+"Armenia",2004,4
+"Armenia",2005,5
+"Armenia",2006,5
+"Armenia",2007,3
+"Armenia",2008,3
+"Armenia",2009,3
+"Armenia",2010,3
+"Armenia",2011,4
+"Australia",1981,8
+"Australia",1982,8
+"Australia",1983,7
+"Australia",1984,8
+"Australia",1985,8
+"Australia",1986,7
+"Australia",1987,8
+"Australia",1988,6
+"Australia",1989,7
+"Australia",1990,7
+"Australia",1991,7
+"Australia",1992,7
+"Australia",1993,8
+"Australia",1994,6
+"Australia",1995,8
+"Australia",1996,7
+"Australia",1997,7
+"Australia",1998,7
+"Australia",1999,7
+"Australia",2000,7
+"Australia",2001,7
+"Australia",2002,7
+"Australia",2003,7
+"Australia",2004,7
+"Australia",2005,7
+"Australia",2006,7
+"Australia",2007,7
+"Australia",2008,7
+"Australia",2009,6
+"Australia",2010,7
+"Australia",2011,7
+"Austria",1981,8
+"Austria",1982,8
+"Austria",1983,8
+"Austria",1984,8
+"Austria",1985,8
+"Austria",1986,8
+"Austria",1987,8
+"Austria",1988,6
+"Austria",1989,7
+"Austria",1990,7
+"Austria",1991,7
+"Austria",1992,7
+"Austria",1993,7
+"Austria",1994,7
+"Austria",1995,7
+"Austria",1996,8
+"Austria",1997,8
+"Austria",1998,6
+"Austria",1999,7
+"Austria",2000,5
+"Austria",2001,7
+"Austria",2002,7
+"Austria",2003,6
+"Austria",2004,7
+"Austria",2005,7
+"Austria",2006,7
+"Austria",2007,7
+"Austria",2008,7
+"Austria",2009,7
+"Austria",2010,7
+"Austria",2011,7
+"Azerbaijan",1981,NA
+"Azerbaijan",1982,NA
+"Azerbaijan",1983,NA
+"Azerbaijan",1984,NA
+"Azerbaijan",1985,NA
+"Azerbaijan",1986,NA
+"Azerbaijan",1987,NA
+"Azerbaijan",1988,NA
+"Azerbaijan",1989,NA
+"Azerbaijan",1990,NA
+"Azerbaijan",1991,NA
+"Azerbaijan",1992,4
+"Azerbaijan",1993,3
+"Azerbaijan",1994,3
+"Azerbaijan",1995,4
+"Azerbaijan",1996,3
+"Azerbaijan",1997,3
+"Azerbaijan",1998,4
+"Azerbaijan",1999,5
+"Azerbaijan",2000,4
+"Azerbaijan",2001,5
+"Azerbaijan",2002,4
+"Azerbaijan",2003,3
+"Azerbaijan",2004,3
+"Azerbaijan",2005,2
+"Azerbaijan",2006,2
+"Azerbaijan",2007,2
+"Azerbaijan",2008,3
+"Azerbaijan",2009,3
+"Azerbaijan",2010,3
+"Azerbaijan",2011,3
+"Bahamas",1981,NA
+"Bahamas",1982,NA
+"Bahamas",1983,NA
+"Bahamas",1984,NA
+"Bahamas",1985,NA
+"Bahamas",1986,NA
+"Bahamas",1987,NA
+"Bahamas",1988,NA
+"Bahamas",1989,NA
+"Bahamas",1990,NA
+"Bahamas",1991,NA
+"Bahamas",1992,NA
+"Bahamas",1993,NA
+"Bahamas",1994,NA
+"Bahamas",1995,NA
+"Bahamas",1996,NA
+"Bahamas",1997,NA
+"Bahamas",1998,NA
+"Bahamas",1999,NA
+"Bahamas",2000,NA
+"Bahamas",2001,7
+"Bahamas",2002,NA
+"Bahamas",2003,6
+"Bahamas",2004,6
+"Bahamas",2005,7
+"Bahamas",2006,6
+"Bahamas",2007,6
+"Bahamas",2008,6
+"Bahamas",2009,6
+"Bahamas",2010,6
+"Bahamas",2011,6
+"Bahrain",1981,5
+"Bahrain",1982,5
+"Bahrain",1983,5
+"Bahrain",1984,4
+"Bahrain",1985,5
+"Bahrain",1986,6
+"Bahrain",1987,5
+"Bahrain",1988,6
+"Bahrain",1989,5
+"Bahrain",1990,5
+"Bahrain",1991,6
+"Bahrain",1992,6
+"Bahrain",1993,5
+"Bahrain",1994,6
+"Bahrain",1995,4
+"Bahrain",1996,3
+"Bahrain",1997,5
+"Bahrain",1998,3
+"Bahrain",1999,5
+"Bahrain",2000,3
+"Bahrain",2001,6
+"Bahrain",2002,7
+"Bahrain",2003,7
+"Bahrain",2004,6
+"Bahrain",2005,6
+"Bahrain",2006,6
+"Bahrain",2007,6
+"Bahrain",2008,6
+"Bahrain",2009,7
+"Bahrain",2010,5
+"Bahrain",2011,0
+"Bangladesh",1981,5
+"Bangladesh",1982,4
+"Bangladesh",1983,4
+"Bangladesh",1984,5
+"Bangladesh",1985,4
+"Bangladesh",1986,5
+"Bangladesh",1987,4
+"Bangladesh",1988,4
+"Bangladesh",1989,5
+"Bangladesh",1990,3
+"Bangladesh",1991,4
+"Bangladesh",1992,1
+"Bangladesh",1993,5
+"Bangladesh",1994,3
+"Bangladesh",1995,3
+"Bangladesh",1996,3
+"Bangladesh",1997,4
+"Bangladesh",1998,3
+"Bangladesh",1999,4
+"Bangladesh",2000,2
+"Bangladesh",2001,4
+"Bangladesh",2002,1
+"Bangladesh",2003,0
+"Bangladesh",2004,1
+"Bangladesh",2005,0
+"Bangladesh",2006,1
+"Bangladesh",2007,0
+"Bangladesh",2008,1
+"Bangladesh",2009,1
+"Bangladesh",2010,2
+"Bangladesh",2011,2
+"Barbados",1981,NA
+"Barbados",1982,NA
+"Barbados",1983,NA
+"Barbados",1984,NA
+"Barbados",1985,NA
+"Barbados",1986,NA
+"Barbados",1987,NA
+"Barbados",1988,NA
+"Barbados",1989,NA
+"Barbados",1990,NA
+"Barbados",1991,NA
+"Barbados",1992,NA
+"Barbados",1993,NA
+"Barbados",1994,NA
+"Barbados",1995,NA
+"Barbados",1996,NA
+"Barbados",1997,NA
+"Barbados",1998,NA
+"Barbados",1999,NA
+"Barbados",2000,NA
+"Barbados",2001,7
+"Barbados",2002,NA
+"Barbados",2003,7
+"Barbados",2004,7
+"Barbados",2005,7
+"Barbados",2006,6
+"Barbados",2007,7
+"Barbados",2008,6
+"Barbados",2009,7
+"Barbados",2010,7
+"Barbados",2011,7
+"Belarus",1981,NA
+"Belarus",1982,NA
+"Belarus",1983,NA
+"Belarus",1984,NA
+"Belarus",1985,NA
+"Belarus",1986,NA
+"Belarus",1987,NA
+"Belarus",1988,NA
+"Belarus",1989,NA
+"Belarus",1990,NA
+"Belarus",1991,NA
+"Belarus",1992,5
+"Belarus",1993,7
+"Belarus",1994,7
+"Belarus",1995,5
+"Belarus",1996,4
+"Belarus",1997,5
+"Belarus",1998,4
+"Belarus",1999,5
+"Belarus",2000,4
+"Belarus",2001,5
+"Belarus",2002,5
+"Belarus",2003,5
+"Belarus",2004,3
+"Belarus",2005,5
+"Belarus",2006,4
+"Belarus",2007,4
+"Belarus",2008,4
+"Belarus",2009,3
+"Belarus",2010,2
+"Belarus",2011,4
+"Belgium",1981,8
+"Belgium",1982,8
+"Belgium",1983,8
+"Belgium",1984,8
+"Belgium",1985,8
+"Belgium",1986,8
+"Belgium",1987,8
+"Belgium",1988,8
+"Belgium",1989,8
+"Belgium",1990,8
+"Belgium",1991,8
+"Belgium",1992,8
+"Belgium",1993,8
+"Belgium",1994,8
+"Belgium",1995,8
+"Belgium",1996,8
+"Belgium",1997,8
+"Belgium",1998,7
+"Belgium",1999,7
+"Belgium",2000,8
+"Belgium",2001,7
+"Belgium",2002,8
+"Belgium",2003,8
+"Belgium",2004,7
+"Belgium",2005,8
+"Belgium",2006,8
+"Belgium",2007,8
+"Belgium",2008,7
+"Belgium",2009,7
+"Belgium",2010,7
+"Belgium",2011,8
+"Belize",1981,8
+"Belize",1982,8
+"Belize",1983,8
+"Belize",1984,7
+"Belize",1985,8
+"Belize",1986,8
+"Belize",1987,7
+"Belize",1988,8
+"Belize",1989,8
+"Belize",1990,7
+"Belize",1991,8
+"Belize",1992,8
+"Belize",1993,6
+"Belize",1994,7
+"Belize",1995,7
+"Belize",1996,7
+"Belize",1997,7
+"Belize",1998,7
+"Belize",1999,7
+"Belize",2000,5
+"Belize",2001,7
+"Belize",2002,6
+"Belize",2003,6
+"Belize",2004,5
+"Belize",2005,5
+"Belize",2006,6
+"Belize",2007,7
+"Belize",2008,6
+"Belize",2009,6
+"Belize",2010,6
+"Belize",2011,7
+"Benin",1981,5
+"Benin",1982,7
+"Benin",1983,6
+"Benin",1984,6
+"Benin",1985,4
+"Benin",1986,6
+"Benin",1987,4
+"Benin",1988,3
+"Benin",1989,5
+"Benin",1990,8
+"Benin",1991,8
+"Benin",1992,6
+"Benin",1993,8
+"Benin",1994,6
+"Benin",1995,8
+"Benin",1996,8
+"Benin",1997,8
+"Benin",1998,7
+"Benin",1999,8
+"Benin",2000,7
+"Benin",2001,7
+"Benin",2002,7
+"Benin",2003,6
+"Benin",2004,7
+"Benin",2005,7
+"Benin",2006,6
+"Benin",2007,5
+"Benin",2008,6
+"Benin",2009,5
+"Benin",2010,4
+"Benin",2011,5
+"Bhutan",1981,8
+"Bhutan",1982,7
+"Bhutan",1983,7
+"Bhutan",1984,8
+"Bhutan",1985,8
+"Bhutan",1986,8
+"Bhutan",1987,8
+"Bhutan",1988,8
+"Bhutan",1989,7
+"Bhutan",1990,3
+"Bhutan",1991,1
+"Bhutan",1992,1
+"Bhutan",1993,2
+"Bhutan",1994,4
+"Bhutan",1995,4
+"Bhutan",1996,6
+"Bhutan",1997,5
+"Bhutan",1998,5
+"Bhutan",1999,5
+"Bhutan",2000,4
+"Bhutan",2001,6
+"Bhutan",2002,5
+"Bhutan",2003,5
+"Bhutan",2004,6
+"Bhutan",2005,6
+"Bhutan",2006,6
+"Bhutan",2007,6
+"Bhutan",2008,4
+"Bhutan",2009,5
+"Bhutan",2010,5
+"Bhutan",2011,5
+"Bolivia",1981,2
+"Bolivia",1982,1
+"Bolivia",1983,4
+"Bolivia",1984,5
+"Bolivia",1985,4
+"Bolivia",1986,5
+"Bolivia",1987,6
+"Bolivia",1988,5
+"Bolivia",1989,7
+"Bolivia",1990,5
+"Bolivia",1991,7
+"Bolivia",1992,6
+"Bolivia",1993,6
+"Bolivia",1994,6
+"Bolivia",1995,5
+"Bolivia",1996,7
+"Bolivia",1997,7
+"Bolivia",1998,4
+"Bolivia",1999,7
+"Bolivia",2000,4
+"Bolivia",2001,7
+"Bolivia",2002,7
+"Bolivia",2003,4
+"Bolivia",2004,6
+"Bolivia",2005,6
+"Bolivia",2006,6
+"Bolivia",2007,6
+"Bolivia",2008,5
+"Bolivia",2009,6
+"Bolivia",2010,5
+"Bolivia",2011,5
+"Bosnia Herzegovenia",1981,NA
+"Bosnia Herzegovenia",1982,NA
+"Bosnia Herzegovenia",1983,NA
+"Bosnia Herzegovenia",1984,NA
+"Bosnia Herzegovenia",1985,NA
+"Bosnia Herzegovenia",1986,NA
+"Bosnia Herzegovenia",1987,NA
+"Bosnia Herzegovenia",1988,NA
+"Bosnia Herzegovenia",1989,NA
+"Bosnia Herzegovenia",1990,NA
+"Bosnia Herzegovenia",1991,NA
+"Bosnia Herzegovenia",1992,NA
+"Bosnia Herzegovenia",1993,NA
+"Bosnia Herzegovenia",1994,NA
+"Bosnia Herzegovenia",1995,NA
+"Bosnia Herzegovenia",1996,NA
+"Bosnia Herzegovenia",1997,NA
+"Bosnia Herzegovenia",1998,NA
+"Bosnia Herzegovenia",1999,NA
+"Bosnia Herzegovenia",2000,NA
+"Bosnia Herzegovenia",2001,6
+"Bosnia Herzegovenia",2002,6
+"Bosnia Herzegovenia",2003,6
+"Bosnia Herzegovenia",2004,7
+"Bosnia Herzegovenia",2005,7
+"Bosnia Herzegovenia",2006,7
+"Bosnia Herzegovenia",2007,6
+"Bosnia Herzegovenia",2008,7
+"Bosnia Herzegovenia",2009,6
+"Bosnia Herzegovenia",2010,6
+"Bosnia Herzegovenia",2011,6
+"Botswana",1981,8
+"Botswana",1982,8
+"Botswana",1983,6
+"Botswana",1984,7
+"Botswana",1985,8
+"Botswana",1986,8
+"Botswana",1987,7
+"Botswana",1988,7
+"Botswana",1989,7
+"Botswana",1990,7
+"Botswana",1991,7
+"Botswana",1992,7
+"Botswana",1993,6
+"Botswana",1994,7
+"Botswana",1995,6
+"Botswana",1996,7
+"Botswana",1997,7
+"Botswana",1998,6
+"Botswana",1999,7
+"Botswana",2000,7
+"Botswana",2001,7
+"Botswana",2002,7
+"Botswana",2003,7
+"Botswana",2004,7
+"Botswana",2005,7
+"Botswana",2006,6
+"Botswana",2007,7
+"Botswana",2008,6
+"Botswana",2009,6
+"Botswana",2010,7
+"Botswana",2011,7
+"Brazil",1981,4
+"Brazil",1982,4
+"Brazil",1983,5
+"Brazil",1984,4
+"Brazil",1985,5
+"Brazil",1986,5
+"Brazil",1987,4
+"Brazil",1988,5
+"Brazil",1989,4
+"Brazil",1990,3
+"Brazil",1991,4
+"Brazil",1992,3
+"Brazil",1993,3
+"Brazil",1994,4
+"Brazil",1995,2
+"Brazil",1996,4
+"Brazil",1997,4
+"Brazil",1998,2
+"Brazil",1999,4
+"Brazil",2000,2
+"Brazil",2001,3
+"Brazil",2002,4
+"Brazil",2003,4
+"Brazil",2004,4
+"Brazil",2005,4
+"Brazil",2006,2
+"Brazil",2007,4
+"Brazil",2008,4
+"Brazil",2009,3
+"Brazil",2010,4
+"Brazil",2011,2
+"Brunei",1981,NA
+"Brunei",1982,NA
+"Brunei",1983,NA
+"Brunei",1984,6
+"Brunei",1985,7
+"Brunei",1986,7
+"Brunei",1987,7
+"Brunei",1988,6
+"Brunei",1989,6
+"Brunei",1990,6
+"Brunei",1991,6
+"Brunei",1992,6
+"Brunei",1993,7
+"Brunei",1994,6
+"Brunei",1995,6
+"Brunei",1996,7
+"Brunei",1997,7
+"Brunei",1998,6
+"Brunei",1999,8
+"Brunei",2000,7
+"Brunei",2001,8
+"Brunei",2002,8
+"Brunei",2003,8
+"Brunei",2004,8
+"Brunei",2005,8
+"Brunei",2006,7
+"Brunei",2007,8
+"Brunei",2008,8
+"Brunei",2009,8
+"Brunei",2010,8
+"Brunei",2011,8
+"Bulgaria",1981,3
+"Bulgaria",1982,5
+"Bulgaria",1983,5
+"Bulgaria",1984,3
+"Bulgaria",1985,2
+"Bulgaria",1986,3
+"Bulgaria",1987,3
+"Bulgaria",1988,5
+"Bulgaria",1989,5
+"Bulgaria",1990,3
+"Bulgaria",1991,5
+"Bulgaria",1992,6
+"Bulgaria",1993,3
+"Bulgaria",1994,4
+"Bulgaria",1995,5
+"Bulgaria",1996,4
+"Bulgaria",1997,5
+"Bulgaria",1998,4
+"Bulgaria",1999,5
+"Bulgaria",2000,4
+"Bulgaria",2001,5
+"Bulgaria",2002,6
+"Bulgaria",2003,5
+"Bulgaria",2004,5
+"Bulgaria",2005,6
+"Bulgaria",2006,6
+"Bulgaria",2007,6
+"Bulgaria",2008,6
+"Bulgaria",2009,6
+"Bulgaria",2010,5
+"Bulgaria",2011,5
+"Burkina Faso",1981,6
+"Burkina Faso",1982,6
+"Burkina Faso",1983,5
+"Burkina Faso",1984,5
+"Burkina Faso",1985,4
+"Burkina Faso",1986,6
+"Burkina Faso",1987,5
+"Burkina Faso",1988,4
+"Burkina Faso",1989,3
+"Burkina Faso",1990,3
+"Burkina Faso",1991,5
+"Burkina Faso",1992,4
+"Burkina Faso",1993,6
+"Burkina Faso",1994,6
+"Burkina Faso",1995,5
+"Burkina Faso",1996,6
+"Burkina Faso",1997,7
+"Burkina Faso",1998,4
+"Burkina Faso",1999,6
+"Burkina Faso",2000,4
+"Burkina Faso",2001,4
+"Burkina Faso",2002,4
+"Burkina Faso",2003,5
+"Burkina Faso",2004,4
+"Burkina Faso",2005,5
+"Burkina Faso",2006,5
+"Burkina Faso",2007,6
+"Burkina Faso",2008,6
+"Burkina Faso",2009,5
+"Burkina Faso",2010,5
+"Burkina Faso",2011,5
+"Burma",1981,NA
+"Burma",1982,6
+"Burma",1983,4
+"Burma",1984,5
+"Burma",1985,5
+"Burma",1986,4
+"Burma",1987,1
+"Burma",1988,0
+"Burma",1989,0
+"Burma",1990,2
+"Burma",1991,2
+"Burma",1992,3
+"Burma",1993,1
+"Burma",1994,3
+"Burma",1995,2
+"Burma",1996,2
+"Burma",1997,1
+"Burma",1998,1
+"Burma",1999,1
+"Burma",2000,0
+"Burma",2001,1
+"Burma",2002,3
+"Burma",2003,0
+"Burma",2004,1
+"Burma",2005,1
+"Burma",2006,0
+"Burma",2007,0
+"Burma",2008,0
+"Burma",2009,1
+"Burma",2010,1
+"Burma",2011,1
+"Burundi",1981,6
+"Burundi",1982,8
+"Burundi",1983,6
+"Burundi",1984,4
+"Burundi",1985,6
+"Burundi",1986,5
+"Burundi",1987,6
+"Burundi",1988,3
+"Burundi",1989,5
+"Burundi",1990,4
+"Burundi",1991,0
+"Burundi",1992,5
+"Burundi",1993,NA
+"Burundi",1994,NA
+"Burundi",1995,NA
+"Burundi",1996,1
+"Burundi",1997,0
+"Burundi",1998,0
+"Burundi",1999,1
+"Burundi",2000,1
+"Burundi",2001,1
+"Burundi",2002,0
+"Burundi",2003,0
+"Burundi",2004,0
+"Burundi",2005,3
+"Burundi",2006,1
+"Burundi",2007,3
+"Burundi",2008,1
+"Burundi",2009,3
+"Burundi",2010,2
+"Burundi",2011,2
+"Cambodia",1981,NA
+"Cambodia",1982,NA
+"Cambodia",1983,NA
+"Cambodia",1984,NA
+"Cambodia",1985,NA
+"Cambodia",1986,NA
+"Cambodia",1987,NA
+"Cambodia",1988,1
+"Cambodia",1989,1
+"Cambodia",1990,1
+"Cambodia",1991,3
+"Cambodia",1992,1
+"Cambodia",1993,2
+"Cambodia",1994,1
+"Cambodia",1995,2
+"Cambodia",1996,2
+"Cambodia",1997,2
+"Cambodia",1998,0
+"Cambodia",1999,3
+"Cambodia",2000,4
+"Cambodia",2001,5
+"Cambodia",2002,5
+"Cambodia",2003,4
+"Cambodia",2004,4
+"Cambodia",2005,4
+"Cambodia",2006,3
+"Cambodia",2007,2
+"Cambodia",2008,3
+"Cambodia",2009,3
+"Cambodia",2010,4
+"Cambodia",2011,4
+"Cameroon",1981,3
+"Cameroon",1982,5
+"Cameroon",1983,6
+"Cameroon",1984,3
+"Cameroon",1985,2
+"Cameroon",1986,5
+"Cameroon",1987,6
+"Cameroon",1988,4
+"Cameroon",1989,4
+"Cameroon",1990,2
+"Cameroon",1991,0
+"Cameroon",1992,3
+"Cameroon",1993,1
+"Cameroon",1994,2
+"Cameroon",1995,4
+"Cameroon",1996,4
+"Cameroon",1997,3
+"Cameroon",1998,1
+"Cameroon",1999,2
+"Cameroon",2000,1
+"Cameroon",2001,2
+"Cameroon",2002,2
+"Cameroon",2003,4
+"Cameroon",2004,4
+"Cameroon",2005,4
+"Cameroon",2006,4
+"Cameroon",2007,4
+"Cameroon",2008,3
+"Cameroon",2009,4
+"Cameroon",2010,3
+"Cameroon",2011,3
+"Canada",1981,8
+"Canada",1982,7
+"Canada",1983,7
+"Canada",1984,7
+"Canada",1985,8
+"Canada",1986,8
+"Canada",1987,8
+"Canada",1988,8
+"Canada",1989,8
+"Canada",1990,8
+"Canada",1991,8
+"Canada",1992,7
+"Canada",1993,8
+"Canada",1994,7
+"Canada",1995,8
+"Canada",1996,8
+"Canada",1997,8
+"Canada",1998,7
+"Canada",1999,8
+"Canada",2000,7
+"Canada",2001,7
+"Canada",2002,7
+"Canada",2003,7
+"Canada",2004,7
+"Canada",2005,6
+"Canada",2006,6
+"Canada",2007,6
+"Canada",2008,6
+"Canada",2009,8
+"Canada",2010,6
+"Canada",2011,7
+"Cape Verde",1981,NA
+"Cape Verde",1982,NA
+"Cape Verde",1983,NA
+"Cape Verde",1984,NA
+"Cape Verde",1985,NA
+"Cape Verde",1986,NA
+"Cape Verde",1987,NA
+"Cape Verde",1988,NA
+"Cape Verde",1989,NA
+"Cape Verde",1990,NA
+"Cape Verde",1991,NA
+"Cape Verde",1992,NA
+"Cape Verde",1993,NA
+"Cape Verde",1994,NA
+"Cape Verde",1995,NA
+"Cape Verde",1996,NA
+"Cape Verde",1997,NA
+"Cape Verde",1998,NA
+"Cape Verde",1999,NA
+"Cape Verde",2000,NA
+"Cape Verde",2001,7
+"Cape Verde",2002,NA
+"Cape Verde",2003,7
+"Cape Verde",2004,7
+"Cape Verde",2005,7
+"Cape Verde",2006,7
+"Cape Verde",2007,7
+"Cape Verde",2008,7
+"Cape Verde",2009,7
+"Cape Verde",2010,7
+"Cape Verde",2011,7
+"Central African Republic",1981,5
+"Central African Republic",1982,4
+"Central African Republic",1983,4
+"Central African Republic",1984,4
+"Central African Republic",1985,5
+"Central African Republic",1986,5
+"Central African Republic",1987,4
+"Central African Republic",1988,6
+"Central African Republic",1989,6
+"Central African Republic",1990,4
+"Central African Republic",1991,3
+"Central African Republic",1992,4
+"Central African Republic",1993,6
+"Central African Republic",1994,5
+"Central African Republic",1995,5
+"Central African Republic",1996,5
+"Central African Republic",1997,6
+"Central African Republic",1998,4
+"Central African Republic",1999,5
+"Central African Republic",2000,3
+"Central African Republic",2001,2
+"Central African Republic",2002,4
+"Central African Republic",2003,4
+"Central African Republic",2004,3
+"Central African Republic",2005,3
+"Central African Republic",2006,3
+"Central African Republic",2007,3
+"Central African Republic",2008,3
+"Central African Republic",2009,2
+"Central African Republic",2010,2
+"Central African Republic",2011,3
+"Chad",1981,NA
+"Chad",1982,NA
+"Chad",1983,NA
+"Chad",1984,0
+"Chad",1985,2
+"Chad",1986,2
+"Chad",1987,4
+"Chad",1988,5
+"Chad",1989,1
+"Chad",1990,0
+"Chad",1991,3
+"Chad",1992,1
+"Chad",1993,1
+"Chad",1994,3
+"Chad",1995,3
+"Chad",1996,3
+"Chad",1997,2
+"Chad",1998,1
+"Chad",1999,3
+"Chad",2000,3
+"Chad",2001,3
+"Chad",2002,4
+"Chad",2003,4
+"Chad",2004,2
+"Chad",2005,2
+"Chad",2006,2
+"Chad",2007,4
+"Chad",2008,2
+"Chad",2009,2
+"Chad",2010,4
+"Chad",2011,3
+"Chile",1981,1
+"Chile",1982,3
+"Chile",1983,3
+"Chile",1984,1
+"Chile",1985,3
+"Chile",1986,3
+"Chile",1987,2
+"Chile",1988,4
+"Chile",1989,2
+"Chile",1990,3
+"Chile",1991,5
+"Chile",1992,4
+"Chile",1993,3
+"Chile",1994,5
+"Chile",1995,4
+"Chile",1996,5
+"Chile",1997,5
+"Chile",1998,2
+"Chile",1999,4
+"Chile",2000,4
+"Chile",2001,6
+"Chile",2002,8
+"Chile",2003,6
+"Chile",2004,6
+"Chile",2005,7
+"Chile",2006,7
+"Chile",2007,7
+"Chile",2008,5
+"Chile",2009,5
+"Chile",2010,7
+"Chile",2011,5
+"China",1981,2
+"China",1982,3
+"China",1983,2
+"China",1984,2
+"China",1985,4
+"China",1986,3
+"China",1987,4
+"China",1988,2
+"China",1989,0
+"China",1990,2
+"China",1991,4
+"China",1992,3
+"China",1993,3
+"China",1994,0
+"China",1995,0
+"China",1996,3
+"China",1997,2
+"China",1998,2
+"China",1999,2
+"China",2000,3
+"China",2001,2
+"China",2002,1
+"China",2003,1
+"China",2004,1
+"China",2005,0
+"China",2006,1
+"China",2007,1
+"China",2008,1
+"China",2009,0
+"China",2010,0
+"China",2011,0
+"Colombia",1981,1
+"Colombia",1982,3
+"Colombia",1983,NA
+"Colombia",1984,1
+"Colombia",1985,1
+"Colombia",1986,2
+"Colombia",1987,0
+"Colombia",1988,0
+"Colombia",1989,1
+"Colombia",1990,0
+"Colombia",1991,2
+"Colombia",1992,2
+"Colombia",1993,2
+"Colombia",1994,NA
+"Colombia",1995,0
+"Colombia",1996,0
+"Colombia",1997,0
+"Colombia",1998,0
+"Colombia",1999,1
+"Colombia",2000,0
+"Colombia",2001,1
+"Colombia",2002,2
+"Colombia",2003,0
+"Colombia",2004,0
+"Colombia",2005,0
+"Colombia",2006,0
+"Colombia",2007,0
+"Colombia",2008,0
+"Colombia",2009,1
+"Colombia",2010,1
+"Colombia",2011,1
+"Comoros",1981,NA
+"Comoros",1982,NA
+"Comoros",1983,NA
+"Comoros",1984,NA
+"Comoros",1985,NA
+"Comoros",1986,NA
+"Comoros",1987,NA
+"Comoros",1988,NA
+"Comoros",1989,NA
+"Comoros",1990,NA
+"Comoros",1991,NA
+"Comoros",1992,NA
+"Comoros",1993,NA
+"Comoros",1994,NA
+"Comoros",1995,NA
+"Comoros",1996,NA
+"Comoros",1997,NA
+"Comoros",1998,NA
+"Comoros",1999,NA
+"Comoros",2000,NA
+"Comoros",2001,8
+"Comoros",2002,NA
+"Comoros",2003,6
+"Comoros",2004,7
+"Comoros",2005,8
+"Comoros",2006,7
+"Comoros",2007,5
+"Comoros",2008,5
+"Comoros",2009,8
+"Comoros",2010,8
+"Comoros",2011,8
+"Congo, Democratic Republic of",1981,NA
+"Congo, Democratic Republic of",1982,4
+"Congo, Democratic Republic of",1983,2
+"Congo, Democratic Republic of",1984,2
+"Congo, Democratic Republic of",1985,1
+"Congo, Democratic Republic of",1986,2
+"Congo, Democratic Republic of",1987,3
+"Congo, Democratic Republic of",1988,2
+"Congo, Democratic Republic of",1989,3
+"Congo, Democratic Republic of",1990,0
+"Congo, Democratic Republic of",1991,1
+"Congo, Democratic Republic of",1992,NA
+"Congo, Democratic Republic of",1993,NA
+"Congo, Democratic Republic of",1994,NA
+"Congo, Democratic Republic of",1995,NA
+"Congo, Democratic Republic of",1996,NA
+"Congo, Democratic Republic of",1997,NA
+"Congo, Democratic Republic of",1998,NA
+"Congo, Democratic Republic of",1999,NA
+"Congo, Democratic Republic of",2000,NA
+"Congo, Democratic Republic of",2001,0
+"Congo, Democratic Republic of",2002,2
+"Congo, Democratic Republic of",2003,1
+"Congo, Democratic Republic of",2004,1
+"Congo, Democratic Republic of",2005,2
+"Congo, Democratic Republic of",2006,1
+"Congo, Democratic Republic of",2007,1
+"Congo, Democratic Republic of",2008,1
+"Congo, Democratic Republic of",2009,1
+"Congo, Democratic Republic of",2010,1
+"Congo, Democratic Republic of",2011,0
+"Congo, Republic of",1981,7
+"Congo, Republic of",1982,5
+"Congo, Republic of",1983,5
+"Congo, Republic of",1984,6
+"Congo, Republic of",1985,4
+"Congo, Republic of",1986,5
+"Congo, Republic of",1987,5
+"Congo, Republic of",1988,5
+"Congo, Republic of",1989,5
+"Congo, Republic of",1990,4
+"Congo, Republic of",1991,6
+"Congo, Republic of",1992,5
+"Congo, Republic of",1993,0
+"Congo, Republic of",1994,3
+"Congo, Republic of",1995,4
+"Congo, Republic of",1996,4
+"Congo, Republic of",1997,1
+"Congo, Republic of",1998,3
+"Congo, Republic of",1999,0
+"Congo, Republic of",2000,3
+"Congo, Republic of",2001,4
+"Congo, Republic of",2002,2
+"Congo, Republic of",2003,5
+"Congo, Republic of",2004,6
+"Congo, Republic of",2005,4
+"Congo, Republic of",2006,4
+"Congo, Republic of",2007,4
+"Congo, Republic of",2008,4
+"Congo, Republic of",2009,7
+"Congo, Republic of",2010,5
+"Congo, Republic of",2011,4
+"Costa Rica",1981,8
+"Costa Rica",1982,8
+"Costa Rica",1983,8
+"Costa Rica",1984,7
+"Costa Rica",1985,8
+"Costa Rica",1986,8
+"Costa Rica",1987,8
+"Costa Rica",1988,8
+"Costa Rica",1989,8
+"Costa Rica",1990,8
+"Costa Rica",1991,8
+"Costa Rica",1992,5
+"Costa Rica",1993,8
+"Costa Rica",1994,7
+"Costa Rica",1995,7
+"Costa Rica",1996,7
+"Costa Rica",1997,7
+"Costa Rica",1998,7
+"Costa Rica",1999,7
+"Costa Rica",2000,6
+"Costa Rica",2001,7
+"Costa Rica",2002,7
+"Costa Rica",2003,7
+"Costa Rica",2004,7
+"Costa Rica",2005,7
+"Costa Rica",2006,7
+"Costa Rica",2007,6
+"Costa Rica",2008,7
+"Costa Rica",2009,7
+"Costa Rica",2010,7
+"Costa Rica",2011,6
+"Cote d'Ivoire",1981,8
+"Cote d'Ivoire",1982,8
+"Cote d'Ivoire",1983,7
+"Cote d'Ivoire",1984,8
+"Cote d'Ivoire",1985,8
+"Cote d'Ivoire",1986,8
+"Cote d'Ivoire",1987,7
+"Cote d'Ivoire",1988,7
+"Cote d'Ivoire",1989,7
+"Cote d'Ivoire",1990,5
+"Cote d'Ivoire",1991,5
+"Cote d'Ivoire",1992,3
+"Cote d'Ivoire",1993,4
+"Cote d'Ivoire",1994,4
+"Cote d'Ivoire",1995,1
+"Cote d'Ivoire",1996,4
+"Cote d'Ivoire",1997,5
+"Cote d'Ivoire",1998,3
+"Cote d'Ivoire",1999,3
+"Cote d'Ivoire",2000,1
+"Cote d'Ivoire",2001,2
+"Cote d'Ivoire",2002,3
+"Cote d'Ivoire",2003,2
+"Cote d'Ivoire",2004,2
+"Cote d'Ivoire",2005,2
+"Cote d'Ivoire",2006,2
+"Cote d'Ivoire",2007,3
+"Cote d'Ivoire",2008,3
+"Cote d'Ivoire",2009,3
+"Cote d'Ivoire",2010,2
+"Cote d'Ivoire",2011,2
+"Croatia",1981,NA
+"Croatia",1982,NA
+"Croatia",1983,NA
+"Croatia",1984,NA
+"Croatia",1985,NA
+"Croatia",1986,NA
+"Croatia",1987,NA
+"Croatia",1988,NA
+"Croatia",1989,NA
+"Croatia",1990,NA
+"Croatia",1991,NA
+"Croatia",1992,2
+"Croatia",1993,2
+"Croatia",1994,4
+"Croatia",1995,2
+"Croatia",1996,7
+"Croatia",1997,8
+"Croatia",1998,5
+"Croatia",1999,7
+"Croatia",2000,6
+"Croatia",2001,6
+"Croatia",2002,7
+"Croatia",2003,7
+"Croatia",2004,7
+"Croatia",2005,7
+"Croatia",2006,8
+"Croatia",2007,8
+"Croatia",2008,6
+"Croatia",2009,6
+"Croatia",2010,5
+"Croatia",2011,8
+"Cuba",1981,4
+"Cuba",1982,2
+"Cuba",1983,1
+"Cuba",1984,2
+"Cuba",1985,3
+"Cuba",1986,1
+"Cuba",1987,2
+"Cuba",1988,4
+"Cuba",1989,3
+"Cuba",1990,3
+"Cuba",1991,4
+"Cuba",1992,3
+"Cuba",1993,3
+"Cuba",1994,3
+"Cuba",1995,3
+"Cuba",1996,3
+"Cuba",1997,4
+"Cuba",1998,3
+"Cuba",1999,4
+"Cuba",2000,4
+"Cuba",2001,5
+"Cuba",2002,4
+"Cuba",2003,4
+"Cuba",2004,4
+"Cuba",2005,4
+"Cuba",2006,4
+"Cuba",2007,3
+"Cuba",2008,4
+"Cuba",2009,4
+"Cuba",2010,4
+"Cuba",2011,4
+"Cyprus",1981,7
+"Cyprus",1982,8
+"Cyprus",1983,8
+"Cyprus",1984,6
+"Cyprus",1985,8
+"Cyprus",1986,8
+"Cyprus",1987,7
+"Cyprus",1988,8
+"Cyprus",1989,8
+"Cyprus",1990,7
+"Cyprus",1991,5
+"Cyprus",1992,7
+"Cyprus",1993,6
+"Cyprus",1994,6
+"Cyprus",1995,5
+"Cyprus",1996,7
+"Cyprus",1997,7
+"Cyprus",1998,7
+"Cyprus",1999,7
+"Cyprus",2000,7
+"Cyprus",2001,7
+"Cyprus",2002,7
+"Cyprus",2003,7
+"Cyprus",2004,7
+"Cyprus",2005,7
+"Cyprus",2006,7
+"Cyprus",2007,7
+"Cyprus",2008,7
+"Cyprus",2009,7
+"Cyprus",2010,7
+"Cyprus",2011,7
+"Czech Republic",1981,NA
+"Czech Republic",1982,NA
+"Czech Republic",1983,NA
+"Czech Republic",1984,NA
+"Czech Republic",1985,NA
+"Czech Republic",1986,NA
+"Czech Republic",1987,NA
+"Czech Republic",1988,NA
+"Czech Republic",1989,NA
+"Czech Republic",1990,NA
+"Czech Republic",1991,NA
+"Czech Republic",1992,NA
+"Czech Republic",1993,8
+"Czech Republic",1994,6
+"Czech Republic",1995,5
+"Czech Republic",1996,8
+"Czech Republic",1997,8
+"Czech Republic",1998,7
+"Czech Republic",1999,8
+"Czech Republic",2000,7
+"Czech Republic",2001,8
+"Czech Republic",2002,8
+"Czech Republic",2003,7
+"Czech Republic",2004,6
+"Czech Republic",2005,7
+"Czech Republic",2006,7
+"Czech Republic",2007,7
+"Czech Republic",2008,7
+"Czech Republic",2009,7
+"Czech Republic",2010,8
+"Czech Republic",2011,8
+"Czechoslovakia",1981,3
+"Czechoslovakia",1982,5
+"Czechoslovakia",1983,5
+"Czechoslovakia",1984,5
+"Czechoslovakia",1985,6
+"Czechoslovakia",1986,5
+"Czechoslovakia",1987,6
+"Czechoslovakia",1988,5
+"Czechoslovakia",1989,6
+"Czechoslovakia",1990,8
+"Czechoslovakia",1991,8
+"Czechoslovakia",1992,8
+"Czechoslovakia",1993,NA
+"Czechoslovakia",1994,NA
+"Czechoslovakia",1995,NA
+"Czechoslovakia",1996,NA
+"Czechoslovakia",1997,NA
+"Czechoslovakia",1998,NA
+"Czechoslovakia",1999,NA
+"Czechoslovakia",2000,NA
+"Czechoslovakia",2001,NA
+"Czechoslovakia",2002,NA
+"Czechoslovakia",2003,NA
+"Czechoslovakia",2004,NA
+"Czechoslovakia",2005,NA
+"Czechoslovakia",2006,NA
+"Czechoslovakia",2007,NA
+"Czechoslovakia",2008,NA
+"Czechoslovakia",2009,NA
+"Czechoslovakia",2010,NA
+"Czechoslovakia",2011,NA
+"Denmark",1981,8
+"Denmark",1982,8
+"Denmark",1983,8
+"Denmark",1984,8
+"Denmark",1985,8
+"Denmark",1986,8
+"Denmark",1987,8
+"Denmark",1988,8
+"Denmark",1989,8
+"Denmark",1990,8
+"Denmark",1991,8
+"Denmark",1992,8
+"Denmark",1993,8
+"Denmark",1994,8
+"Denmark",1995,8
+"Denmark",1996,8
+"Denmark",1997,8
+"Denmark",1998,8
+"Denmark",1999,8
+"Denmark",2000,7
+"Denmark",2001,8
+"Denmark",2002,8
+"Denmark",2003,8
+"Denmark",2004,8
+"Denmark",2005,8
+"Denmark",2006,8
+"Denmark",2007,6
+"Denmark",2008,8
+"Denmark",2009,7
+"Denmark",2010,8
+"Denmark",2011,8
+"Djibouti",1981,NA
+"Djibouti",1982,NA
+"Djibouti",1983,NA
+"Djibouti",1984,NA
+"Djibouti",1985,NA
+"Djibouti",1986,NA
+"Djibouti",1987,NA
+"Djibouti",1988,NA
+"Djibouti",1989,NA
+"Djibouti",1990,NA
+"Djibouti",1991,NA
+"Djibouti",1992,NA
+"Djibouti",1993,NA
+"Djibouti",1994,NA
+"Djibouti",1995,NA
+"Djibouti",1996,NA
+"Djibouti",1997,NA
+"Djibouti",1998,NA
+"Djibouti",1999,NA
+"Djibouti",2000,NA
+"Djibouti",2001,6
+"Djibouti",2002,NA
+"Djibouti",2003,4
+"Djibouti",2004,5
+"Djibouti",2005,5
+"Djibouti",2006,6
+"Djibouti",2007,6
+"Djibouti",2008,7
+"Djibouti",2009,6
+"Djibouti",2010,7
+"Djibouti",2011,4
+"Dominica",1981,NA
+"Dominica",1982,NA
+"Dominica",1983,NA
+"Dominica",1984,NA
+"Dominica",1985,NA
+"Dominica",1986,NA
+"Dominica",1987,NA
+"Dominica",1988,NA
+"Dominica",1989,NA
+"Dominica",1990,NA
+"Dominica",1991,NA
+"Dominica",1992,NA
+"Dominica",1993,NA
+"Dominica",1994,NA
+"Dominica",1995,NA
+"Dominica",1996,NA
+"Dominica",1997,NA
+"Dominica",1998,NA
+"Dominica",1999,NA
+"Dominica",2000,NA
+"Dominica",2001,7
+"Dominica",2002,NA
+"Dominica",2003,7
+"Dominica",2004,7
+"Dominica",2005,6
+"Dominica",2006,7
+"Dominica",2007,6
+"Dominica",2008,7
+"Dominica",2009,7
+"Dominica",2010,8
+"Dominica",2011,8
+"Dominican Republic",1981,7
+"Dominican Republic",1982,6
+"Dominican Republic",1983,7
+"Dominican Republic",1984,6
+"Dominican Republic",1985,7
+"Dominican Republic",1986,6
+"Dominican Republic",1987,6
+"Dominican Republic",1988,8
+"Dominican Republic",1989,7
+"Dominican Republic",1990,5
+"Dominican Republic",1991,5
+"Dominican Republic",1992,4
+"Dominican Republic",1993,5
+"Dominican Republic",1994,2
+"Dominican Republic",1995,4
+"Dominican Republic",1996,4
+"Dominican Republic",1997,4
+"Dominican Republic",1998,2
+"Dominican Republic",1999,4
+"Dominican Republic",2000,4
+"Dominican Republic",2001,4
+"Dominican Republic",2002,5
+"Dominican Republic",2003,4
+"Dominican Republic",2004,4
+"Dominican Republic",2005,4
+"Dominican Republic",2006,3
+"Dominican Republic",2007,4
+"Dominican Republic",2008,4
+"Dominican Republic",2009,4
+"Dominican Republic",2010,4
+"Dominican Republic",2011,4
+"East Timor",1981,NA
+"East Timor",1982,NA
+"East Timor",1983,NA
+"East Timor",1984,NA
+"East Timor",1985,NA
+"East Timor",1986,NA
+"East Timor",1987,NA
+"East Timor",1988,NA
+"East Timor",1989,NA
+"East Timor",1990,NA
+"East Timor",1991,NA
+"East Timor",1992,NA
+"East Timor",1993,NA
+"East Timor",1994,NA
+"East Timor",1995,NA
+"East Timor",1996,NA
+"East Timor",1997,NA
+"East Timor",1998,NA
+"East Timor",1999,NA
+"East Timor",2000,NA
+"East Timor",2001,7
+"East Timor",2002,NA
+"East Timor",2003,6
+"East Timor",2004,7
+"East Timor",2005,5
+"East Timor",2006,6
+"East Timor",2007,5
+"East Timor",2008,7
+"East Timor",2009,6
+"East Timor",2010,7
+"East Timor",2011,7
+"Ecuador",1981,5
+"Ecuador",1982,7
+"Ecuador",1983,5
+"Ecuador",1984,5
+"Ecuador",1985,3
+"Ecuador",1986,3
+"Ecuador",1987,3
+"Ecuador",1988,4
+"Ecuador",1989,6
+"Ecuador",1990,4
+"Ecuador",1991,5
+"Ecuador",1992,3
+"Ecuador",1993,4
+"Ecuador",1994,6
+"Ecuador",1995,5
+"Ecuador",1996,4
+"Ecuador",1997,4
+"Ecuador",1998,6
+"Ecuador",1999,3
+"Ecuador",2000,6
+"Ecuador",2001,4
+"Ecuador",2002,5
+"Ecuador",2003,3
+"Ecuador",2004,5
+"Ecuador",2005,4
+"Ecuador",2006,4
+"Ecuador",2007,4
+"Ecuador",2008,4
+"Ecuador",2009,4
+"Ecuador",2010,5
+"Ecuador",2011,4
+"Egypt",1981,5
+"Egypt",1982,4
+"Egypt",1983,4
+"Egypt",1984,4
+"Egypt",1985,6
+"Egypt",1986,5
+"Egypt",1987,4
+"Egypt",1988,4
+"Egypt",1989,4
+"Egypt",1990,4
+"Egypt",1991,5
+"Egypt",1992,4
+"Egypt",1993,3
+"Egypt",1994,3
+"Egypt",1995,4
+"Egypt",1996,3
+"Egypt",1997,4
+"Egypt",1998,5
+"Egypt",1999,3
+"Egypt",2000,4
+"Egypt",2001,3
+"Egypt",2002,2
+"Egypt",2003,2
+"Egypt",2004,2
+"Egypt",2005,3
+"Egypt",2006,3
+"Egypt",2007,3
+"Egypt",2008,2
+"Egypt",2009,2
+"Egypt",2010,3
+"Egypt",2011,0
+"El Salvador",1981,0
+"El Salvador",1982,0
+"El Salvador",1983,0
+"El Salvador",1984,0
+"El Salvador",1985,1
+"El Salvador",1986,1
+"El Salvador",1987,3
+"El Salvador",1988,1
+"El Salvador",1989,0
+"El Salvador",1990,1
+"El Salvador",1991,1
+"El Salvador",1992,5
+"El Salvador",1993,5
+"El Salvador",1994,6
+"El Salvador",1995,8
+"El Salvador",1996,5
+"El Salvador",1997,7
+"El Salvador",1998,6
+"El Salvador",1999,5
+"El Salvador",2000,6
+"El Salvador",2001,7
+"El Salvador",2002,6
+"El Salvador",2003,5
+"El Salvador",2004,5
+"El Salvador",2005,5
+"El Salvador",2006,5
+"El Salvador",2007,4
+"El Salvador",2008,5
+"El Salvador",2009,5
+"El Salvador",2010,5
+"El Salvador",2011,4
+"Equatorial Guinea",1981,NA
+"Equatorial Guinea",1982,NA
+"Equatorial Guinea",1983,NA
+"Equatorial Guinea",1984,NA
+"Equatorial Guinea",1985,NA
+"Equatorial Guinea",1986,NA
+"Equatorial Guinea",1987,NA
+"Equatorial Guinea",1988,NA
+"Equatorial Guinea",1989,NA
+"Equatorial Guinea",1990,NA
+"Equatorial Guinea",1991,NA
+"Equatorial Guinea",1992,NA
+"Equatorial Guinea",1993,NA
+"Equatorial Guinea",1994,NA
+"Equatorial Guinea",1995,NA
+"Equatorial Guinea",1996,NA
+"Equatorial Guinea",1997,NA
+"Equatorial Guinea",1998,NA
+"Equatorial Guinea",1999,NA
+"Equatorial Guinea",2000,NA
+"Equatorial Guinea",2001,3
+"Equatorial Guinea",2002,NA
+"Equatorial Guinea",2003,4
+"Equatorial Guinea",2004,3
+"Equatorial Guinea",2005,2
+"Equatorial Guinea",2006,3
+"Equatorial Guinea",2007,3
+"Equatorial Guinea",2008,2
+"Equatorial Guinea",2009,3
+"Equatorial Guinea",2010,3
+"Equatorial Guinea",2011,4
+"Eritrea",1981,NA
+"Eritrea",1982,NA
+"Eritrea",1983,NA
+"Eritrea",1984,NA
+"Eritrea",1985,NA
+"Eritrea",1986,NA
+"Eritrea",1987,NA
+"Eritrea",1988,NA
+"Eritrea",1989,NA
+"Eritrea",1990,NA
+"Eritrea",1991,NA
+"Eritrea",1992,NA
+"Eritrea",1993,5
+"Eritrea",1994,6
+"Eritrea",1995,6
+"Eritrea",1996,4
+"Eritrea",1997,5
+"Eritrea",1998,6
+"Eritrea",1999,4
+"Eritrea",2000,6
+"Eritrea",2001,4
+"Eritrea",2002,5
+"Eritrea",2003,3
+"Eritrea",2004,4
+"Eritrea",2005,2
+"Eritrea",2006,2
+"Eritrea",2007,2
+"Eritrea",2008,0
+"Eritrea",2009,2
+"Eritrea",2010,0
+"Eritrea",2011,0
+"Estonia",1981,NA
+"Estonia",1982,NA
+"Estonia",1983,NA
+"Estonia",1984,NA
+"Estonia",1985,NA
+"Estonia",1986,NA
+"Estonia",1987,NA
+"Estonia",1988,NA
+"Estonia",1989,NA
+"Estonia",1990,NA
+"Estonia",1991,NA
+"Estonia",1992,8
+"Estonia",1993,7
+"Estonia",1994,7
+"Estonia",1995,7
+"Estonia",1996,7
+"Estonia",1997,7
+"Estonia",1998,7
+"Estonia",1999,7
+"Estonia",2000,8
+"Estonia",2001,7
+"Estonia",2002,7
+"Estonia",2003,7
+"Estonia",2004,7
+"Estonia",2005,7
+"Estonia",2006,7
+"Estonia",2007,7
+"Estonia",2008,7
+"Estonia",2009,7
+"Estonia",2010,7
+"Estonia",2011,7
+"Ethiopia",1981,0
+"Ethiopia",1982,0
+"Ethiopia",1983,0
+"Ethiopia",1984,2
+"Ethiopia",1985,3
+"Ethiopia",1986,1
+"Ethiopia",1987,1
+"Ethiopia",1988,1
+"Ethiopia",1989,1
+"Ethiopia",1990,0
+"Ethiopia",1991,NA
+"Ethiopia",1992,3
+"Ethiopia",1993,4
+"Ethiopia",1994,0
+"Ethiopia",1995,0
+"Ethiopia",1996,1
+"Ethiopia",1997,4
+"Ethiopia",1998,5
+"Ethiopia",1999,3
+"Ethiopia",2000,2
+"Ethiopia",2001,3
+"Ethiopia",2002,2
+"Ethiopia",2003,1
+"Ethiopia",2004,1
+"Ethiopia",2005,0
+"Ethiopia",2006,1
+"Ethiopia",2007,1
+"Ethiopia",2008,2
+"Ethiopia",2009,3
+"Ethiopia",2010,2
+"Ethiopia",2011,2
+"Fiji",1981,8
+"Fiji",1982,8
+"Fiji",1983,8
+"Fiji",1984,8
+"Fiji",1985,8
+"Fiji",1986,8
+"Fiji",1987,3
+"Fiji",1988,6
+"Fiji",1989,6
+"Fiji",1990,6
+"Fiji",1991,8
+"Fiji",1992,8
+"Fiji",1993,7
+"Fiji",1994,8
+"Fiji",1995,8
+"Fiji",1996,7
+"Fiji",1997,7
+"Fiji",1998,7
+"Fiji",1999,7
+"Fiji",2000,7
+"Fiji",2001,6
+"Fiji",2002,7
+"Fiji",2003,7
+"Fiji",2004,7
+"Fiji",2005,7
+"Fiji",2006,5
+"Fiji",2007,4
+"Fiji",2008,5
+"Fiji",2009,6
+"Fiji",2010,6
+"Fiji",2011,5
+"Finland",1981,8
+"Finland",1982,8
+"Finland",1983,8
+"Finland",1984,8
+"Finland",1985,8
+"Finland",1986,8
+"Finland",1987,7
+"Finland",1988,8
+"Finland",1989,8
+"Finland",1990,8
+"Finland",1991,8
+"Finland",1992,8
+"Finland",1993,8
+"Finland",1994,8
+"Finland",1995,8
+"Finland",1996,8
+"Finland",1997,8
+"Finland",1998,8
+"Finland",1999,8
+"Finland",2000,8
+"Finland",2001,8
+"Finland",2002,8
+"Finland",2003,7
+"Finland",2004,8
+"Finland",2005,7
+"Finland",2006,7
+"Finland",2007,7
+"Finland",2008,7
+"Finland",2009,7
+"Finland",2010,7
+"Finland",2011,8
+"France",1981,8
+"France",1982,7
+"France",1983,7
+"France",1984,7
+"France",1985,6
+"France",1986,7
+"France",1987,6
+"France",1988,5
+"France",1989,5
+"France",1990,5
+"France",1991,7
+"France",1992,8
+"France",1993,6
+"France",1994,8
+"France",1995,8
+"France",1996,8
+"France",1997,8
+"France",1998,6
+"France",1999,6
+"France",2000,6
+"France",2001,7
+"France",2002,7
+"France",2003,5
+"France",2004,6
+"France",2005,7
+"France",2006,7
+"France",2007,7
+"France",2008,6
+"France",2009,7
+"France",2010,7
+"France",2011,7
+"Gabon",1981,7
+"Gabon",1982,6
+"Gabon",1983,6
+"Gabon",1984,6
+"Gabon",1985,7
+"Gabon",1986,8
+"Gabon",1987,7
+"Gabon",1988,6
+"Gabon",1989,7
+"Gabon",1990,4
+"Gabon",1991,7
+"Gabon",1992,8
+"Gabon",1993,5
+"Gabon",1994,4
+"Gabon",1995,8
+"Gabon",1996,7
+"Gabon",1997,6
+"Gabon",1998,7
+"Gabon",1999,6
+"Gabon",2000,8
+"Gabon",2001,6
+"Gabon",2002,7
+"Gabon",2003,7
+"Gabon",2004,6
+"Gabon",2005,5
+"Gabon",2006,5
+"Gabon",2007,7
+"Gabon",2008,6
+"Gabon",2009,6
+"Gabon",2010,6
+"Gabon",2011,6
+"Gambia, The",1981,8
+"Gambia, The",1982,7
+"Gambia, The",1983,7
+"Gambia, The",1984,6
+"Gambia, The",1985,7
+"Gambia, The",1986,8
+"Gambia, The",1987,6
+"Gambia, The",1988,7
+"Gambia, The",1989,8
+"Gambia, The",1990,8
+"Gambia, The",1991,8
+"Gambia, The",1992,8
+"Gambia, The",1993,7
+"Gambia, The",1994,4
+"Gambia, The",1995,4
+"Gambia, The",1996,6
+"Gambia, The",1997,6
+"Gambia, The",1998,7
+"Gambia, The",1999,6
+"Gambia, The",2000,6
+"Gambia, The",2001,5
+"Gambia, The",2002,7
+"Gambia, The",2003,6
+"Gambia, The",2004,6
+"Gambia, The",2005,6
+"Gambia, The",2006,3
+"Gambia, The",2007,5
+"Gambia, The",2008,6
+"Gambia, The",2009,4
+"Gambia, The",2010,4
+"Gambia, The",2011,3
+"Georgia",1981,NA
+"Georgia",1982,NA
+"Georgia",1983,NA
+"Georgia",1984,NA
+"Georgia",1985,NA
+"Georgia",1986,NA
+"Georgia",1987,NA
+"Georgia",1988,NA
+"Georgia",1989,NA
+"Georgia",1990,NA
+"Georgia",1991,NA
+"Georgia",1992,1
+"Georgia",1993,3
+"Georgia",1994,2
+"Georgia",1995,3
+"Georgia",1996,2
+"Georgia",1997,1
+"Georgia",1998,1
+"Georgia",1999,2
+"Georgia",2000,5
+"Georgia",2001,4
+"Georgia",2002,5
+"Georgia",2003,4
+"Georgia",2004,4
+"Georgia",2005,6
+"Georgia",2006,4
+"Georgia",2007,4
+"Georgia",2008,5
+"Georgia",2009,6
+"Georgia",2010,3
+"Georgia",2011,4
+"Germany",1981,8
+"Germany",1982,7
+"Germany",1983,8
+"Germany",1984,7
+"Germany",1985,7
+"Germany",1986,8
+"Germany",1987,8
+"Germany",1988,6
+"Germany",1989,7
+"Germany",1990,7
+"Germany",1991,8
+"Germany",1992,8
+"Germany",1993,7
+"Germany",1994,8
+"Germany",1995,8
+"Germany",1996,8
+"Germany",1997,8
+"Germany",1998,8
+"Germany",1999,6
+"Germany",2000,8
+"Germany",2001,7
+"Germany",2002,7
+"Germany",2003,7
+"Germany",2004,7
+"Germany",2005,8
+"Germany",2006,8
+"Germany",2007,8
+"Germany",2008,7
+"Germany",2009,8
+"Germany",2010,7
+"Germany",2011,7
+"Ghana",1981,NA
+"Ghana",1982,2
+"Ghana",1983,2
+"Ghana",1984,5
+"Ghana",1985,5
+"Ghana",1986,5
+"Ghana",1987,5
+"Ghana",1988,5
+"Ghana",1989,5
+"Ghana",1990,4
+"Ghana",1991,5
+"Ghana",1992,6
+"Ghana",1993,5
+"Ghana",1994,7
+"Ghana",1995,6
+"Ghana",1996,6
+"Ghana",1997,5
+"Ghana",1998,7
+"Ghana",1999,6
+"Ghana",2000,5
+"Ghana",2001,5
+"Ghana",2002,6
+"Ghana",2003,6
+"Ghana",2004,6
+"Ghana",2005,6
+"Ghana",2006,5
+"Ghana",2007,5
+"Ghana",2008,5
+"Ghana",2009,5
+"Ghana",2010,4
+"Ghana",2011,4
+"Greece",1981,7
+"Greece",1982,6
+"Greece",1983,4
+"Greece",1984,5
+"Greece",1985,5
+"Greece",1986,5
+"Greece",1987,6
+"Greece",1988,5
+"Greece",1989,5
+"Greece",1990,6
+"Greece",1991,8
+"Greece",1992,7
+"Greece",1993,5
+"Greece",1994,5
+"Greece",1995,6
+"Greece",1996,6
+"Greece",1997,6
+"Greece",1998,8
+"Greece",1999,7
+"Greece",2000,7
+"Greece",2001,6
+"Greece",2002,7
+"Greece",2003,5
+"Greece",2004,6
+"Greece",2005,6
+"Greece",2006,5
+"Greece",2007,5
+"Greece",2008,4
+"Greece",2009,5
+"Greece",2010,6
+"Greece",2011,6
+"Grenada",1981,NA
+"Grenada",1982,NA
+"Grenada",1983,NA
+"Grenada",1984,NA
+"Grenada",1985,NA
+"Grenada",1986,NA
+"Grenada",1987,NA
+"Grenada",1988,NA
+"Grenada",1989,NA
+"Grenada",1990,NA
+"Grenada",1991,NA
+"Grenada",1992,NA
+"Grenada",1993,NA
+"Grenada",1994,NA
+"Grenada",1995,NA
+"Grenada",1996,NA
+"Grenada",1997,NA
+"Grenada",1998,NA
+"Grenada",1999,NA
+"Grenada",2000,NA
+"Grenada",2001,8
+"Grenada",2002,NA
+"Grenada",2003,8
+"Grenada",2004,7
+"Grenada",2005,6
+"Grenada",2006,6
+"Grenada",2007,7
+"Grenada",2008,7
+"Grenada",2009,7
+"Grenada",2010,7
+"Grenada",2011,6
+"Guatemala",1981,0
+"Guatemala",1982,1
+"Guatemala",1983,1
+"Guatemala",1984,0
+"Guatemala",1985,0
+"Guatemala",1986,0
+"Guatemala",1987,4
+"Guatemala",1988,1
+"Guatemala",1989,2
+"Guatemala",1990,1
+"Guatemala",1991,2
+"Guatemala",1992,2
+"Guatemala",1993,4
+"Guatemala",1994,2
+"Guatemala",1995,2
+"Guatemala",1996,3
+"Guatemala",1997,4
+"Guatemala",1998,5
+"Guatemala",1999,4
+"Guatemala",2000,2
+"Guatemala",2001,4
+"Guatemala",2002,4
+"Guatemala",2003,5
+"Guatemala",2004,5
+"Guatemala",2005,6
+"Guatemala",2006,5
+"Guatemala",2007,6
+"Guatemala",2008,6
+"Guatemala",2009,6
+"Guatemala",2010,6
+"Guatemala",2011,5
+"Guinea",1981,4
+"Guinea",1982,7
+"Guinea",1983,6
+"Guinea",1984,3
+"Guinea",1985,3
+"Guinea",1986,7
+"Guinea",1987,3
+"Guinea",1988,2
+"Guinea",1989,4
+"Guinea",1990,5
+"Guinea",1991,4
+"Guinea",1992,5
+"Guinea",1993,4
+"Guinea",1994,5
+"Guinea",1995,4
+"Guinea",1996,2
+"Guinea",1997,4
+"Guinea",1998,4
+"Guinea",1999,2
+"Guinea",2000,2
+"Guinea",2001,3
+"Guinea",2002,4
+"Guinea",2003,6
+"Guinea",2004,5
+"Guinea",2005,5
+"Guinea",2006,4
+"Guinea",2007,2
+"Guinea",2008,4
+"Guinea",2009,2
+"Guinea",2010,4
+"Guinea",2011,4
+"Guinea-Bissau",1981,7
+"Guinea-Bissau",1982,6
+"Guinea-Bissau",1983,8
+"Guinea-Bissau",1984,8
+"Guinea-Bissau",1985,5
+"Guinea-Bissau",1986,5
+"Guinea-Bissau",1987,6
+"Guinea-Bissau",1988,5
+"Guinea-Bissau",1989,6
+"Guinea-Bissau",1990,6
+"Guinea-Bissau",1991,6
+"Guinea-Bissau",1992,6
+"Guinea-Bissau",1993,4
+"Guinea-Bissau",1994,4
+"Guinea-Bissau",1995,7
+"Guinea-Bissau",1996,6
+"Guinea-Bissau",1997,6
+"Guinea-Bissau",1998,NA
+"Guinea-Bissau",1999,3
+"Guinea-Bissau",2000,7
+"Guinea-Bissau",2001,6
+"Guinea-Bissau",2002,5
+"Guinea-Bissau",2003,4
+"Guinea-Bissau",2004,6
+"Guinea-Bissau",2005,6
+"Guinea-Bissau",2006,6
+"Guinea-Bissau",2007,6
+"Guinea-Bissau",2008,5
+"Guinea-Bissau",2009,5
+"Guinea-Bissau",2010,6
+"Guinea-Bissau",2011,6
+"Guyana",1981,5
+"Guyana",1982,5
+"Guyana",1983,6
+"Guyana",1984,5
+"Guyana",1985,7
+"Guyana",1986,7
+"Guyana",1987,6
+"Guyana",1988,7
+"Guyana",1989,6
+"Guyana",1990,5
+"Guyana",1991,7
+"Guyana",1992,7
+"Guyana",1993,6
+"Guyana",1994,7
+"Guyana",1995,8
+"Guyana",1996,6
+"Guyana",1997,6
+"Guyana",1998,8
+"Guyana",1999,7
+"Guyana",2000,6
+"Guyana",2001,6
+"Guyana",2002,4
+"Guyana",2003,4
+"Guyana",2004,4
+"Guyana",2005,5
+"Guyana",2006,5
+"Guyana",2007,5
+"Guyana",2008,5
+"Guyana",2009,5
+"Guyana",2010,5
+"Guyana",2011,6
+"Haiti",1981,5
+"Haiti",1982,5
+"Haiti",1983,5
+"Haiti",1984,3
+"Haiti",1985,5
+"Haiti",1986,3
+"Haiti",1987,0
+"Haiti",1988,3
+"Haiti",1989,4
+"Haiti",1990,2
+"Haiti",1991,3
+"Haiti",1992,0
+"Haiti",1993,0
+"Haiti",1994,0
+"Haiti",1995,6
+"Haiti",1996,5
+"Haiti",1997,5
+"Haiti",1998,3
+"Haiti",1999,2
+"Haiti",2000,5
+"Haiti",2001,4
+"Haiti",2002,3
+"Haiti",2003,2
+"Haiti",2004,2
+"Haiti",2005,2
+"Haiti",2006,4
+"Haiti",2007,5
+"Haiti",2008,5
+"Haiti",2009,5
+"Haiti",2010,6
+"Haiti",2011,4
+"Honduras",1981,1
+"Honduras",1982,3
+"Honduras",1983,4
+"Honduras",1984,4
+"Honduras",1985,5
+"Honduras",1986,5
+"Honduras",1987,4
+"Honduras",1988,3
+"Honduras",1989,4
+"Honduras",1990,3
+"Honduras",1991,5
+"Honduras",1992,5
+"Honduras",1993,5
+"Honduras",1994,5
+"Honduras",1995,6
+"Honduras",1996,6
+"Honduras",1997,6
+"Honduras",1998,5
+"Honduras",1999,3
+"Honduras",2000,6
+"Honduras",2001,6
+"Honduras",2002,6
+"Honduras",2003,5
+"Honduras",2004,4
+"Honduras",2005,5
+"Honduras",2006,5
+"Honduras",2007,4
+"Honduras",2008,4
+"Honduras",2009,2
+"Honduras",2010,3
+"Honduras",2011,3
+"Hungary",1981,7
+"Hungary",1982,6
+"Hungary",1983,6
+"Hungary",1984,7
+"Hungary",1985,6
+"Hungary",1986,7
+"Hungary",1987,6
+"Hungary",1988,7
+"Hungary",1989,8
+"Hungary",1990,8
+"Hungary",1991,8
+"Hungary",1992,8
+"Hungary",1993,7
+"Hungary",1994,8
+"Hungary",1995,8
+"Hungary",1996,7
+"Hungary",1997,7
+"Hungary",1998,8
+"Hungary",1999,7
+"Hungary",2000,8
+"Hungary",2001,7
+"Hungary",2002,7
+"Hungary",2003,7
+"Hungary",2004,6
+"Hungary",2005,7
+"Hungary",2006,7
+"Hungary",2007,6
+"Hungary",2008,7
+"Hungary",2009,7
+"Hungary",2010,6
+"Hungary",2011,6
+"Iceland",1981,8
+"Iceland",1982,8
+"Iceland",1983,8
+"Iceland",1984,8
+"Iceland",1985,8
+"Iceland",1986,8
+"Iceland",1987,8
+"Iceland",1988,8
+"Iceland",1989,8
+"Iceland",1990,8
+"Iceland",1991,8
+"Iceland",1992,8
+"Iceland",1993,8
+"Iceland",1994,8
+"Iceland",1995,8
+"Iceland",1996,8
+"Iceland",1997,8
+"Iceland",1998,8
+"Iceland",1999,8
+"Iceland",2000,8
+"Iceland",2001,8
+"Iceland",2002,8
+"Iceland",2003,8
+"Iceland",2004,8
+"Iceland",2005,8
+"Iceland",2006,8
+"Iceland",2007,8
+"Iceland",2008,8
+"Iceland",2009,8
+"Iceland",2010,8
+"Iceland",2011,8
+"India",1981,4
+"India",1982,2
+"India",1983,3
+"India",1984,2
+"India",1985,2
+"India",1986,2
+"India",1987,2
+"India",1988,1
+"India",1989,1
+"India",1990,2
+"India",1991,0
+"India",1992,0
+"India",1993,0
+"India",1994,0
+"India",1995,0
+"India",1996,0
+"India",1997,0
+"India",1998,0
+"India",1999,0
+"India",2000,1
+"India",2001,0
+"India",2002,0
+"India",2003,1
+"India",2004,0
+"India",2005,0
+"India",2006,0
+"India",2007,0
+"India",2008,0
+"India",2009,0
+"India",2010,0
+"India",2011,0
+"Indonesia",1981,2
+"Indonesia",1982,4
+"Indonesia",1983,4
+"Indonesia",1984,1
+"Indonesia",1985,3
+"Indonesia",1986,5
+"Indonesia",1987,2
+"Indonesia",1988,4
+"Indonesia",1989,4
+"Indonesia",1990,0
+"Indonesia",1991,1
+"Indonesia",1992,0
+"Indonesia",1993,1
+"Indonesia",1994,3
+"Indonesia",1995,3
+"Indonesia",1996,1
+"Indonesia",1997,0
+"Indonesia",1998,0
+"Indonesia",1999,0
+"Indonesia",2000,1
+"Indonesia",2001,1
+"Indonesia",2002,1
+"Indonesia",2003,1
+"Indonesia",2004,1
+"Indonesia",2005,1
+"Indonesia",2006,4
+"Indonesia",2007,3
+"Indonesia",2008,3
+"Indonesia",2009,3
+"Indonesia",2010,3
+"Indonesia",2011,3
+"Iran",1981,1
+"Iran",1982,0
+"Iran",1983,0
+"Iran",1984,1
+"Iran",1985,1
+"Iran",1986,1
+"Iran",1987,1
+"Iran",1988,1
+"Iran",1989,2
+"Iran",1990,1
+"Iran",1991,1
+"Iran",1992,3
+"Iran",1993,1
+"Iran",1994,3
+"Iran",1995,2
+"Iran",1996,2
+"Iran",1997,1
+"Iran",1998,1
+"Iran",1999,0
+"Iran",2000,1
+"Iran",2001,1
+"Iran",2002,1
+"Iran",2003,2
+"Iran",2004,NA
+"Iran",2005,1
+"Iran",2006,NA
+"Iran",2007,1
+"Iran",2008,0
+"Iran",2009,0
+"Iran",2010,0
+"Iran",2011,0
+"Iraq",1981,0
+"Iraq",1982,0
+"Iraq",1983,0
+"Iraq",1984,1
+"Iraq",1985,0
+"Iraq",1986,0
+"Iraq",1987,0
+"Iraq",1988,0
+"Iraq",1989,0
+"Iraq",1990,0
+"Iraq",1991,0
+"Iraq",1992,0
+"Iraq",1993,0
+"Iraq",1994,2
+"Iraq",1995,3
+"Iraq",1996,0
+"Iraq",1997,0
+"Iraq",1998,0
+"Iraq",1999,0
+"Iraq",2000,0
+"Iraq",2001,0
+"Iraq",2002,0
+"Iraq",2003,NA
+"Iraq",2004,NA
+"Iraq",2005,1
+"Iraq",2006,1
+"Iraq",2007,0
+"Iraq",2008,1
+"Iraq",2009,3
+"Iraq",2010,3
+"Iraq",2011,3
+"Ireland",1981,7
+"Ireland",1982,8
+"Ireland",1983,8
+"Ireland",1984,7
+"Ireland",1985,7
+"Ireland",1986,8
+"Ireland",1987,7
+"Ireland",1988,8
+"Ireland",1989,8
+"Ireland",1990,7
+"Ireland",1991,8
+"Ireland",1992,8
+"Ireland",1993,7
+"Ireland",1994,8
+"Ireland",1995,8
+"Ireland",1996,7
+"Ireland",1997,8
+"Ireland",1998,8
+"Ireland",1999,7
+"Ireland",2000,8
+"Ireland",2001,8
+"Ireland",2002,8
+"Ireland",2003,7
+"Ireland",2004,7
+"Ireland",2005,7
+"Ireland",2006,7
+"Ireland",2007,7
+"Ireland",2008,6
+"Ireland",2009,7
+"Ireland",2010,7
+"Ireland",2011,6
+"Israel",1981,2
+"Israel",1982,4
+"Israel",1983,4
+"Israel",1984,4
+"Israel",1985,3
+"Israel",1986,4
+"Israel",1987,3
+"Israel",1988,4
+"Israel",1989,2
+"Israel",1990,5
+"Israel",1991,3
+"Israel",1992,3
+"Israel",1993,4
+"Israel",1994,2
+"Israel",1995,4
+"Israel",1996,5
+"Israel",1997,3
+"Israel",1998,4
+"Israel",1999,3
+"Israel",2000,3
+"Israel",2001,2
+"Israel",2002,2
+"Israel",2003,2
+"Israel",2004,2
+"Israel",2005,2
+"Israel",2006,2
+"Israel",2007,2
+"Israel",2008,3
+"Israel",2009,2
+"Israel",2010,2
+"Israel",2011,2
+"Italy",1981,7
+"Italy",1982,7
+"Italy",1983,7
+"Italy",1984,8
+"Italy",1985,7
+"Italy",1986,8
+"Italy",1987,6
+"Italy",1988,8
+"Italy",1989,6
+"Italy",1990,7
+"Italy",1991,7
+"Italy",1992,7
+"Italy",1993,7
+"Italy",1994,6
+"Italy",1995,6
+"Italy",1996,7
+"Italy",1997,7
+"Italy",1998,8
+"Italy",1999,5
+"Italy",2000,7
+"Italy",2001,7
+"Italy",2002,7
+"Italy",2003,6
+"Italy",2004,6
+"Italy",2005,7
+"Italy",2006,6
+"Italy",2007,6
+"Italy",2008,7
+"Italy",2009,5
+"Italy",2010,7
+"Italy",2011,6
+"Jamaica",1981,7
+"Jamaica",1982,8
+"Jamaica",1983,7
+"Jamaica",1984,6
+"Jamaica",1985,6
+"Jamaica",1986,7
+"Jamaica",1987,5
+"Jamaica",1988,7
+"Jamaica",1989,7
+"Jamaica",1990,6
+"Jamaica",1991,6
+"Jamaica",1992,5
+"Jamaica",1993,4
+"Jamaica",1994,5
+"Jamaica",1995,5
+"Jamaica",1996,6
+"Jamaica",1997,6
+"Jamaica",1998,6
+"Jamaica",1999,6
+"Jamaica",2000,7
+"Jamaica",2001,6
+"Jamaica",2002,6
+"Jamaica",2003,5
+"Jamaica",2004,4
+"Jamaica",2005,5
+"Jamaica",2006,5
+"Jamaica",2007,5
+"Jamaica",2008,5
+"Jamaica",2009,5
+"Jamaica",2010,4
+"Jamaica",2011,5
+"Japan",1981,8
+"Japan",1982,8
+"Japan",1983,8
+"Japan",1984,7
+"Japan",1985,7
+"Japan",1986,8
+"Japan",1987,8
+"Japan",1988,8
+"Japan",1989,8
+"Japan",1990,8
+"Japan",1991,7
+"Japan",1992,8
+"Japan",1993,7
+"Japan",1994,7
+"Japan",1995,7
+"Japan",1996,7
+"Japan",1997,7
+"Japan",1998,7
+"Japan",1999,7
+"Japan",2000,7
+"Japan",2001,7
+"Japan",2002,7
+"Japan",2003,7
+"Japan",2004,7
+"Japan",2005,7
+"Japan",2006,8
+"Japan",2007,7
+"Japan",2008,7
+"Japan",2009,7
+"Japan",2010,6
+"Japan",2011,6
+"Jordan",1981,5
+"Jordan",1982,6
+"Jordan",1983,6
+"Jordan",1984,4
+"Jordan",1985,5
+"Jordan",1986,4
+"Jordan",1987,4
+"Jordan",1988,5
+"Jordan",1989,6
+"Jordan",1990,7
+"Jordan",1991,6
+"Jordan",1992,6
+"Jordan",1993,6
+"Jordan",1994,6
+"Jordan",1995,4
+"Jordan",1996,4
+"Jordan",1997,5
+"Jordan",1998,5
+"Jordan",1999,4
+"Jordan",2000,4
+"Jordan",2001,5
+"Jordan",2002,5
+"Jordan",2003,5
+"Jordan",2004,4
+"Jordan",2005,5
+"Jordan",2006,4
+"Jordan",2007,4
+"Jordan",2008,3
+"Jordan",2009,3
+"Jordan",2010,4
+"Jordan",2011,3
+"Kazakhstan",1981,NA
+"Kazakhstan",1982,NA
+"Kazakhstan",1983,NA
+"Kazakhstan",1984,NA
+"Kazakhstan",1985,NA
+"Kazakhstan",1986,NA
+"Kazakhstan",1987,NA
+"Kazakhstan",1988,NA
+"Kazakhstan",1989,NA
+"Kazakhstan",1990,NA
+"Kazakhstan",1991,NA
+"Kazakhstan",1992,7
+"Kazakhstan",1993,7
+"Kazakhstan",1994,6
+"Kazakhstan",1995,6
+"Kazakhstan",1996,5
+"Kazakhstan",1997,7
+"Kazakhstan",1998,6
+"Kazakhstan",1999,5
+"Kazakhstan",2000,5
+"Kazakhstan",2001,6
+"Kazakhstan",2002,6
+"Kazakhstan",2003,4
+"Kazakhstan",2004,4
+"Kazakhstan",2005,4
+"Kazakhstan",2006,4
+"Kazakhstan",2007,3
+"Kazakhstan",2008,4
+"Kazakhstan",2009,4
+"Kazakhstan",2010,4
+"Kazakhstan",2011,2
+"Kenya",1981,6
+"Kenya",1982,6
+"Kenya",1983,6
+"Kenya",1984,6
+"Kenya",1985,5
+"Kenya",1986,6
+"Kenya",1987,5
+"Kenya",1988,3
+"Kenya",1989,4
+"Kenya",1990,5
+"Kenya",1991,3
+"Kenya",1992,2
+"Kenya",1993,5
+"Kenya",1994,4
+"Kenya",1995,4
+"Kenya",1996,4
+"Kenya",1997,4
+"Kenya",1998,2
+"Kenya",1999,1
+"Kenya",2000,2
+"Kenya",2001,3
+"Kenya",2002,2
+"Kenya",2003,3
+"Kenya",2004,4
+"Kenya",2005,3
+"Kenya",2006,3
+"Kenya",2007,3
+"Kenya",2008,2
+"Kenya",2009,2
+"Kenya",2010,4
+"Kenya",2011,4
+"Kiribati",1981,NA
+"Kiribati",1982,NA
+"Kiribati",1983,NA
+"Kiribati",1984,NA
+"Kiribati",1985,NA
+"Kiribati",1986,NA
+"Kiribati",1987,NA
+"Kiribati",1988,NA
+"Kiribati",1989,NA
+"Kiribati",1990,NA
+"Kiribati",1991,NA
+"Kiribati",1992,NA
+"Kiribati",1993,NA
+"Kiribati",1994,NA
+"Kiribati",1995,NA
+"Kiribati",1996,NA
+"Kiribati",1997,NA
+"Kiribati",1998,NA
+"Kiribati",1999,NA
+"Kiribati",2000,NA
+"Kiribati",2001,8
+"Kiribati",2002,NA
+"Kiribati",2003,8
+"Kiribati",2004,8
+"Kiribati",2005,8
+"Kiribati",2006,8
+"Kiribati",2007,8
+"Kiribati",2008,8
+"Kiribati",2009,8
+"Kiribati",2010,8
+"Kiribati",2011,8
+"Korea, Democratic People's Republic of",1981,2
+"Korea, Democratic People's Republic of",1982,2
+"Korea, Democratic People's Republic of",1983,2
+"Korea, Democratic People's Republic of",1984,NA
+"Korea, Democratic People's Republic of",1985,1
+"Korea, Democratic People's Republic of",1986,1
+"Korea, Democratic People's Republic of",1987,2
+"Korea, Democratic People's Republic of",1988,2
+"Korea, Democratic People's Republic of",1989,1
+"Korea, Democratic People's Republic of",1990,NA
+"Korea, Democratic People's Republic of",1991,NA
+"Korea, Democratic People's Republic of",1992,NA
+"Korea, Democratic People's Republic of",1993,NA
+"Korea, Democratic People's Republic of",1994,NA
+"Korea, Democratic People's Republic of",1995,3
+"Korea, Democratic People's Republic of",1996,0
+"Korea, Democratic People's Republic of",1997,0
+"Korea, Democratic People's Republic of",1998,0
+"Korea, Democratic People's Republic of",1999,0
+"Korea, Democratic People's Republic of",2000,0
+"Korea, Democratic People's Republic of",2001,0
+"Korea, Democratic People's Republic of",2002,0
+"Korea, Democratic People's Republic of",2003,0
+"Korea, Democratic People's Republic of",2004,0
+"Korea, Democratic People's Republic of",2005,0
+"Korea, Democratic People's Republic of",2006,0
+"Korea, Democratic People's Republic of",2007,0
+"Korea, Democratic People's Republic of",2008,0
+"Korea, Democratic People's Republic of",2009,0
+"Korea, Democratic People's Republic of",2010,0
+"Korea, Democratic People's Republic of",2011,1
+"Korea, Republic of",1981,4
+"Korea, Republic of",1982,4
+"Korea, Republic of",1983,5
+"Korea, Republic of",1984,6
+"Korea, Republic of",1985,4
+"Korea, Republic of",1986,4
+"Korea, Republic of",1987,3
+"Korea, Republic of",1988,6
+"Korea, Republic of",1989,4
+"Korea, Republic of",1990,4
+"Korea, Republic of",1991,3
+"Korea, Republic of",1992,4
+"Korea, Republic of",1993,4
+"Korea, Republic of",1994,4
+"Korea, Republic of",1995,4
+"Korea, Republic of",1996,4
+"Korea, Republic of",1997,5
+"Korea, Republic of",1998,6
+"Korea, Republic of",1999,5
+"Korea, Republic of",2000,5
+"Korea, Republic of",2001,5
+"Korea, Republic of",2002,4
+"Korea, Republic of",2003,5
+"Korea, Republic of",2004,5
+"Korea, Republic of",2005,5
+"Korea, Republic of",2006,5
+"Korea, Republic of",2007,6
+"Korea, Republic of",2008,5
+"Korea, Republic of",2009,6
+"Korea, Republic of",2010,5
+"Korea, Republic of",2011,4
+"Kosovo",1981,NA
+"Kosovo",1982,NA
+"Kosovo",1983,NA
+"Kosovo",1984,NA
+"Kosovo",1985,NA
+"Kosovo",1986,NA
+"Kosovo",1987,NA
+"Kosovo",1988,NA
+"Kosovo",1989,NA
+"Kosovo",1990,NA
+"Kosovo",1991,NA
+"Kosovo",1992,NA
+"Kosovo",1993,NA
+"Kosovo",1994,NA
+"Kosovo",1995,NA
+"Kosovo",1996,NA
+"Kosovo",1997,NA
+"Kosovo",1998,NA
+"Kosovo",1999,NA
+"Kosovo",2000,NA
+"Kosovo",2001,NA
+"Kosovo",2002,NA
+"Kosovo",2003,NA
+"Kosovo",2004,NA
+"Kosovo",2005,NA
+"Kosovo",2006,NA
+"Kosovo",2007,NA
+"Kosovo",2008,NA
+"Kosovo",2009,6
+"Kosovo",2010,7
+"Kosovo",2011,7
+"Kuwait",1981,6
+"Kuwait",1982,8
+"Kuwait",1983,6
+"Kuwait",1984,5
+"Kuwait",1985,5
+"Kuwait",1986,6
+"Kuwait",1987,5
+"Kuwait",1988,6
+"Kuwait",1989,6
+"Kuwait",1990,NA
+"Kuwait",1991,2
+"Kuwait",1992,5
+"Kuwait",1993,4
+"Kuwait",1994,6
+"Kuwait",1995,5
+"Kuwait",1996,2
+"Kuwait",1997,5
+"Kuwait",1998,5
+"Kuwait",1999,5
+"Kuwait",2000,5
+"Kuwait",2001,6
+"Kuwait",2002,6
+"Kuwait",2003,6
+"Kuwait",2004,6
+"Kuwait",2005,5
+"Kuwait",2006,7
+"Kuwait",2007,6
+"Kuwait",2008,6
+"Kuwait",2009,6
+"Kuwait",2010,6
+"Kuwait",2011,5
+"Kyrgyz Republic",1981,NA
+"Kyrgyz Republic",1982,NA
+"Kyrgyz Republic",1983,NA
+"Kyrgyz Republic",1984,NA
+"Kyrgyz Republic",1985,NA
+"Kyrgyz Republic",1986,NA
+"Kyrgyz Republic",1987,NA
+"Kyrgyz Republic",1988,NA
+"Kyrgyz Republic",1989,NA
+"Kyrgyz Republic",1990,NA
+"Kyrgyz Republic",1991,NA
+"Kyrgyz Republic",1992,7
+"Kyrgyz Republic",1993,8
+"Kyrgyz Republic",1994,7
+"Kyrgyz Republic",1995,6
+"Kyrgyz Republic",1996,6
+"Kyrgyz Republic",1997,7
+"Kyrgyz Republic",1998,7
+"Kyrgyz Republic",1999,6
+"Kyrgyz Republic",2000,6
+"Kyrgyz Republic",2001,6
+"Kyrgyz Republic",2002,6
+"Kyrgyz Republic",2003,5
+"Kyrgyz Republic",2004,5
+"Kyrgyz Republic",2005,6
+"Kyrgyz Republic",2006,4
+"Kyrgyz Republic",2007,4
+"Kyrgyz Republic",2008,6
+"Kyrgyz Republic",2009,4
+"Kyrgyz Republic",2010,4
+"Kyrgyz Republic",2011,2
+"Laos",1981,3
+"Laos",1982,3
+"Laos",1983,4
+"Laos",1984,4
+"Laos",1985,4
+"Laos",1986,5
+"Laos",1987,3
+"Laos",1988,5
+"Laos",1989,5
+"Laos",1990,4
+"Laos",1991,7
+"Laos",1992,7
+"Laos",1993,6
+"Laos",1994,7
+"Laos",1995,7
+"Laos",1996,8
+"Laos",1997,7
+"Laos",1998,5
+"Laos",1999,5
+"Laos",2000,4
+"Laos",2001,4
+"Laos",2002,4
+"Laos",2003,1
+"Laos",2004,3
+"Laos",2005,3
+"Laos",2006,4
+"Laos",2007,4
+"Laos",2008,5
+"Laos",2009,5
+"Laos",2010,6
+"Laos",2011,5
+"Latvia",1981,NA
+"Latvia",1982,NA
+"Latvia",1983,NA
+"Latvia",1984,NA
+"Latvia",1985,NA
+"Latvia",1986,NA
+"Latvia",1987,NA
+"Latvia",1988,NA
+"Latvia",1989,NA
+"Latvia",1990,NA
+"Latvia",1991,NA
+"Latvia",1992,8
+"Latvia",1993,7
+"Latvia",1994,5
+"Latvia",1995,5
+"Latvia",1996,7
+"Latvia",1997,7
+"Latvia",1998,6
+"Latvia",1999,7
+"Latvia",2000,7
+"Latvia",2001,6
+"Latvia",2002,7
+"Latvia",2003,7
+"Latvia",2004,6
+"Latvia",2005,7
+"Latvia",2006,7
+"Latvia",2007,6
+"Latvia",2008,6
+"Latvia",2009,7
+"Latvia",2010,7
+"Latvia",2011,6
+"Lebanon",1981,NA
+"Lebanon",1982,NA
+"Lebanon",1983,NA
+"Lebanon",1984,NA
+"Lebanon",1985,NA
+"Lebanon",1986,NA
+"Lebanon",1987,NA
+"Lebanon",1988,NA
+"Lebanon",1989,NA
+"Lebanon",1990,NA
+"Lebanon",1991,NA
+"Lebanon",1992,NA
+"Lebanon",1993,NA
+"Lebanon",1994,NA
+"Lebanon",1995,NA
+"Lebanon",1996,NA
+"Lebanon",1997,NA
+"Lebanon",1998,NA
+"Lebanon",1999,NA
+"Lebanon",2000,NA
+"Lebanon",2001,4
+"Lebanon",2002,5
+"Lebanon",2003,4
+"Lebanon",2004,4
+"Lebanon",2005,4
+"Lebanon",2006,6
+"Lebanon",2007,4
+"Lebanon",2008,5
+"Lebanon",2009,5
+"Lebanon",2010,4
+"Lebanon",2011,3
+"Lesotho",1981,7
+"Lesotho",1982,4
+"Lesotho",1983,5
+"Lesotho",1984,4
+"Lesotho",1985,4
+"Lesotho",1986,4
+"Lesotho",1987,7
+"Lesotho",1988,6
+"Lesotho",1989,5
+"Lesotho",1990,4
+"Lesotho",1991,2
+"Lesotho",1992,5
+"Lesotho",1993,6
+"Lesotho",1994,3
+"Lesotho",1995,4
+"Lesotho",1996,7
+"Lesotho",1997,7
+"Lesotho",1998,NA
+"Lesotho",1999,8
+"Lesotho",2000,6
+"Lesotho",2001,6
+"Lesotho",2002,7
+"Lesotho",2003,6
+"Lesotho",2004,7
+"Lesotho",2005,6
+"Lesotho",2006,6
+"Lesotho",2007,6
+"Lesotho",2008,6
+"Lesotho",2009,6
+"Lesotho",2010,6
+"Lesotho",2011,7
+"Liberia",1981,5
+"Liberia",1982,5
+"Liberia",1983,6
+"Liberia",1984,5
+"Liberia",1985,2
+"Liberia",1986,5
+"Liberia",1987,5
+"Liberia",1988,4
+"Liberia",1989,3
+"Liberia",1990,NA
+"Liberia",1991,NA
+"Liberia",1992,NA
+"Liberia",1993,NA
+"Liberia",1994,NA
+"Liberia",1995,NA
+"Liberia",1996,0
+"Liberia",1997,2
+"Liberia",1998,0
+"Liberia",1999,1
+"Liberia",2000,0
+"Liberia",2001,1
+"Liberia",2002,1
+"Liberia",2003,1
+"Liberia",2004,7
+"Liberia",2005,7
+"Liberia",2006,5
+"Liberia",2007,6
+"Liberia",2008,5
+"Liberia",2009,5
+"Liberia",2010,5
+"Liberia",2011,5
+"Libya",1981,0
+"Libya",1982,1
+"Libya",1983,1
+"Libya",1984,0
+"Libya",1985,2
+"Libya",1986,NA
+"Libya",1987,NA
+"Libya",1988,3
+"Libya",1989,2
+"Libya",1990,3
+"Libya",1991,2
+"Libya",1992,2
+"Libya",1993,2
+"Libya",1994,1
+"Libya",1995,2
+"Libya",1996,1
+"Libya",1997,2
+"Libya",1998,2
+"Libya",1999,3
+"Libya",2000,4
+"Libya",2001,1
+"Libya",2002,3
+"Libya",2003,3
+"Libya",2004,4
+"Libya",2005,3
+"Libya",2006,3
+"Libya",2007,3
+"Libya",2008,3
+"Libya",2009,3
+"Libya",2010,3
+"Libya",2011,0
+"Liechtenstein",1981,NA
+"Liechtenstein",1982,NA
+"Liechtenstein",1983,NA
+"Liechtenstein",1984,NA
+"Liechtenstein",1985,NA
+"Liechtenstein",1986,NA
+"Liechtenstein",1987,NA
+"Liechtenstein",1988,NA
+"Liechtenstein",1989,NA
+"Liechtenstein",1990,NA
+"Liechtenstein",1991,NA
+"Liechtenstein",1992,NA
+"Liechtenstein",1993,NA
+"Liechtenstein",1994,NA
+"Liechtenstein",1995,NA
+"Liechtenstein",1996,NA
+"Liechtenstein",1997,NA
+"Liechtenstein",1998,NA
+"Liechtenstein",1999,NA
+"Liechtenstein",2000,NA
+"Liechtenstein",2001,8
+"Liechtenstein",2002,NA
+"Liechtenstein",2003,8
+"Liechtenstein",2004,8
+"Liechtenstein",2005,8
+"Liechtenstein",2006,8
+"Liechtenstein",2007,8
+"Liechtenstein",2008,8
+"Liechtenstein",2009,8
+"Liechtenstein",2010,8
+"Liechtenstein",2011,8
+"Lithuania",1981,NA
+"Lithuania",1982,NA
+"Lithuania",1983,NA
+"Lithuania",1984,NA
+"Lithuania",1985,NA
+"Lithuania",1986,NA
+"Lithuania",1987,NA
+"Lithuania",1988,NA
+"Lithuania",1989,NA
+"Lithuania",1990,NA
+"Lithuania",1991,NA
+"Lithuania",1992,6
+"Lithuania",1993,8
+"Lithuania",1994,8
+"Lithuania",1995,8
+"Lithuania",1996,7
+"Lithuania",1997,7
+"Lithuania",1998,7
+"Lithuania",1999,7
+"Lithuania",2000,7
+"Lithuania",2001,6
+"Lithuania",2002,7
+"Lithuania",2003,7
+"Lithuania",2004,7
+"Lithuania",2005,7
+"Lithuania",2006,7
+"Lithuania",2007,7
+"Lithuania",2008,7
+"Lithuania",2009,7
+"Lithuania",2010,7
+"Lithuania",2011,7
+"Luxembourg",1981,8
+"Luxembourg",1982,8
+"Luxembourg",1983,8
+"Luxembourg",1984,8
+"Luxembourg",1985,8
+"Luxembourg",1986,8
+"Luxembourg",1987,8
+"Luxembourg",1988,8
+"Luxembourg",1989,8
+"Luxembourg",1990,8
+"Luxembourg",1991,8
+"Luxembourg",1992,8
+"Luxembourg",1993,7
+"Luxembourg",1994,8
+"Luxembourg",1995,8
+"Luxembourg",1996,8
+"Luxembourg",1997,8
+"Luxembourg",1998,8
+"Luxembourg",1999,8
+"Luxembourg",2000,8
+"Luxembourg",2001,8
+"Luxembourg",2002,8
+"Luxembourg",2003,8
+"Luxembourg",2004,8
+"Luxembourg",2005,8
+"Luxembourg",2006,8
+"Luxembourg",2007,8
+"Luxembourg",2008,8
+"Luxembourg",2009,8
+"Luxembourg",2010,8
+"Luxembourg",2011,8
+"Macedonia",1981,NA
+"Macedonia",1982,NA
+"Macedonia",1983,NA
+"Macedonia",1984,NA
+"Macedonia",1985,NA
+"Macedonia",1986,NA
+"Macedonia",1987,NA
+"Macedonia",1988,NA
+"Macedonia",1989,NA
+"Macedonia",1990,NA
+"Macedonia",1991,NA
+"Macedonia",1992,NA
+"Macedonia",1993,7
+"Macedonia",1994,7
+"Macedonia",1995,7
+"Macedonia",1996,6
+"Macedonia",1997,6
+"Macedonia",1998,7
+"Macedonia",1999,6
+"Macedonia",2000,7
+"Macedonia",2001,4
+"Macedonia",2002,5
+"Macedonia",2003,6
+"Macedonia",2004,6
+"Macedonia",2005,5
+"Macedonia",2006,5
+"Macedonia",2007,6
+"Macedonia",2008,7
+"Macedonia",2009,7
+"Macedonia",2010,6
+"Macedonia",2011,4
+"Madagascar",1981,3
+"Madagascar",1982,6
+"Madagascar",1983,6
+"Madagascar",1984,3
+"Madagascar",1985,5
+"Madagascar",1986,5
+"Madagascar",1987,2
+"Madagascar",1988,4
+"Madagascar",1989,4
+"Madagascar",1990,4
+"Madagascar",1991,2
+"Madagascar",1992,6
+"Madagascar",1993,2
+"Madagascar",1994,4
+"Madagascar",1995,4
+"Madagascar",1996,7
+"Madagascar",1997,7
+"Madagascar",1998,7
+"Madagascar",1999,7
+"Madagascar",2000,7
+"Madagascar",2001,7
+"Madagascar",2002,2
+"Madagascar",2003,5
+"Madagascar",2004,6
+"Madagascar",2005,4
+"Madagascar",2006,5
+"Madagascar",2007,6
+"Madagascar",2008,5
+"Madagascar",2009,3
+"Madagascar",2010,2
+"Madagascar",2011,3
+"Malawi",1981,7
+"Malawi",1982,5
+"Malawi",1983,4
+"Malawi",1984,4
+"Malawi",1985,5
+"Malawi",1986,6
+"Malawi",1987,4
+"Malawi",1988,4
+"Malawi",1989,3
+"Malawi",1990,4
+"Malawi",1991,6
+"Malawi",1992,4
+"Malawi",1993,6
+"Malawi",1994,6
+"Malawi",1995,7
+"Malawi",1996,4
+"Malawi",1997,4
+"Malawi",1998,7
+"Malawi",1999,5
+"Malawi",2000,7
+"Malawi",2001,5
+"Malawi",2002,6
+"Malawi",2003,3
+"Malawi",2004,5
+"Malawi",2005,5
+"Malawi",2006,4
+"Malawi",2007,4
+"Malawi",2008,4
+"Malawi",2009,5
+"Malawi",2010,5
+"Malawi",2011,5
+"Malaysia",1981,5
+"Malaysia",1982,6
+"Malaysia",1983,7
+"Malaysia",1984,6
+"Malaysia",1985,6
+"Malaysia",1986,6
+"Malaysia",1987,5
+"Malaysia",1988,5
+"Malaysia",1989,6
+"Malaysia",1990,3
+"Malaysia",1991,5
+"Malaysia",1992,6
+"Malaysia",1993,6
+"Malaysia",1994,5
+"Malaysia",1995,5
+"Malaysia",1996,7
+"Malaysia",1997,5
+"Malaysia",1998,5
+"Malaysia",1999,5
+"Malaysia",2000,2
+"Malaysia",2001,5
+"Malaysia",2002,6
+"Malaysia",2003,5
+"Malaysia",2004,4
+"Malaysia",2005,5
+"Malaysia",2006,4
+"Malaysia",2007,4
+"Malaysia",2008,4
+"Malaysia",2009,5
+"Malaysia",2010,5
+"Malaysia",2011,3
+"Maldives",1981,NA
+"Maldives",1982,NA
+"Maldives",1983,NA
+"Maldives",1984,NA
+"Maldives",1985,NA
+"Maldives",1986,NA
+"Maldives",1987,NA
+"Maldives",1988,NA
+"Maldives",1989,NA
+"Maldives",1990,NA
+"Maldives",1991,NA
+"Maldives",1992,NA
+"Maldives",1993,NA
+"Maldives",1994,NA
+"Maldives",1995,NA
+"Maldives",1996,NA
+"Maldives",1997,NA
+"Maldives",1998,NA
+"Maldives",1999,NA
+"Maldives",2000,NA
+"Maldives",2001,8
+"Maldives",2002,NA
+"Maldives",2003,6
+"Maldives",2004,5
+"Maldives",2005,5
+"Maldives",2006,5
+"Maldives",2007,5
+"Maldives",2008,6
+"Maldives",2009,6
+"Maldives",2010,6
+"Maldives",2011,6
+"Mali",1981,6
+"Mali",1982,6
+"Mali",1983,7
+"Mali",1984,5
+"Mali",1985,7
+"Mali",1986,7
+"Mali",1987,6
+"Mali",1988,6
+"Mali",1989,6
+"Mali",1990,4
+"Mali",1991,0
+"Mali",1992,4
+"Mali",1993,6
+"Mali",1994,4
+"Mali",1995,4
+"Mali",1996,8
+"Mali",1997,7
+"Mali",1998,6
+"Mali",1999,7
+"Mali",2000,6
+"Mali",2001,8
+"Mali",2002,8
+"Mali",2003,7
+"Mali",2004,8
+"Mali",2005,7
+"Mali",2006,6
+"Mali",2007,5
+"Mali",2008,5
+"Mali",2009,5
+"Mali",2010,5
+"Mali",2011,6
+"Malta",1981,NA
+"Malta",1982,NA
+"Malta",1983,NA
+"Malta",1984,NA
+"Malta",1985,NA
+"Malta",1986,NA
+"Malta",1987,NA
+"Malta",1988,NA
+"Malta",1989,NA
+"Malta",1990,NA
+"Malta",1991,NA
+"Malta",1992,NA
+"Malta",1993,NA
+"Malta",1994,NA
+"Malta",1995,NA
+"Malta",1996,NA
+"Malta",1997,NA
+"Malta",1998,NA
+"Malta",1999,NA
+"Malta",2000,NA
+"Malta",2001,8
+"Malta",2002,NA
+"Malta",2003,8
+"Malta",2004,8
+"Malta",2005,8
+"Malta",2006,8
+"Malta",2007,8
+"Malta",2008,7
+"Malta",2009,7
+"Malta",2010,7
+"Malta",2011,7
+"Marshall Islands",1981,NA
+"Marshall Islands",1982,NA
+"Marshall Islands",1983,NA
+"Marshall Islands",1984,NA
+"Marshall Islands",1985,NA
+"Marshall Islands",1986,NA
+"Marshall Islands",1987,NA
+"Marshall Islands",1988,NA
+"Marshall Islands",1989,NA
+"Marshall Islands",1990,NA
+"Marshall Islands",1991,NA
+"Marshall Islands",1992,NA
+"Marshall Islands",1993,NA
+"Marshall Islands",1994,NA
+"Marshall Islands",1995,NA
+"Marshall Islands",1996,NA
+"Marshall Islands",1997,NA
+"Marshall Islands",1998,NA
+"Marshall Islands",1999,NA
+"Marshall Islands",2000,NA
+"Marshall Islands",2001,8
+"Marshall Islands",2002,NA
+"Marshall Islands",2003,8
+"Marshall Islands",2004,8
+"Marshall Islands",2005,8
+"Marshall Islands",2006,8
+"Marshall Islands",2007,8
+"Marshall Islands",2008,8
+"Marshall Islands",2009,8
+"Marshall Islands",2010,7
+"Marshall Islands",2011,8
+"Mauritania",1981,5
+"Mauritania",1982,7
+"Mauritania",1983,7
+"Mauritania",1984,6
+"Mauritania",1985,7
+"Mauritania",1986,6
+"Mauritania",1987,4
+"Mauritania",1988,5
+"Mauritania",1989,4
+"Mauritania",1990,0
+"Mauritania",1991,0
+"Mauritania",1992,3
+"Mauritania",1993,4
+"Mauritania",1994,5
+"Mauritania",1995,5
+"Mauritania",1996,7
+"Mauritania",1997,5
+"Mauritania",1998,6
+"Mauritania",1999,5
+"Mauritania",2000,6
+"Mauritania",2001,6
+"Mauritania",2002,6
+"Mauritania",2003,4
+"Mauritania",2004,6
+"Mauritania",2005,3
+"Mauritania",2006,6
+"Mauritania",2007,4
+"Mauritania",2008,5
+"Mauritania",2009,5
+"Mauritania",2010,5
+"Mauritania",2011,2
+"Mauritius",1981,8
+"Mauritius",1982,8
+"Mauritius",1983,8
+"Mauritius",1984,8
+"Mauritius",1985,8
+"Mauritius",1986,8
+"Mauritius",1987,8
+"Mauritius",1988,8
+"Mauritius",1989,7
+"Mauritius",1990,7
+"Mauritius",1991,7
+"Mauritius",1992,8
+"Mauritius",1993,6
+"Mauritius",1994,6
+"Mauritius",1995,7
+"Mauritius",1996,7
+"Mauritius",1997,7
+"Mauritius",1998,7
+"Mauritius",1999,5
+"Mauritius",2000,6
+"Mauritius",2001,5
+"Mauritius",2002,6
+"Mauritius",2003,7
+"Mauritius",2004,7
+"Mauritius",2005,7
+"Mauritius",2006,5
+"Mauritius",2007,6
+"Mauritius",2008,6
+"Mauritius",2009,6
+"Mauritius",2010,6
+"Mauritius",2011,7
+"Mexico",1981,1
+"Mexico",1982,4
+"Mexico",1983,3
+"Mexico",1984,1
+"Mexico",1985,1
+"Mexico",1986,3
+"Mexico",1987,1
+"Mexico",1988,3
+"Mexico",1989,1
+"Mexico",1990,0
+"Mexico",1991,1
+"Mexico",1992,3
+"Mexico",1993,3
+"Mexico",1994,1
+"Mexico",1995,2
+"Mexico",1996,1
+"Mexico",1997,2
+"Mexico",1998,3
+"Mexico",1999,3
+"Mexico",2000,2
+"Mexico",2001,2
+"Mexico",2002,2
+"Mexico",2003,3
+"Mexico",2004,3
+"Mexico",2005,3
+"Mexico",2006,1
+"Mexico",2007,2
+"Mexico",2008,2
+"Mexico",2009,3
+"Mexico",2010,3
+"Mexico",2011,2
+"Micronesia, Federated States of",1981,NA
+"Micronesia, Federated States of",1982,NA
+"Micronesia, Federated States of",1983,NA
+"Micronesia, Federated States of",1984,NA
+"Micronesia, Federated States of",1985,NA
+"Micronesia, Federated States of",1986,NA
+"Micronesia, Federated States of",1987,NA
+"Micronesia, Federated States of",1988,NA
+"Micronesia, Federated States of",1989,NA
+"Micronesia, Federated States of",1990,NA
+"Micronesia, Federated States of",1991,NA
+"Micronesia, Federated States of",1992,NA
+"Micronesia, Federated States of",1993,NA
+"Micronesia, Federated States of",1994,NA
+"Micronesia, Federated States of",1995,NA
+"Micronesia, Federated States of",1996,NA
+"Micronesia, Federated States of",1997,NA
+"Micronesia, Federated States of",1998,NA
+"Micronesia, Federated States of",1999,NA
+"Micronesia, Federated States of",2000,NA
+"Micronesia, Federated States of",2001,8
+"Micronesia, Federated States of",2002,NA
+"Micronesia, Federated States of",2003,7
+"Micronesia, Federated States of",2004,7
+"Micronesia, Federated States of",2005,7
+"Micronesia, Federated States of",2006,7
+"Micronesia, Federated States of",2007,7
+"Micronesia, Federated States of",2008,7
+"Micronesia, Federated States of",2009,7
+"Micronesia, Federated States of",2010,8
+"Micronesia, Federated States of",2011,7
+"Moldova",1981,NA
+"Moldova",1982,NA
+"Moldova",1983,NA
+"Moldova",1984,NA
+"Moldova",1985,NA
+"Moldova",1986,NA
+"Moldova",1987,NA
+"Moldova",1988,NA
+"Moldova",1989,NA
+"Moldova",1990,NA
+"Moldova",1991,NA
+"Moldova",1992,4
+"Moldova",1993,6
+"Moldova",1994,5
+"Moldova",1995,6
+"Moldova",1996,7
+"Moldova",1997,6
+"Moldova",1998,7
+"Moldova",1999,6
+"Moldova",2000,5
+"Moldova",2001,6
+"Moldova",2002,6
+"Moldova",2003,5
+"Moldova",2004,5
+"Moldova",2005,5
+"Moldova",2006,5
+"Moldova",2007,6
+"Moldova",2008,5
+"Moldova",2009,4
+"Moldova",2010,5
+"Moldova",2011,5
+"Monaco",1981,NA
+"Monaco",1982,NA
+"Monaco",1983,NA
+"Monaco",1984,NA
+"Monaco",1985,NA
+"Monaco",1986,NA
+"Monaco",1987,NA
+"Monaco",1988,NA
+"Monaco",1989,NA
+"Monaco",1990,NA
+"Monaco",1991,NA
+"Monaco",1992,NA
+"Monaco",1993,NA
+"Monaco",1994,NA
+"Monaco",1995,NA
+"Monaco",1996,NA
+"Monaco",1997,NA
+"Monaco",1998,NA
+"Monaco",1999,NA
+"Monaco",2000,NA
+"Monaco",2001,8
+"Monaco",2002,NA
+"Monaco",2003,8
+"Monaco",2004,8
+"Monaco",2005,8
+"Monaco",2006,8
+"Monaco",2007,8
+"Monaco",2008,8
+"Monaco",2009,8
+"Monaco",2010,8
+"Monaco",2011,8
+"Mongolia",1981,NA
+"Mongolia",1982,NA
+"Mongolia",1983,NA
+"Mongolia",1984,NA
+"Mongolia",1985,NA
+"Mongolia",1986,NA
+"Mongolia",1987,NA
+"Mongolia",1988,NA
+"Mongolia",1989,NA
+"Mongolia",1990,8
+"Mongolia",1991,8
+"Mongolia",1992,8
+"Mongolia",1993,7
+"Mongolia",1994,7
+"Mongolia",1995,6
+"Mongolia",1996,7
+"Mongolia",1997,7
+"Mongolia",1998,6
+"Mongolia",1999,7
+"Mongolia",2000,6
+"Mongolia",2001,7
+"Mongolia",2002,7
+"Mongolia",2003,6
+"Mongolia",2004,5
+"Mongolia",2005,6
+"Mongolia",2006,4
+"Mongolia",2007,4
+"Mongolia",2008,4
+"Mongolia",2009,6
+"Mongolia",2010,6
+"Mongolia",2011,6
+"Montenegro",1981,NA
+"Montenegro",1982,NA
+"Montenegro",1983,NA
+"Montenegro",1984,NA
+"Montenegro",1985,NA
+"Montenegro",1986,NA
+"Montenegro",1987,NA
+"Montenegro",1988,NA
+"Montenegro",1989,NA
+"Montenegro",1990,NA
+"Montenegro",1991,NA
+"Montenegro",1992,NA
+"Montenegro",1993,NA
+"Montenegro",1994,NA
+"Montenegro",1995,NA
+"Montenegro",1996,NA
+"Montenegro",1997,NA
+"Montenegro",1998,NA
+"Montenegro",1999,NA
+"Montenegro",2000,NA
+"Montenegro",2001,NA
+"Montenegro",2002,NA
+"Montenegro",2003,NA
+"Montenegro",2004,NA
+"Montenegro",2005,NA
+"Montenegro",2006,6
+"Montenegro",2007,6
+"Montenegro",2008,7
+"Montenegro",2009,7
+"Montenegro",2010,7
+"Montenegro",2011,7
+"Morocco",1981,5
+"Morocco",1982,5
+"Morocco",1983,4
+"Morocco",1984,4
+"Morocco",1985,4
+"Morocco",1986,2
+"Morocco",1987,5
+"Morocco",1988,5
+"Morocco",1989,4
+"Morocco",1990,1
+"Morocco",1991,4
+"Morocco",1992,4
+"Morocco",1993,3
+"Morocco",1994,4
+"Morocco",1995,4
+"Morocco",1996,3
+"Morocco",1997,3
+"Morocco",1998,6
+"Morocco",1999,4
+"Morocco",2000,4
+"Morocco",2001,5
+"Morocco",2002,4
+"Morocco",2003,4
+"Morocco",2004,4
+"Morocco",2005,3
+"Morocco",2006,4
+"Morocco",2007,4
+"Morocco",2008,4
+"Morocco",2009,5
+"Morocco",2010,4
+"Morocco",2011,3
+"Mozambique",1981,4
+"Mozambique",1982,1
+"Mozambique",1983,3
+"Mozambique",1984,2
+"Mozambique",1985,1
+"Mozambique",1986,2
+"Mozambique",1987,2
+"Mozambique",1988,3
+"Mozambique",1989,2
+"Mozambique",1990,4
+"Mozambique",1991,3
+"Mozambique",1992,2
+"Mozambique",1993,6
+"Mozambique",1994,3
+"Mozambique",1995,5
+"Mozambique",1996,4
+"Mozambique",1997,3
+"Mozambique",1998,4
+"Mozambique",1999,3
+"Mozambique",2000,2
+"Mozambique",2001,5
+"Mozambique",2002,4
+"Mozambique",2003,5
+"Mozambique",2004,4
+"Mozambique",2005,5
+"Mozambique",2006,5
+"Mozambique",2007,4
+"Mozambique",2008,5
+"Mozambique",2009,5
+"Mozambique",2010,5
+"Mozambique",2011,5
+"Namibia",1981,0
+"Namibia",1982,0
+"Namibia",1983,0
+"Namibia",1984,2
+"Namibia",1985,2
+"Namibia",1986,4
+"Namibia",1987,2
+"Namibia",1988,3
+"Namibia",1989,2
+"Namibia",1990,6
+"Namibia",1991,7
+"Namibia",1992,6
+"Namibia",1993,7
+"Namibia",1994,7
+"Namibia",1995,5
+"Namibia",1996,7
+"Namibia",1997,6
+"Namibia",1998,6
+"Namibia",1999,3
+"Namibia",2000,5
+"Namibia",2001,5
+"Namibia",2002,4
+"Namibia",2003,6
+"Namibia",2004,6
+"Namibia",2005,6
+"Namibia",2006,5
+"Namibia",2007,6
+"Namibia",2008,6
+"Namibia",2009,7
+"Namibia",2010,6
+"Namibia",2011,4
+"Nauru",1981,NA
+"Nauru",1982,NA
+"Nauru",1983,NA
+"Nauru",1984,NA
+"Nauru",1985,NA
+"Nauru",1986,NA
+"Nauru",1987,NA
+"Nauru",1988,NA
+"Nauru",1989,NA
+"Nauru",1990,NA
+"Nauru",1991,NA
+"Nauru",1992,NA
+"Nauru",1993,NA
+"Nauru",1994,NA
+"Nauru",1995,NA
+"Nauru",1996,NA
+"Nauru",1997,NA
+"Nauru",1998,NA
+"Nauru",1999,NA
+"Nauru",2000,NA
+"Nauru",2001,8
+"Nauru",2002,NA
+"Nauru",2003,8
+"Nauru",2004,8
+"Nauru",2005,8
+"Nauru",2006,8
+"Nauru",2007,8
+"Nauru",2008,8
+"Nauru",2009,8
+"Nauru",2010,8
+"Nauru",2011,8
+"Nepal",1981,4
+"Nepal",1982,5
+"Nepal",1983,6
+"Nepal",1984,6
+"Nepal",1985,6
+"Nepal",1986,7
+"Nepal",1987,5
+"Nepal",1988,5
+"Nepal",1989,4
+"Nepal",1990,3
+"Nepal",1991,3
+"Nepal",1992,4
+"Nepal",1993,3
+"Nepal",1994,6
+"Nepal",1995,5
+"Nepal",1996,6
+"Nepal",1997,3
+"Nepal",1998,1
+"Nepal",1999,2
+"Nepal",2000,1
+"Nepal",2001,1
+"Nepal",2002,0
+"Nepal",2003,1
+"Nepal",2004,0
+"Nepal",2005,0
+"Nepal",2006,0
+"Nepal",2007,3
+"Nepal",2008,2
+"Nepal",2009,3
+"Nepal",2010,2
+"Nepal",2011,4
+"Netherlands",1981,8
+"Netherlands",1982,8
+"Netherlands",1983,8
+"Netherlands",1984,8
+"Netherlands",1985,8
+"Netherlands",1986,8
+"Netherlands",1987,8
+"Netherlands",1988,8
+"Netherlands",1989,8
+"Netherlands",1990,8
+"Netherlands",1991,8
+"Netherlands",1992,8
+"Netherlands",1993,8
+"Netherlands",1994,8
+"Netherlands",1995,8
+"Netherlands",1996,8
+"Netherlands",1997,8
+"Netherlands",1998,8
+"Netherlands",1999,8
+"Netherlands",2000,8
+"Netherlands",2001,8
+"Netherlands",2002,8
+"Netherlands",2003,8
+"Netherlands",2004,8
+"Netherlands",2005,8
+"Netherlands",2006,8
+"Netherlands",2007,8
+"Netherlands",2008,7
+"Netherlands",2009,7
+"Netherlands",2010,7
+"Netherlands",2011,8
+"New Zealand",1981,8
+"New Zealand",1982,8
+"New Zealand",1983,8
+"New Zealand",1984,8
+"New Zealand",1985,8
+"New Zealand",1986,8
+"New Zealand",1987,8
+"New Zealand",1988,8
+"New Zealand",1989,8
+"New Zealand",1990,8
+"New Zealand",1991,8
+"New Zealand",1992,8
+"New Zealand",1993,8
+"New Zealand",1994,8
+"New Zealand",1995,8
+"New Zealand",1996,8
+"New Zealand",1997,8
+"New Zealand",1998,8
+"New Zealand",1999,8
+"New Zealand",2000,8
+"New Zealand",2001,8
+"New Zealand",2002,7
+"New Zealand",2003,7
+"New Zealand",2004,7
+"New Zealand",2005,7
+"New Zealand",2006,7
+"New Zealand",2007,7
+"New Zealand",2008,8
+"New Zealand",2009,8
+"New Zealand",2010,8
+"New Zealand",2011,8
+"Nicaragua",1981,3
+"Nicaragua",1982,0
+"Nicaragua",1983,0
+"Nicaragua",1984,3
+"Nicaragua",1985,0
+"Nicaragua",1986,1
+"Nicaragua",1987,3
+"Nicaragua",1988,2
+"Nicaragua",1989,1
+"Nicaragua",1990,2
+"Nicaragua",1991,3
+"Nicaragua",1992,4
+"Nicaragua",1993,5
+"Nicaragua",1994,5
+"Nicaragua",1995,5
+"Nicaragua",1996,5
+"Nicaragua",1997,6
+"Nicaragua",1998,5
+"Nicaragua",1999,5
+"Nicaragua",2000,5
+"Nicaragua",2001,5
+"Nicaragua",2002,5
+"Nicaragua",2003,5
+"Nicaragua",2004,5
+"Nicaragua",2005,5
+"Nicaragua",2006,5
+"Nicaragua",2007,6
+"Nicaragua",2008,5
+"Nicaragua",2009,5
+"Nicaragua",2010,4
+"Nicaragua",2011,4
+"Niger",1981,7
+"Niger",1982,7
+"Niger",1983,8
+"Niger",1984,7
+"Niger",1985,6
+"Niger",1986,7
+"Niger",1987,6
+"Niger",1988,7
+"Niger",1989,7
+"Niger",1990,3
+"Niger",1991,7
+"Niger",1992,5
+"Niger",1993,6
+"Niger",1994,5
+"Niger",1995,6
+"Niger",1996,6
+"Niger",1997,4
+"Niger",1998,4
+"Niger",1999,6
+"Niger",2000,6
+"Niger",2001,7
+"Niger",2002,7
+"Niger",2003,6
+"Niger",2004,6
+"Niger",2005,6
+"Niger",2006,5
+"Niger",2007,5
+"Niger",2008,4
+"Niger",2009,5
+"Niger",2010,5
+"Niger",2011,5
+"Nigeria",1981,6
+"Nigeria",1982,5
+"Nigeria",1983,5
+"Nigeria",1984,6
+"Nigeria",1985,5
+"Nigeria",1986,6
+"Nigeria",1987,7
+"Nigeria",1988,5
+"Nigeria",1989,4
+"Nigeria",1990,2
+"Nigeria",1991,3
+"Nigeria",1992,4
+"Nigeria",1993,2
+"Nigeria",1994,2
+"Nigeria",1995,4
+"Nigeria",1996,3
+"Nigeria",1997,2
+"Nigeria",1998,4
+"Nigeria",1999,2
+"Nigeria",2000,1
+"Nigeria",2001,2
+"Nigeria",2002,3
+"Nigeria",2003,2
+"Nigeria",2004,1
+"Nigeria",2005,2
+"Nigeria",2006,2
+"Nigeria",2007,2
+"Nigeria",2008,2
+"Nigeria",2009,1
+"Nigeria",2010,0
+"Nigeria",2011,0
+"Norway",1981,8
+"Norway",1982,8
+"Norway",1983,8
+"Norway",1984,8
+"Norway",1985,8
+"Norway",1986,8
+"Norway",1987,8
+"Norway",1988,8
+"Norway",1989,8
+"Norway",1990,7
+"Norway",1991,8
+"Norway",1992,8
+"Norway",1993,8
+"Norway",1994,8
+"Norway",1995,8
+"Norway",1996,8
+"Norway",1997,8
+"Norway",1998,8
+"Norway",1999,8
+"Norway",2000,8
+"Norway",2001,8
+"Norway",2002,8
+"Norway",2003,8
+"Norway",2004,8
+"Norway",2005,8
+"Norway",2006,8
+"Norway",2007,8
+"Norway",2008,7
+"Norway",2009,8
+"Norway",2010,8
+"Norway",2011,8
+"Oman",1981,7
+"Oman",1982,7
+"Oman",1983,8
+"Oman",1984,8
+"Oman",1985,7
+"Oman",1986,8
+"Oman",1987,7
+"Oman",1988,8
+"Oman",1989,7
+"Oman",1990,7
+"Oman",1991,7
+"Oman",1992,8
+"Oman",1993,7
+"Oman",1994,5
+"Oman",1995,6
+"Oman",1996,7
+"Oman",1997,7
+"Oman",1998,7
+"Oman",1999,7
+"Oman",2000,6
+"Oman",2001,8
+"Oman",2002,8
+"Oman",2003,8
+"Oman",2004,8
+"Oman",2005,5
+"Oman",2006,7
+"Oman",2007,8
+"Oman",2008,7
+"Oman",2009,7
+"Oman",2010,7
+"Oman",2011,3
+"Pakistan",1981,1
+"Pakistan",1982,4
+"Pakistan",1983,4
+"Pakistan",1984,1
+"Pakistan",1985,4
+"Pakistan",1986,4
+"Pakistan",1987,4
+"Pakistan",1988,5
+"Pakistan",1989,3
+"Pakistan",1990,2
+"Pakistan",1991,3
+"Pakistan",1992,3
+"Pakistan",1993,2
+"Pakistan",1994,3
+"Pakistan",1995,1
+"Pakistan",1996,2
+"Pakistan",1997,2
+"Pakistan",1998,3
+"Pakistan",1999,2
+"Pakistan",2000,1
+"Pakistan",2001,1
+"Pakistan",2002,2
+"Pakistan",2003,1
+"Pakistan",2004,1
+"Pakistan",2005,1
+"Pakistan",2006,0
+"Pakistan",2007,0
+"Pakistan",2008,0
+"Pakistan",2009,0
+"Pakistan",2010,0
+"Pakistan",2011,0
+"Palau",1981,NA
+"Palau",1982,NA
+"Palau",1983,NA
+"Palau",1984,NA
+"Palau",1985,NA
+"Palau",1986,NA
+"Palau",1987,NA
+"Palau",1988,NA
+"Palau",1989,NA
+"Palau",1990,NA
+"Palau",1991,NA
+"Palau",1992,NA
+"Palau",1993,NA
+"Palau",1994,NA
+"Palau",1995,NA
+"Palau",1996,NA
+"Palau",1997,NA
+"Palau",1998,NA
+"Palau",1999,NA
+"Palau",2000,NA
+"Palau",2001,8
+"Palau",2002,NA
+"Palau",2003,8
+"Palau",2004,8
+"Palau",2005,8
+"Palau",2006,8
+"Palau",2007,8
+"Palau",2008,8
+"Palau",2009,8
+"Palau",2010,8
+"Palau",2011,8
+"Panama",1981,6
+"Panama",1982,5
+"Panama",1983,5
+"Panama",1984,5
+"Panama",1985,5
+"Panama",1986,7
+"Panama",1987,4
+"Panama",1988,3
+"Panama",1989,1
+"Panama",1990,4
+"Panama",1991,6
+"Panama",1992,4
+"Panama",1993,6
+"Panama",1994,6
+"Panama",1995,4
+"Panama",1996,7
+"Panama",1997,7
+"Panama",1998,8
+"Panama",1999,6
+"Panama",2000,6
+"Panama",2001,7
+"Panama",2002,8
+"Panama",2003,7
+"Panama",2004,7
+"Panama",2005,6
+"Panama",2006,7
+"Panama",2007,7
+"Panama",2008,7
+"Panama",2009,7
+"Panama",2010,3
+"Panama",2011,7
+"Papua New Guinea",1981,8
+"Papua New Guinea",1982,NA
+"Papua New Guinea",1983,8
+"Papua New Guinea",1984,8
+"Papua New Guinea",1985,8
+"Papua New Guinea",1986,8
+"Papua New Guinea",1987,8
+"Papua New Guinea",1988,7
+"Papua New Guinea",1989,5
+"Papua New Guinea",1990,3
+"Papua New Guinea",1991,2
+"Papua New Guinea",1992,3
+"Papua New Guinea",1993,2
+"Papua New Guinea",1994,5
+"Papua New Guinea",1995,5
+"Papua New Guinea",1996,2
+"Papua New Guinea",1997,4
+"Papua New Guinea",1998,6
+"Papua New Guinea",1999,5
+"Papua New Guinea",2000,6
+"Papua New Guinea",2001,5
+"Papua New Guinea",2002,5
+"Papua New Guinea",2003,5
+"Papua New Guinea",2004,5
+"Papua New Guinea",2005,5
+"Papua New Guinea",2006,5
+"Papua New Guinea",2007,5
+"Papua New Guinea",2008,5
+"Papua New Guinea",2009,5
+"Papua New Guinea",2010,5
+"Papua New Guinea",2011,6
+"Paraguay",1981,3
+"Paraguay",1982,5
+"Paraguay",1983,5
+"Paraguay",1984,3
+"Paraguay",1985,4
+"Paraguay",1986,3
+"Paraguay",1987,3
+"Paraguay",1988,6
+"Paraguay",1989,7
+"Paraguay",1990,4
+"Paraguay",1991,5
+"Paraguay",1992,7
+"Paraguay",1993,4
+"Paraguay",1994,7
+"Paraguay",1995,6
+"Paraguay",1996,7
+"Paraguay",1997,7
+"Paraguay",1998,4
+"Paraguay",1999,5
+"Paraguay",2000,4
+"Paraguay",2001,5
+"Paraguay",2002,4
+"Paraguay",2003,6
+"Paraguay",2004,5
+"Paraguay",2005,6
+"Paraguay",2006,4
+"Paraguay",2007,5
+"Paraguay",2008,5
+"Paraguay",2009,6
+"Paraguay",2010,7
+"Paraguay",2011,6
+"Peru",1981,4
+"Peru",1982,3
+"Peru",1983,1
+"Peru",1984,0
+"Peru",1985,1
+"Peru",1986,2
+"Peru",1987,0
+"Peru",1988,0
+"Peru",1989,0
+"Peru",1990,1
+"Peru",1991,2
+"Peru",1992,1
+"Peru",1993,2
+"Peru",1994,1
+"Peru",1995,3
+"Peru",1996,1
+"Peru",1997,4
+"Peru",1998,4
+"Peru",1999,2
+"Peru",2000,4
+"Peru",2001,3
+"Peru",2002,3
+"Peru",2003,3
+"Peru",2004,3
+"Peru",2005,5
+"Peru",2006,5
+"Peru",2007,6
+"Peru",2008,5
+"Peru",2009,5
+"Peru",2010,5
+"Peru",2011,5
+"Philippines",1981,1
+"Philippines",1982,1
+"Philippines",1983,0
+"Philippines",1984,1
+"Philippines",1985,1
+"Philippines",1986,3
+"Philippines",1987,0
+"Philippines",1988,0
+"Philippines",1989,0
+"Philippines",1990,3
+"Philippines",1991,3
+"Philippines",1992,2
+"Philippines",1993,4
+"Philippines",1994,3
+"Philippines",1995,1
+"Philippines",1996,2
+"Philippines",1997,2
+"Philippines",1998,3
+"Philippines",1999,2
+"Philippines",2000,0
+"Philippines",2001,2
+"Philippines",2002,2
+"Philippines",2003,2
+"Philippines",2004,1
+"Philippines",2005,1
+"Philippines",2006,0
+"Philippines",2007,1
+"Philippines",2008,1
+"Philippines",2009,1
+"Philippines",2010,1
+"Philippines",2011,1
+"Poland",1981,6
+"Poland",1982,4
+"Poland",1983,4
+"Poland",1984,4
+"Poland",1985,3
+"Poland",1986,4
+"Poland",1987,4
+"Poland",1988,4
+"Poland",1989,5
+"Poland",1990,6
+"Poland",1991,6
+"Poland",1992,6
+"Poland",1993,7
+"Poland",1994,8
+"Poland",1995,7
+"Poland",1996,7
+"Poland",1997,8
+"Poland",1998,7
+"Poland",1999,8
+"Poland",2000,6
+"Poland",2001,7
+"Poland",2002,8
+"Poland",2003,7
+"Poland",2004,6
+"Poland",2005,7
+"Poland",2006,7
+"Poland",2007,7
+"Poland",2008,7
+"Poland",2009,6
+"Poland",2010,7
+"Poland",2011,6
+"Portugal",1981,8
+"Portugal",1982,8
+"Portugal",1983,8
+"Portugal",1984,8
+"Portugal",1985,8
+"Portugal",1986,8
+"Portugal",1987,8
+"Portugal",1988,8
+"Portugal",1989,7
+"Portugal",1990,8
+"Portugal",1991,7
+"Portugal",1992,7
+"Portugal",1993,7
+"Portugal",1994,7
+"Portugal",1995,6
+"Portugal",1996,7
+"Portugal",1997,7
+"Portugal",1998,7
+"Portugal",1999,7
+"Portugal",2000,6
+"Portugal",2001,7
+"Portugal",2002,7
+"Portugal",2003,7
+"Portugal",2004,7
+"Portugal",2005,7
+"Portugal",2006,7
+"Portugal",2007,7
+"Portugal",2008,7
+"Portugal",2009,7
+"Portugal",2010,6
+"Portugal",2011,7
+"Qatar",1981,NA
+"Qatar",1982,NA
+"Qatar",1983,NA
+"Qatar",1984,NA
+"Qatar",1985,NA
+"Qatar",1986,NA
+"Qatar",1987,NA
+"Qatar",1988,NA
+"Qatar",1989,NA
+"Qatar",1990,NA
+"Qatar",1991,NA
+"Qatar",1992,NA
+"Qatar",1993,NA
+"Qatar",1994,NA
+"Qatar",1995,NA
+"Qatar",1996,NA
+"Qatar",1997,NA
+"Qatar",1998,NA
+"Qatar",1999,NA
+"Qatar",2000,NA
+"Qatar",2001,7
+"Qatar",2002,NA
+"Qatar",2003,8
+"Qatar",2004,8
+"Qatar",2005,7
+"Qatar",2006,6
+"Qatar",2007,5
+"Qatar",2008,8
+"Qatar",2009,8
+"Qatar",2010,8
+"Qatar",2011,6
+"Romania",1981,4
+"Romania",1982,4
+"Romania",1983,4
+"Romania",1984,3
+"Romania",1985,3
+"Romania",1986,3
+"Romania",1987,4
+"Romania",1988,6
+"Romania",1989,5
+"Romania",1990,4
+"Romania",1991,5
+"Romania",1992,6
+"Romania",1993,7
+"Romania",1994,6
+"Romania",1995,6
+"Romania",1996,7
+"Romania",1997,6
+"Romania",1998,7
+"Romania",1999,6
+"Romania",2000,5
+"Romania",2001,6
+"Romania",2002,6
+"Romania",2003,6
+"Romania",2004,5
+"Romania",2005,6
+"Romania",2006,5
+"Romania",2007,5
+"Romania",2008,5
+"Romania",2009,5
+"Romania",2010,5
+"Romania",2011,6
+"Russia",1981,NA
+"Russia",1982,NA
+"Russia",1983,NA
+"Russia",1984,NA
+"Russia",1985,NA
+"Russia",1986,NA
+"Russia",1987,NA
+"Russia",1988,NA
+"Russia",1989,NA
+"Russia",1990,NA
+"Russia",1991,NA
+"Russia",1992,3
+"Russia",1993,4
+"Russia",1994,5
+"Russia",1995,1
+"Russia",1996,3
+"Russia",1997,3
+"Russia",1998,3
+"Russia",1999,3
+"Russia",2000,2
+"Russia",2001,1
+"Russia",2002,4
+"Russia",2003,2
+"Russia",2004,1
+"Russia",2005,2
+"Russia",2006,2
+"Russia",2007,1
+"Russia",2008,3
+"Russia",2009,1
+"Russia",2010,1
+"Russia",2011,0
+"Rwanda",1981,8
+"Rwanda",1982,7
+"Rwanda",1983,7
+"Rwanda",1984,8
+"Rwanda",1985,6
+"Rwanda",1986,5
+"Rwanda",1987,6
+"Rwanda",1988,7
+"Rwanda",1989,6
+"Rwanda",1990,3
+"Rwanda",1991,1
+"Rwanda",1992,2
+"Rwanda",1993,1
+"Rwanda",1994,0
+"Rwanda",1995,0
+"Rwanda",1996,1
+"Rwanda",1997,0
+"Rwanda",1998,2
+"Rwanda",1999,3
+"Rwanda",2000,2
+"Rwanda",2001,3
+"Rwanda",2002,3
+"Rwanda",2003,2
+"Rwanda",2004,2
+"Rwanda",2005,4
+"Rwanda",2006,4
+"Rwanda",2007,5
+"Rwanda",2008,4
+"Rwanda",2009,3
+"Rwanda",2010,2
+"Rwanda",2011,2
+"Saint Kitts and Nevis",1981,NA
+"Saint Kitts and Nevis",1982,NA
+"Saint Kitts and Nevis",1983,NA
+"Saint Kitts and Nevis",1984,NA
+"Saint Kitts and Nevis",1985,NA
+"Saint Kitts and Nevis",1986,NA
+"Saint Kitts and Nevis",1987,NA
+"Saint Kitts and Nevis",1988,NA
+"Saint Kitts and Nevis",1989,NA
+"Saint Kitts and Nevis",1990,NA
+"Saint Kitts and Nevis",1991,NA
+"Saint Kitts and Nevis",1992,NA
+"Saint Kitts and Nevis",1993,NA
+"Saint Kitts and Nevis",1994,NA
+"Saint Kitts and Nevis",1995,NA
+"Saint Kitts and Nevis",1996,NA
+"Saint Kitts and Nevis",1997,NA
+"Saint Kitts and Nevis",1998,NA
+"Saint Kitts and Nevis",1999,NA
+"Saint Kitts and Nevis",2000,NA
+"Saint Kitts and Nevis",2001,7
+"Saint Kitts and Nevis",2002,NA
+"Saint Kitts and Nevis",2003,8
+"Saint Kitts and Nevis",2004,8
+"Saint Kitts and Nevis",2005,8
+"Saint Kitts and Nevis",2006,8
+"Saint Kitts and Nevis",2007,7
+"Saint Kitts and Nevis",2008,8
+"Saint Kitts and Nevis",2009,8
+"Saint Kitts and Nevis",2010,8
+"Saint Kitts and Nevis",2011,7
+"Saint Lucia",1981,NA
+"Saint Lucia",1982,NA
+"Saint Lucia",1983,NA
+"Saint Lucia",1984,NA
+"Saint Lucia",1985,NA
+"Saint Lucia",1986,NA
+"Saint Lucia",1987,NA
+"Saint Lucia",1988,NA
+"Saint Lucia",1989,NA
+"Saint Lucia",1990,NA
+"Saint Lucia",1991,NA
+"Saint Lucia",1992,NA
+"Saint Lucia",1993,NA
+"Saint Lucia",1994,NA
+"Saint Lucia",1995,NA
+"Saint Lucia",1996,NA
+"Saint Lucia",1997,NA
+"Saint Lucia",1998,NA
+"Saint Lucia",1999,NA
+"Saint Lucia",2000,NA
+"Saint Lucia",2001,6
+"Saint Lucia",2002,NA
+"Saint Lucia",2003,8
+"Saint Lucia",2004,7
+"Saint Lucia",2005,6
+"Saint Lucia",2006,5
+"Saint Lucia",2007,5
+"Saint Lucia",2008,5
+"Saint Lucia",2009,5
+"Saint Lucia",2010,6
+"Saint Lucia",2011,6
+"Saint Vincent and the Grenadines",1981,NA
+"Saint Vincent and the Grenadines",1982,NA
+"Saint Vincent and the Grenadines",1983,NA
+"Saint Vincent and the Grenadines",1984,NA
+"Saint Vincent and the Grenadines",1985,NA
+"Saint Vincent and the Grenadines",1986,NA
+"Saint Vincent and the Grenadines",1987,NA
+"Saint Vincent and the Grenadines",1988,NA
+"Saint Vincent and the Grenadines",1989,NA
+"Saint Vincent and the Grenadines",1990,NA
+"Saint Vincent and the Grenadines",1991,NA
+"Saint Vincent and the Grenadines",1992,NA
+"Saint Vincent and the Grenadines",1993,NA
+"Saint Vincent and the Grenadines",1994,NA
+"Saint Vincent and the Grenadines",1995,NA
+"Saint Vincent and the Grenadines",1996,NA
+"Saint Vincent and the Grenadines",1997,NA
+"Saint Vincent and the Grenadines",1998,NA
+"Saint Vincent and the Grenadines",1999,NA
+"Saint Vincent and the Grenadines",2000,NA
+"Saint Vincent and the Grenadines",2001,6
+"Saint Vincent and the Grenadines",2002,NA
+"Saint Vincent and the Grenadines",2003,7
+"Saint Vincent and the Grenadines",2004,5
+"Saint Vincent and the Grenadines",2005,5
+"Saint Vincent and the Grenadines",2006,7
+"Saint Vincent and the Grenadines",2007,7
+"Saint Vincent and the Grenadines",2008,7
+"Saint Vincent and the Grenadines",2009,5
+"Saint Vincent and the Grenadines",2010,6
+"Saint Vincent and the Grenadines",2011,6
+"Samoa",1981,NA
+"Samoa",1982,NA
+"Samoa",1983,NA
+"Samoa",1984,NA
+"Samoa",1985,NA
+"Samoa",1986,NA
+"Samoa",1987,NA
+"Samoa",1988,NA
+"Samoa",1989,NA
+"Samoa",1990,NA
+"Samoa",1991,NA
+"Samoa",1992,NA
+"Samoa",1993,NA
+"Samoa",1994,NA
+"Samoa",1995,NA
+"Samoa",1996,NA
+"Samoa",1997,NA
+"Samoa",1998,NA
+"Samoa",1999,NA
+"Samoa",2000,NA
+"Samoa",2001,8
+"Samoa",2002,NA
+"Samoa",2003,8
+"Samoa",2004,8
+"Samoa",2005,8
+"Samoa",2006,8
+"Samoa",2007,7
+"Samoa",2008,8
+"Samoa",2009,7
+"Samoa",2010,7
+"Samoa",2011,7
+"San Marino",1981,NA
+"San Marino",1982,NA
+"San Marino",1983,NA
+"San Marino",1984,NA
+"San Marino",1985,NA
+"San Marino",1986,NA
+"San Marino",1987,NA
+"San Marino",1988,NA
+"San Marino",1989,NA
+"San Marino",1990,NA
+"San Marino",1991,NA
+"San Marino",1992,NA
+"San Marino",1993,NA
+"San Marino",1994,NA
+"San Marino",1995,NA
+"San Marino",1996,NA
+"San Marino",1997,NA
+"San Marino",1998,NA
+"San Marino",1999,NA
+"San Marino",2000,NA
+"San Marino",2001,8
+"San Marino",2002,NA
+"San Marino",2003,8
+"San Marino",2004,8
+"San Marino",2005,8
+"San Marino",2006,8
+"San Marino",2007,8
+"San Marino",2008,8
+"San Marino",2009,8
+"San Marino",2010,8
+"San Marino",2011,8
+"Sao Tome and Principe",1981,NA
+"Sao Tome and Principe",1982,NA
+"Sao Tome and Principe",1983,NA
+"Sao Tome and Principe",1984,NA
+"Sao Tome and Principe",1985,NA
+"Sao Tome and Principe",1986,NA
+"Sao Tome and Principe",1987,NA
+"Sao Tome and Principe",1988,NA
+"Sao Tome and Principe",1989,NA
+"Sao Tome and Principe",1990,NA
+"Sao Tome and Principe",1991,NA
+"Sao Tome and Principe",1992,NA
+"Sao Tome and Principe",1993,NA
+"Sao Tome and Principe",1994,NA
+"Sao Tome and Principe",1995,NA
+"Sao Tome and Principe",1996,NA
+"Sao Tome and Principe",1997,NA
+"Sao Tome and Principe",1998,NA
+"Sao Tome and Principe",1999,NA
+"Sao Tome and Principe",2000,NA
+"Sao Tome and Principe",2001,8
+"Sao Tome and Principe",2002,NA
+"Sao Tome and Principe",2003,7
+"Sao Tome and Principe",2004,8
+"Sao Tome and Principe",2005,8
+"Sao Tome and Principe",2006,6
+"Sao Tome and Principe",2007,8
+"Sao Tome and Principe",2008,8
+"Sao Tome and Principe",2009,8
+"Sao Tome and Principe",2010,8
+"Sao Tome and Principe",2011,8
+"Saudi Arabia",1981,NA
+"Saudi Arabia",1982,4
+"Saudi Arabia",1983,4
+"Saudi Arabia",1984,4
+"Saudi Arabia",1985,4
+"Saudi Arabia",1986,4
+"Saudi Arabia",1987,4
+"Saudi Arabia",1988,5
+"Saudi Arabia",1989,3
+"Saudi Arabia",1990,4
+"Saudi Arabia",1991,5
+"Saudi Arabia",1992,4
+"Saudi Arabia",1993,4
+"Saudi Arabia",1994,4
+"Saudi Arabia",1995,4
+"Saudi Arabia",1996,3
+"Saudi Arabia",1997,4
+"Saudi Arabia",1998,5
+"Saudi Arabia",1999,5
+"Saudi Arabia",2000,5
+"Saudi Arabia",2001,5
+"Saudi Arabia",2002,5
+"Saudi Arabia",2003,5
+"Saudi Arabia",2004,4
+"Saudi Arabia",2005,5
+"Saudi Arabia",2006,4
+"Saudi Arabia",2007,3
+"Saudi Arabia",2008,3
+"Saudi Arabia",2009,2
+"Saudi Arabia",2010,3
+"Saudi Arabia",2011,1
+"Senegal",1981,8
+"Senegal",1982,7
+"Senegal",1983,7
+"Senegal",1984,6
+"Senegal",1985,4
+"Senegal",1986,4
+"Senegal",1987,4
+"Senegal",1988,5
+"Senegal",1989,5
+"Senegal",1990,3
+"Senegal",1991,5
+"Senegal",1992,2
+"Senegal",1993,3
+"Senegal",1994,2
+"Senegal",1995,2
+"Senegal",1996,4
+"Senegal",1997,2
+"Senegal",1998,1
+"Senegal",1999,2
+"Senegal",2000,4
+"Senegal",2001,4
+"Senegal",2002,5
+"Senegal",2003,6
+"Senegal",2004,6
+"Senegal",2005,5
+"Senegal",2006,5
+"Senegal",2007,5
+"Senegal",2008,5
+"Senegal",2009,5
+"Senegal",2010,4
+"Senegal",2011,4
+"Serbia",1981,NA
+"Serbia",1982,NA
+"Serbia",1983,NA
+"Serbia",1984,NA
+"Serbia",1985,NA
+"Serbia",1986,NA
+"Serbia",1987,NA
+"Serbia",1988,NA
+"Serbia",1989,NA
+"Serbia",1990,NA
+"Serbia",1991,NA
+"Serbia",1992,NA
+"Serbia",1993,NA
+"Serbia",1994,NA
+"Serbia",1995,NA
+"Serbia",1996,NA
+"Serbia",1997,NA
+"Serbia",1998,NA
+"Serbia",1999,NA
+"Serbia",2000,NA
+"Serbia",2001,NA
+"Serbia",2002,NA
+"Serbia",2003,NA
+"Serbia",2004,NA
+"Serbia",2005,NA
+"Serbia",2006,6
+"Serbia",2007,7
+"Serbia",2008,6
+"Serbia",2009,6
+"Serbia",2010,7
+"Serbia",2011,7
+"Serbia and Montenegro",1981,NA
+"Serbia and Montenegro",1982,NA
+"Serbia and Montenegro",1983,NA
+"Serbia and Montenegro",1984,NA
+"Serbia and Montenegro",1985,NA
+"Serbia and Montenegro",1986,NA
+"Serbia and Montenegro",1987,NA
+"Serbia and Montenegro",1988,NA
+"Serbia and Montenegro",1989,NA
+"Serbia and Montenegro",1990,NA
+"Serbia and Montenegro",1991,NA
+"Serbia and Montenegro",1992,1
+"Serbia and Montenegro",1993,1
+"Serbia and Montenegro",1994,4
+"Serbia and Montenegro",1995,1
+"Serbia and Montenegro",1996,4
+"Serbia and Montenegro",1997,2
+"Serbia and Montenegro",1998,0
+"Serbia and Montenegro",1999,0
+"Serbia and Montenegro",2000,NA
+"Serbia and Montenegro",2001,NA
+"Serbia and Montenegro",2002,NA
+"Serbia and Montenegro",2003,3
+"Serbia and Montenegro",2004,5
+"Serbia and Montenegro",2005,5
+"Serbia and Montenegro",2006,NA
+"Serbia and Montenegro",2007,NA
+"Serbia and Montenegro",2008,NA
+"Serbia and Montenegro",2009,NA
+"Serbia and Montenegro",2010,NA
+"Serbia and Montenegro",2011,NA
+"Seychelles",1981,NA
+"Seychelles",1982,NA
+"Seychelles",1983,NA
+"Seychelles",1984,NA
+"Seychelles",1985,NA
+"Seychelles",1986,NA
+"Seychelles",1987,NA
+"Seychelles",1988,NA
+"Seychelles",1989,NA
+"Seychelles",1990,NA
+"Seychelles",1991,NA
+"Seychelles",1992,NA
+"Seychelles",1993,NA
+"Seychelles",1994,NA
+"Seychelles",1995,NA
+"Seychelles",1996,NA
+"Seychelles",1997,NA
+"Seychelles",1998,NA
+"Seychelles",1999,NA
+"Seychelles",2000,NA
+"Seychelles",2001,8
+"Seychelles",2002,NA
+"Seychelles",2003,7
+"Seychelles",2004,6
+"Seychelles",2005,8
+"Seychelles",2006,8
+"Seychelles",2007,7
+"Seychelles",2008,6
+"Seychelles",2009,6
+"Seychelles",2010,8
+"Seychelles",2011,8
+"Sierra Leone",1981,8
+"Sierra Leone",1982,6
+"Sierra Leone",1983,6
+"Sierra Leone",1984,6
+"Sierra Leone",1985,7
+"Sierra Leone",1986,7
+"Sierra Leone",1987,6
+"Sierra Leone",1988,6
+"Sierra Leone",1989,6
+"Sierra Leone",1990,5
+"Sierra Leone",1991,3
+"Sierra Leone",1992,0
+"Sierra Leone",1993,1
+"Sierra Leone",1994,0
+"Sierra Leone",1995,0
+"Sierra Leone",1996,3
+"Sierra Leone",1997,NA
+"Sierra Leone",1998,NA
+"Sierra Leone",1999,NA
+"Sierra Leone",2000,NA
+"Sierra Leone",2001,4
+"Sierra Leone",2002,8
+"Sierra Leone",2003,5
+"Sierra Leone",2004,6
+"Sierra Leone",2005,5
+"Sierra Leone",2006,5
+"Sierra Leone",2007,6
+"Sierra Leone",2008,6
+"Sierra Leone",2009,NA
+"Sierra Leone",2010,5
+"Sierra Leone",2011,6
+"Singapore",1981,6
+"Singapore",1982,7
+"Singapore",1983,6
+"Singapore",1984,6
+"Singapore",1985,7
+"Singapore",1986,7
+"Singapore",1987,6
+"Singapore",1988,7
+"Singapore",1989,6
+"Singapore",1990,6
+"Singapore",1991,8
+"Singapore",1992,6
+"Singapore",1993,8
+"Singapore",1994,7
+"Singapore",1995,6
+"Singapore",1996,5
+"Singapore",1997,5
+"Singapore",1998,7
+"Singapore",1999,6
+"Singapore",2000,6
+"Singapore",2001,7
+"Singapore",2002,7
+"Singapore",2003,8
+"Singapore",2004,7
+"Singapore",2005,6
+"Singapore",2006,5
+"Singapore",2007,7
+"Singapore",2008,7
+"Singapore",2009,8
+"Singapore",2010,7
+"Singapore",2011,8
+"Slovak Republic",1981,NA
+"Slovak Republic",1982,NA
+"Slovak Republic",1983,NA
+"Slovak Republic",1984,NA
+"Slovak Republic",1985,NA
+"Slovak Republic",1986,NA
+"Slovak Republic",1987,NA
+"Slovak Republic",1988,NA
+"Slovak Republic",1989,NA
+"Slovak Republic",1990,NA
+"Slovak Republic",1991,NA
+"Slovak Republic",1992,NA
+"Slovak Republic",1993,6
+"Slovak Republic",1994,8
+"Slovak Republic",1995,7
+"Slovak Republic",1996,6
+"Slovak Republic",1997,7
+"Slovak Republic",1998,7
+"Slovak Republic",1999,7
+"Slovak Republic",2000,6
+"Slovak Republic",2001,7
+"Slovak Republic",2002,7
+"Slovak Republic",2003,6
+"Slovak Republic",2004,7
+"Slovak Republic",2005,8
+"Slovak Republic",2006,7
+"Slovak Republic",2007,7
+"Slovak Republic",2008,7
+"Slovak Republic",2009,7
+"Slovak Republic",2010,7
+"Slovak Republic",2011,7
+"Slovenia",1981,NA
+"Slovenia",1982,NA
+"Slovenia",1983,NA
+"Slovenia",1984,NA
+"Slovenia",1985,NA
+"Slovenia",1986,NA
+"Slovenia",1987,NA
+"Slovenia",1988,NA
+"Slovenia",1989,NA
+"Slovenia",1990,NA
+"Slovenia",1991,NA
+"Slovenia",1992,8
+"Slovenia",1993,8
+"Slovenia",1994,8
+"Slovenia",1995,8
+"Slovenia",1996,8
+"Slovenia",1997,8
+"Slovenia",1998,8
+"Slovenia",1999,8
+"Slovenia",2000,7
+"Slovenia",2001,8
+"Slovenia",2002,8
+"Slovenia",2003,7
+"Slovenia",2004,7
+"Slovenia",2005,7
+"Slovenia",2006,7
+"Slovenia",2007,7
+"Slovenia",2008,8
+"Slovenia",2009,8
+"Slovenia",2010,7
+"Slovenia",2011,8
+"Solomon Islands",1981,NA
+"Solomon Islands",1982,NA
+"Solomon Islands",1983,NA
+"Solomon Islands",1984,NA
+"Solomon Islands",1985,NA
+"Solomon Islands",1986,NA
+"Solomon Islands",1987,NA
+"Solomon Islands",1988,NA
+"Solomon Islands",1989,NA
+"Solomon Islands",1990,NA
+"Solomon Islands",1991,NA
+"Solomon Islands",1992,NA
+"Solomon Islands",1993,NA
+"Solomon Islands",1994,NA
+"Solomon Islands",1995,NA
+"Solomon Islands",1996,NA
+"Solomon Islands",1997,NA
+"Solomon Islands",1998,NA
+"Solomon Islands",1999,NA
+"Solomon Islands",2000,NA
+"Solomon Islands",2001,6
+"Solomon Islands",2002,NA
+"Solomon Islands",2003,7
+"Solomon Islands",2004,7
+"Solomon Islands",2005,7
+"Solomon Islands",2006,8
+"Solomon Islands",2007,8
+"Solomon Islands",2008,8
+"Solomon Islands",2009,8
+"Solomon Islands",2010,8
+"Solomon Islands",2011,8
+"Somalia",1981,4
+"Somalia",1982,3
+"Somalia",1983,4
+"Somalia",1984,5
+"Somalia",1985,3
+"Somalia",1986,3
+"Somalia",1987,3
+"Somalia",1988,0
+"Somalia",1989,0
+"Somalia",1990,3
+"Somalia",1991,NA
+"Somalia",1992,NA
+"Somalia",1993,NA
+"Somalia",1994,NA
+"Somalia",1995,NA
+"Somalia",1996,NA
+"Somalia",1997,NA
+"Somalia",1998,NA
+"Somalia",1999,NA
+"Somalia",2000,NA
+"Somalia",2001,NA
+"Somalia",2002,NA
+"Somalia",2003,NA
+"Somalia",2004,NA
+"Somalia",2005,NA
+"Somalia",2006,NA
+"Somalia",2007,NA
+"Somalia",2008,NA
+"Somalia",2009,NA
+"Somalia",2010,NA
+"Somalia",2011,NA
+"South Africa",1981,1
+"South Africa",1982,2
+"South Africa",1983,3
+"South Africa",1984,2
+"South Africa",1985,0
+"South Africa",1986,0
+"South Africa",1987,1
+"South Africa",1988,0
+"South Africa",1989,3
+"South Africa",1990,2
+"South Africa",1991,2
+"South Africa",1992,2
+"South Africa",1993,1
+"South Africa",1994,2
+"South Africa",1995,5
+"South Africa",1996,5
+"South Africa",1997,3
+"South Africa",1998,4
+"South Africa",1999,4
+"South Africa",2000,4
+"South Africa",2001,5
+"South Africa",2002,5
+"South Africa",2003,4
+"South Africa",2004,5
+"South Africa",2005,4
+"South Africa",2006,4
+"South Africa",2007,2
+"South Africa",2008,2
+"South Africa",2009,2
+"South Africa",2010,2
+"South Africa",2011,4
+"South Sudan",1981,NA
+"South Sudan",1982,NA
+"South Sudan",1983,NA
+"South Sudan",1984,NA
+"South Sudan",1985,NA
+"South Sudan",1986,NA
+"South Sudan",1987,NA
+"South Sudan",1988,NA
+"South Sudan",1989,NA
+"South Sudan",1990,NA
+"South Sudan",1991,NA
+"South Sudan",1992,NA
+"South Sudan",1993,NA
+"South Sudan",1994,NA
+"South Sudan",1995,NA
+"South Sudan",1996,NA
+"South Sudan",1997,NA
+"South Sudan",1998,NA
+"South Sudan",1999,NA
+"South Sudan",2000,NA
+"South Sudan",2001,NA
+"South Sudan",2002,NA
+"South Sudan",2003,NA
+"South Sudan",2004,NA
+"South Sudan",2005,NA
+"South Sudan",2006,NA
+"South Sudan",2007,NA
+"South Sudan",2008,NA
+"South Sudan",2009,NA
+"South Sudan",2010,NA
+"South Sudan",2011,2
+"Soviet Union",1981,1
+"Soviet Union",1982,3
+"Soviet Union",1983,4
+"Soviet Union",1984,1
+"Soviet Union",1985,4
+"Soviet Union",1986,4
+"Soviet Union",1987,1
+"Soviet Union",1988,5
+"Soviet Union",1989,3
+"Soviet Union",1990,6
+"Soviet Union",1991,2
+"Soviet Union",1992,NA
+"Soviet Union",1993,NA
+"Soviet Union",1994,NA
+"Soviet Union",1995,NA
+"Soviet Union",1996,NA
+"Soviet Union",1997,NA
+"Soviet Union",1998,NA
+"Soviet Union",1999,NA
+"Soviet Union",2000,NA
+"Soviet Union",2001,NA
+"Soviet Union",2002,NA
+"Soviet Union",2003,NA
+"Soviet Union",2004,NA
+"Soviet Union",2005,NA
+"Soviet Union",2006,NA
+"Soviet Union",2007,NA
+"Soviet Union",2008,NA
+"Soviet Union",2009,NA
+"Soviet Union",2010,NA
+"Soviet Union",2011,NA
+"Spain",1981,4
+"Spain",1982,4
+"Spain",1983,4
+"Spain",1984,3
+"Spain",1985,4
+"Spain",1986,5
+"Spain",1987,3
+"Spain",1988,6
+"Spain",1989,5
+"Spain",1990,5
+"Spain",1991,6
+"Spain",1992,4
+"Spain",1993,5
+"Spain",1994,4
+"Spain",1995,4
+"Spain",1996,4
+"Spain",1997,4
+"Spain",1998,6
+"Spain",1999,5
+"Spain",2000,4
+"Spain",2001,5
+"Spain",2002,5
+"Spain",2003,3
+"Spain",2004,5
+"Spain",2005,4
+"Spain",2006,3
+"Spain",2007,3
+"Spain",2008,4
+"Spain",2009,4
+"Spain",2010,5
+"Spain",2011,5
+"Sri Lanka",1981,6
+"Sri Lanka",1982,4
+"Sri Lanka",1983,3
+"Sri Lanka",1984,1
+"Sri Lanka",1985,0
+"Sri Lanka",1986,1
+"Sri Lanka",1987,0
+"Sri Lanka",1988,2
+"Sri Lanka",1989,0
+"Sri Lanka",1990,0
+"Sri Lanka",1991,0
+"Sri Lanka",1992,0
+"Sri Lanka",1993,2
+"Sri Lanka",1994,2
+"Sri Lanka",1995,0
+"Sri Lanka",1996,0
+"Sri Lanka",1997,1
+"Sri Lanka",1998,1
+"Sri Lanka",1999,2
+"Sri Lanka",2000,0
+"Sri Lanka",2001,2
+"Sri Lanka",2002,3
+"Sri Lanka",2003,4
+"Sri Lanka",2004,5
+"Sri Lanka",2005,4
+"Sri Lanka",2006,2
+"Sri Lanka",2007,1
+"Sri Lanka",2008,1
+"Sri Lanka",2009,0
+"Sri Lanka",2010,1
+"Sri Lanka",2011,0
+"Sudan",1981,5
+"Sudan",1982,4
+"Sudan",1983,4
+"Sudan",1984,4
+"Sudan",1985,5
+"Sudan",1986,3
+"Sudan",1987,5
+"Sudan",1988,2
+"Sudan",1989,1
+"Sudan",1990,1
+"Sudan",1991,1
+"Sudan",1992,0
+"Sudan",1993,0
+"Sudan",1994,2
+"Sudan",1995,2
+"Sudan",1996,0
+"Sudan",1997,0
+"Sudan",1998,0
+"Sudan",1999,0
+"Sudan",2000,0
+"Sudan",2001,0
+"Sudan",2002,0
+"Sudan",2003,0
+"Sudan",2004,2
+"Sudan",2005,1
+"Sudan",2006,1
+"Sudan",2007,1
+"Sudan",2008,0
+"Sudan",2009,1
+"Sudan",2010,1
+"Sudan",2011,1
+"Suriname",1981,NA
+"Suriname",1982,NA
+"Suriname",1983,NA
+"Suriname",1984,NA
+"Suriname",1985,NA
+"Suriname",1986,NA
+"Suriname",1987,NA
+"Suriname",1988,NA
+"Suriname",1989,NA
+"Suriname",1990,NA
+"Suriname",1991,NA
+"Suriname",1992,NA
+"Suriname",1993,NA
+"Suriname",1994,NA
+"Suriname",1995,NA
+"Suriname",1996,NA
+"Suriname",1997,NA
+"Suriname",1998,NA
+"Suriname",1999,NA
+"Suriname",2000,NA
+"Suriname",2001,5
+"Suriname",2002,NA
+"Suriname",2003,6
+"Suriname",2004,5
+"Suriname",2005,6
+"Suriname",2006,6
+"Suriname",2007,6
+"Suriname",2008,7
+"Suriname",2009,7
+"Suriname",2010,7
+"Suriname",2011,6
+"Swaziland",1981,6
+"Swaziland",1982,5
+"Swaziland",1983,6
+"Swaziland",1984,5
+"Swaziland",1985,6
+"Swaziland",1986,5
+"Swaziland",1987,3
+"Swaziland",1988,5
+"Swaziland",1989,5
+"Swaziland",1990,5
+"Swaziland",1991,7
+"Swaziland",1992,6
+"Swaziland",1993,5
+"Swaziland",1994,7
+"Swaziland",1995,5
+"Swaziland",1996,5
+"Swaziland",1997,4
+"Swaziland",1998,6
+"Swaziland",1999,6
+"Swaziland",2000,5
+"Swaziland",2001,7
+"Swaziland",2002,7
+"Swaziland",2003,7
+"Swaziland",2004,6
+"Swaziland",2005,5
+"Swaziland",2006,6
+"Swaziland",2007,5
+"Swaziland",2008,4
+"Swaziland",2009,4
+"Swaziland",2010,4
+"Swaziland",2011,3
+"Sweden",1981,8
+"Sweden",1982,8
+"Sweden",1983,7
+"Sweden",1984,8
+"Sweden",1985,8
+"Sweden",1986,8
+"Sweden",1987,8
+"Sweden",1988,8
+"Sweden",1989,8
+"Sweden",1990,8
+"Sweden",1991,8
+"Sweden",1992,8
+"Sweden",1993,8
+"Sweden",1994,8
+"Sweden",1995,8
+"Sweden",1996,8
+"Sweden",1997,6
+"Sweden",1998,8
+"Sweden",1999,8
+"Sweden",2000,7
+"Sweden",2001,8
+"Sweden",2002,8
+"Sweden",2003,7
+"Sweden",2004,8
+"Sweden",2005,7
+"Sweden",2006,7
+"Sweden",2007,7
+"Sweden",2008,7
+"Sweden",2009,7
+"Sweden",2010,7
+"Sweden",2011,7
+"Switzerland",1981,8
+"Switzerland",1982,8
+"Switzerland",1983,8
+"Switzerland",1984,8
+"Switzerland",1985,8
+"Switzerland",1986,8
+"Switzerland",1987,8
+"Switzerland",1988,8
+"Switzerland",1989,8
+"Switzerland",1990,8
+"Switzerland",1991,8
+"Switzerland",1992,8
+"Switzerland",1993,7
+"Switzerland",1994,7
+"Switzerland",1995,7
+"Switzerland",1996,8
+"Switzerland",1997,7
+"Switzerland",1998,8
+"Switzerland",1999,8
+"Switzerland",2000,7
+"Switzerland",2001,8
+"Switzerland",2002,8
+"Switzerland",2003,7
+"Switzerland",2004,7
+"Switzerland",2005,7
+"Switzerland",2006,7
+"Switzerland",2007,7
+"Switzerland",2008,7
+"Switzerland",2009,7
+"Switzerland",2010,7
+"Switzerland",2011,7
+"Syria",1981,0
+"Syria",1982,0
+"Syria",1983,0
+"Syria",1984,1
+"Syria",1985,1
+"Syria",1986,0
+"Syria",1987,1
+"Syria",1988,3
+"Syria",1989,3
+"Syria",1990,2
+"Syria",1991,3
+"Syria",1992,5
+"Syria",1993,3
+"Syria",1994,4
+"Syria",1995,5
+"Syria",1996,3
+"Syria",1997,3
+"Syria",1998,3
+"Syria",1999,3
+"Syria",2000,2
+"Syria",2001,4
+"Syria",2002,4
+"Syria",2003,3
+"Syria",2004,3
+"Syria",2005,3
+"Syria",2006,2
+"Syria",2007,2
+"Syria",2008,1
+"Syria",2009,2
+"Syria",2010,2
+"Syria",2011,0
+"Taiwan",1981,5
+"Taiwan",1982,6
+"Taiwan",1983,6
+"Taiwan",1984,6
+"Taiwan",1985,6
+"Taiwan",1986,7
+"Taiwan",1987,7
+"Taiwan",1988,7
+"Taiwan",1989,8
+"Taiwan",1990,8
+"Taiwan",1991,8
+"Taiwan",1992,8
+"Taiwan",1993,8
+"Taiwan",1994,8
+"Taiwan",1995,8
+"Taiwan",1996,6
+"Taiwan",1997,8
+"Taiwan",1998,7
+"Taiwan",1999,7
+"Taiwan",2000,6
+"Taiwan",2001,6
+"Taiwan",2002,7
+"Taiwan",2003,7
+"Taiwan",2004,7
+"Taiwan",2005,7
+"Taiwan",2006,8
+"Taiwan",2007,8
+"Taiwan",2008,8
+"Taiwan",2009,8
+"Taiwan",2010,8
+"Taiwan",2011,8
+"Tajikistan",1981,NA
+"Tajikistan",1982,NA
+"Tajikistan",1983,NA
+"Tajikistan",1984,NA
+"Tajikistan",1985,NA
+"Tajikistan",1986,NA
+"Tajikistan",1987,NA
+"Tajikistan",1988,NA
+"Tajikistan",1989,NA
+"Tajikistan",1990,NA
+"Tajikistan",1991,NA
+"Tajikistan",1992,2
+"Tajikistan",1993,0
+"Tajikistan",1994,0
+"Tajikistan",1995,0
+"Tajikistan",1996,0
+"Tajikistan",1997,1
+"Tajikistan",1998,1
+"Tajikistan",1999,2
+"Tajikistan",2000,1
+"Tajikistan",2001,4
+"Tajikistan",2002,3
+"Tajikistan",2003,5
+"Tajikistan",2004,5
+"Tajikistan",2005,5
+"Tajikistan",2006,4
+"Tajikistan",2007,4
+"Tajikistan",2008,4
+"Tajikistan",2009,4
+"Tajikistan",2010,4
+"Tajikistan",2011,4
+"Tanzania",1981,5
+"Tanzania",1982,5
+"Tanzania",1983,6
+"Tanzania",1984,6
+"Tanzania",1985,6
+"Tanzania",1986,6
+"Tanzania",1987,6
+"Tanzania",1988,4
+"Tanzania",1989,5
+"Tanzania",1990,3
+"Tanzania",1991,3
+"Tanzania",1992,7
+"Tanzania",1993,4
+"Tanzania",1994,6
+"Tanzania",1995,5
+"Tanzania",1996,5
+"Tanzania",1997,4
+"Tanzania",1998,5
+"Tanzania",1999,4
+"Tanzania",2000,3
+"Tanzania",2001,3
+"Tanzania",2002,7
+"Tanzania",2003,5
+"Tanzania",2004,3
+"Tanzania",2005,3
+"Tanzania",2006,5
+"Tanzania",2007,5
+"Tanzania",2008,4
+"Tanzania",2009,5
+"Tanzania",2010,5
+"Tanzania",2011,4
+"Thailand",1981,3
+"Thailand",1982,4
+"Thailand",1983,5
+"Thailand",1984,5
+"Thailand",1985,6
+"Thailand",1986,5
+"Thailand",1987,5
+"Thailand",1988,4
+"Thailand",1989,4
+"Thailand",1990,3
+"Thailand",1991,4
+"Thailand",1992,3
+"Thailand",1993,4
+"Thailand",1994,5
+"Thailand",1995,7
+"Thailand",1996,5
+"Thailand",1997,7
+"Thailand",1998,6
+"Thailand",1999,6
+"Thailand",2000,5
+"Thailand",2001,4
+"Thailand",2002,5
+"Thailand",2003,4
+"Thailand",2004,4
+"Thailand",2005,1
+"Thailand",2006,1
+"Thailand",2007,2
+"Thailand",2008,2
+"Thailand",2009,2
+"Thailand",2010,1
+"Thailand",2011,1
+"Togo",1981,5
+"Togo",1982,6
+"Togo",1983,6
+"Togo",1984,5
+"Togo",1985,5
+"Togo",1986,4
+"Togo",1987,6
+"Togo",1988,6
+"Togo",1989,6
+"Togo",1990,3
+"Togo",1991,2
+"Togo",1992,2
+"Togo",1993,1
+"Togo",1994,1
+"Togo",1995,5
+"Togo",1996,5
+"Togo",1997,3
+"Togo",1998,4
+"Togo",1999,4
+"Togo",2000,5
+"Togo",2001,5
+"Togo",2002,5
+"Togo",2003,5
+"Togo",2004,4
+"Togo",2005,2
+"Togo",2006,3
+"Togo",2007,4
+"Togo",2008,5
+"Togo",2009,4
+"Togo",2010,3
+"Togo",2011,5
+"Tonga",1981,NA
+"Tonga",1982,NA
+"Tonga",1983,NA
+"Tonga",1984,NA
+"Tonga",1985,NA
+"Tonga",1986,NA
+"Tonga",1987,NA
+"Tonga",1988,NA
+"Tonga",1989,NA
+"Tonga",1990,NA
+"Tonga",1991,NA
+"Tonga",1992,NA
+"Tonga",1993,NA
+"Tonga",1994,NA
+"Tonga",1995,NA
+"Tonga",1996,NA
+"Tonga",1997,NA
+"Tonga",1998,NA
+"Tonga",1999,NA
+"Tonga",2000,NA
+"Tonga",2001,7
+"Tonga",2002,NA
+"Tonga",2003,7
+"Tonga",2004,7
+"Tonga",2005,8
+"Tonga",2006,7
+"Tonga",2007,6
+"Tonga",2008,6
+"Tonga",2009,7
+"Tonga",2010,8
+"Tonga",2011,8
+"Trinidad and Tobago",1981,8
+"Trinidad and Tobago",1982,7
+"Trinidad and Tobago",1983,8
+"Trinidad and Tobago",1984,8
+"Trinidad and Tobago",1985,7
+"Trinidad and Tobago",1986,8
+"Trinidad and Tobago",1987,8
+"Trinidad and Tobago",1988,7
+"Trinidad and Tobago",1989,7
+"Trinidad and Tobago",1990,5
+"Trinidad and Tobago",1991,5
+"Trinidad and Tobago",1992,6
+"Trinidad and Tobago",1993,6
+"Trinidad and Tobago",1994,5
+"Trinidad and Tobago",1995,5
+"Trinidad and Tobago",1996,7
+"Trinidad and Tobago",1997,8
+"Trinidad and Tobago",1998,8
+"Trinidad and Tobago",1999,7
+"Trinidad and Tobago",2000,8
+"Trinidad and Tobago",2001,7
+"Trinidad and Tobago",2002,7
+"Trinidad and Tobago",2003,6
+"Trinidad and Tobago",2004,6
+"Trinidad and Tobago",2005,6
+"Trinidad and Tobago",2006,6
+"Trinidad and Tobago",2007,5
+"Trinidad and Tobago",2008,6
+"Trinidad and Tobago",2009,6
+"Trinidad and Tobago",2010,6
+"Trinidad and Tobago",2011,6
+"Tunisia",1981,5
+"Tunisia",1982,6
+"Tunisia",1983,4
+"Tunisia",1984,6
+"Tunisia",1985,5
+"Tunisia",1986,3
+"Tunisia",1987,6
+"Tunisia",1988,5
+"Tunisia",1989,5
+"Tunisia",1990,4
+"Tunisia",1991,4
+"Tunisia",1992,4
+"Tunisia",1993,3
+"Tunisia",1994,4
+"Tunisia",1995,4
+"Tunisia",1996,6
+"Tunisia",1997,3
+"Tunisia",1998,4
+"Tunisia",1999,6
+"Tunisia",2000,3
+"Tunisia",2001,4
+"Tunisia",2002,4
+"Tunisia",2003,4
+"Tunisia",2004,4
+"Tunisia",2005,3
+"Tunisia",2006,3
+"Tunisia",2007,4
+"Tunisia",2008,3
+"Tunisia",2009,4
+"Tunisia",2010,3
+"Tunisia",2011,2
+"Turkey",1981,4
+"Turkey",1982,5
+"Turkey",1983,5
+"Turkey",1984,4
+"Turkey",1985,5
+"Turkey",1986,3
+"Turkey",1987,4
+"Turkey",1988,5
+"Turkey",1989,4
+"Turkey",1990,3
+"Turkey",1991,2
+"Turkey",1992,2
+"Turkey",1993,2
+"Turkey",1994,0
+"Turkey",1995,1
+"Turkey",1996,0
+"Turkey",1997,0
+"Turkey",1998,2
+"Turkey",1999,1
+"Turkey",2000,2
+"Turkey",2001,2
+"Turkey",2002,2
+"Turkey",2003,3
+"Turkey",2004,3
+"Turkey",2005,2
+"Turkey",2006,3
+"Turkey",2007,3
+"Turkey",2008,2
+"Turkey",2009,2
+"Turkey",2010,3
+"Turkey",2011,2
+"Turkmenistan",1981,NA
+"Turkmenistan",1982,NA
+"Turkmenistan",1983,NA
+"Turkmenistan",1984,NA
+"Turkmenistan",1985,NA
+"Turkmenistan",1986,NA
+"Turkmenistan",1987,NA
+"Turkmenistan",1988,NA
+"Turkmenistan",1989,NA
+"Turkmenistan",1990,NA
+"Turkmenistan",1991,NA
+"Turkmenistan",1992,6
+"Turkmenistan",1993,7
+"Turkmenistan",1994,4
+"Turkmenistan",1995,5
+"Turkmenistan",1996,6
+"Turkmenistan",1997,6
+"Turkmenistan",1998,5
+"Turkmenistan",1999,5
+"Turkmenistan",2000,4
+"Turkmenistan",2001,6
+"Turkmenistan",2002,5
+"Turkmenistan",2003,3
+"Turkmenistan",2004,3
+"Turkmenistan",2005,4
+"Turkmenistan",2006,3
+"Turkmenistan",2007,3
+"Turkmenistan",2008,4
+"Turkmenistan",2009,4
+"Turkmenistan",2010,4
+"Turkmenistan",2011,3
+"Tuvalu",1981,NA
+"Tuvalu",1982,NA
+"Tuvalu",1983,NA
+"Tuvalu",1984,NA
+"Tuvalu",1985,NA
+"Tuvalu",1986,NA
+"Tuvalu",1987,NA
+"Tuvalu",1988,NA
+"Tuvalu",1989,NA
+"Tuvalu",1990,NA
+"Tuvalu",1991,NA
+"Tuvalu",1992,NA
+"Tuvalu",1993,NA
+"Tuvalu",1994,NA
+"Tuvalu",1995,NA
+"Tuvalu",1996,NA
+"Tuvalu",1997,NA
+"Tuvalu",1998,NA
+"Tuvalu",1999,NA
+"Tuvalu",2000,NA
+"Tuvalu",2001,8
+"Tuvalu",2002,NA
+"Tuvalu",2003,8
+"Tuvalu",2004,8
+"Tuvalu",2005,8
+"Tuvalu",2006,8
+"Tuvalu",2007,8
+"Tuvalu",2008,8
+"Tuvalu",2009,8
+"Tuvalu",2010,8
+"Tuvalu",2011,8
+"Uganda",1981,0
+"Uganda",1982,0
+"Uganda",1983,0
+"Uganda",1984,0
+"Uganda",1985,NA
+"Uganda",1986,2
+"Uganda",1987,2
+"Uganda",1988,2
+"Uganda",1989,2
+"Uganda",1990,3
+"Uganda",1991,4
+"Uganda",1992,5
+"Uganda",1993,4
+"Uganda",1994,3
+"Uganda",1995,4
+"Uganda",1996,2
+"Uganda",1997,3
+"Uganda",1998,5
+"Uganda",1999,3
+"Uganda",2000,2
+"Uganda",2001,3
+"Uganda",2002,3
+"Uganda",2003,2
+"Uganda",2004,2
+"Uganda",2005,2
+"Uganda",2006,1
+"Uganda",2007,3
+"Uganda",2008,3
+"Uganda",2009,2
+"Uganda",2010,2
+"Uganda",2011,2
+"Ukraine",1981,NA
+"Ukraine",1982,NA
+"Ukraine",1983,NA
+"Ukraine",1984,NA
+"Ukraine",1985,NA
+"Ukraine",1986,NA
+"Ukraine",1987,NA
+"Ukraine",1988,NA
+"Ukraine",1989,NA
+"Ukraine",1990,NA
+"Ukraine",1991,NA
+"Ukraine",1992,6
+"Ukraine",1993,7
+"Ukraine",1994,4
+"Ukraine",1995,4
+"Ukraine",1996,6
+"Ukraine",1997,5
+"Ukraine",1998,6
+"Ukraine",1999,6
+"Ukraine",2000,4
+"Ukraine",2001,6
+"Ukraine",2002,6
+"Ukraine",2003,3
+"Ukraine",2004,4
+"Ukraine",2005,5
+"Ukraine",2006,6
+"Ukraine",2007,4
+"Ukraine",2008,4
+"Ukraine",2009,5
+"Ukraine",2010,4
+"Ukraine",2011,4
+"United Arab Emirates",1981,8
+"United Arab Emirates",1982,8
+"United Arab Emirates",1983,8
+"United Arab Emirates",1984,8
+"United Arab Emirates",1985,8
+"United Arab Emirates",1986,8
+"United Arab Emirates",1987,5
+"United Arab Emirates",1988,6
+"United Arab Emirates",1989,7
+"United Arab Emirates",1990,6
+"United Arab Emirates",1991,6
+"United Arab Emirates",1992,7
+"United Arab Emirates",1993,7
+"United Arab Emirates",1994,8
+"United Arab Emirates",1995,7
+"United Arab Emirates",1996,7
+"United Arab Emirates",1997,4
+"United Arab Emirates",1998,6
+"United Arab Emirates",1999,8
+"United Arab Emirates",2000,7
+"United Arab Emirates",2001,5
+"United Arab Emirates",2002,6
+"United Arab Emirates",2003,8
+"United Arab Emirates",2004,6
+"United Arab Emirates",2005,6
+"United Arab Emirates",2006,7
+"United Arab Emirates",2007,6
+"United Arab Emirates",2008,7
+"United Arab Emirates",2009,7
+"United Arab Emirates",2010,6
+"United Arab Emirates",2011,6
+"United Kingdom",1981,7
+"United Kingdom",1982,8
+"United Kingdom",1983,8
+"United Kingdom",1984,7
+"United Kingdom",1985,5
+"United Kingdom",1986,8
+"United Kingdom",1987,6
+"United Kingdom",1988,8
+"United Kingdom",1989,8
+"United Kingdom",1990,8
+"United Kingdom",1991,4
+"United Kingdom",1992,6
+"United Kingdom",1993,7
+"United Kingdom",1994,7
+"United Kingdom",1995,6
+"United Kingdom",1996,7
+"United Kingdom",1997,6
+"United Kingdom",1998,7
+"United Kingdom",1999,7
+"United Kingdom",2000,6
+"United Kingdom",2001,7
+"United Kingdom",2002,7
+"United Kingdom",2003,7
+"United Kingdom",2004,7
+"United Kingdom",2005,5
+"United Kingdom",2006,7
+"United Kingdom",2007,7
+"United Kingdom",2008,7
+"United Kingdom",2009,6
+"United Kingdom",2010,7
+"United Kingdom",2011,7
+"United States of America",1981,8
+"United States of America",1982,8
+"United States of America",1983,8
+"United States of America",1984,8
+"United States of America",1985,7
+"United States of America",1986,7
+"United States of America",1987,8
+"United States of America",1988,7
+"United States of America",1989,7
+"United States of America",1990,8
+"United States of America",1991,7
+"United States of America",1992,7
+"United States of America",1993,7
+"United States of America",1994,7
+"United States of America",1995,7
+"United States of America",1996,7
+"United States of America",1997,7
+"United States of America",1998,7
+"United States of America",1999,7
+"United States of America",2000,7
+"United States of America",2001,5
+"United States of America",2002,6
+"United States of America",2003,6
+"United States of America",2004,4
+"United States of America",2005,4
+"United States of America",2006,4
+"United States of America",2007,5
+"United States of America",2008,6
+"United States of America",2009,5
+"United States of America",2010,6
+"United States of America",2011,6
+"Uruguay",1981,4
+"Uruguay",1982,4
+"Uruguay",1983,5
+"Uruguay",1984,4
+"Uruguay",1985,7
+"Uruguay",1986,8
+"Uruguay",1987,7
+"Uruguay",1988,7
+"Uruguay",1989,7
+"Uruguay",1990,7
+"Uruguay",1991,6
+"Uruguay",1992,7
+"Uruguay",1993,7
+"Uruguay",1994,7
+"Uruguay",1995,6
+"Uruguay",1996,7
+"Uruguay",1997,5
+"Uruguay",1998,6
+"Uruguay",1999,7
+"Uruguay",2000,7
+"Uruguay",2001,8
+"Uruguay",2002,8
+"Uruguay",2003,6
+"Uruguay",2004,6
+"Uruguay",2005,6
+"Uruguay",2006,8
+"Uruguay",2007,8
+"Uruguay",2008,8
+"Uruguay",2009,7
+"Uruguay",2010,6
+"Uruguay",2011,7
+"Uzbekistan",1981,NA
+"Uzbekistan",1982,NA
+"Uzbekistan",1983,NA
+"Uzbekistan",1984,NA
+"Uzbekistan",1985,NA
+"Uzbekistan",1986,NA
+"Uzbekistan",1987,NA
+"Uzbekistan",1988,NA
+"Uzbekistan",1989,NA
+"Uzbekistan",1990,NA
+"Uzbekistan",1991,NA
+"Uzbekistan",1992,5
+"Uzbekistan",1993,4
+"Uzbekistan",1994,5
+"Uzbekistan",1995,3
+"Uzbekistan",1996,5
+"Uzbekistan",1997,2
+"Uzbekistan",1998,4
+"Uzbekistan",1999,3
+"Uzbekistan",2000,2
+"Uzbekistan",2001,3
+"Uzbekistan",2002,3
+"Uzbekistan",2003,2
+"Uzbekistan",2004,1
+"Uzbekistan",2005,1
+"Uzbekistan",2006,3
+"Uzbekistan",2007,4
+"Uzbekistan",2008,4
+"Uzbekistan",2009,3
+"Uzbekistan",2010,4
+"Uzbekistan",2011,3
+"Vanuatu",1981,NA
+"Vanuatu",1982,NA
+"Vanuatu",1983,NA
+"Vanuatu",1984,NA
+"Vanuatu",1985,NA
+"Vanuatu",1986,NA
+"Vanuatu",1987,NA
+"Vanuatu",1988,NA
+"Vanuatu",1989,NA
+"Vanuatu",1990,NA
+"Vanuatu",1991,NA
+"Vanuatu",1992,NA
+"Vanuatu",1993,NA
+"Vanuatu",1994,NA
+"Vanuatu",1995,NA
+"Vanuatu",1996,NA
+"Vanuatu",1997,NA
+"Vanuatu",1998,NA
+"Vanuatu",1999,NA
+"Vanuatu",2000,NA
+"Vanuatu",2001,8
+"Vanuatu",2002,NA
+"Vanuatu",2003,7
+"Vanuatu",2004,7
+"Vanuatu",2005,8
+"Vanuatu",2006,8
+"Vanuatu",2007,7
+"Vanuatu",2008,7
+"Vanuatu",2009,6
+"Vanuatu",2010,7
+"Vanuatu",2011,7
+"Venezuela",1981,6
+"Venezuela",1982,5
+"Venezuela",1983,6
+"Venezuela",1984,3
+"Venezuela",1985,5
+"Venezuela",1986,4
+"Venezuela",1987,4
+"Venezuela",1988,5
+"Venezuela",1989,2
+"Venezuela",1990,2
+"Venezuela",1991,3
+"Venezuela",1992,1
+"Venezuela",1993,1
+"Venezuela",1994,1
+"Venezuela",1995,1
+"Venezuela",1996,2
+"Venezuela",1997,2
+"Venezuela",1998,3
+"Venezuela",1999,4
+"Venezuela",2000,4
+"Venezuela",2001,4
+"Venezuela",2002,4
+"Venezuela",2003,4
+"Venezuela",2004,2
+"Venezuela",2005,2
+"Venezuela",2006,2
+"Venezuela",2007,2
+"Venezuela",2008,3
+"Venezuela",2009,3
+"Venezuela",2010,2
+"Venezuela",2011,3
+"Vietnam",1981,3
+"Vietnam",1982,3
+"Vietnam",1983,1
+"Vietnam",1984,3
+"Vietnam",1985,2
+"Vietnam",1986,2
+"Vietnam",1987,2
+"Vietnam",1988,3
+"Vietnam",1989,2
+"Vietnam",1990,4
+"Vietnam",1991,4
+"Vietnam",1992,5
+"Vietnam",1993,5
+"Vietnam",1994,4
+"Vietnam",1995,5
+"Vietnam",1996,5
+"Vietnam",1997,5
+"Vietnam",1998,4
+"Vietnam",1999,4
+"Vietnam",2000,4
+"Vietnam",2001,2
+"Vietnam",2002,4
+"Vietnam",2003,4
+"Vietnam",2004,3
+"Vietnam",2005,5
+"Vietnam",2006,4
+"Vietnam",2007,3
+"Vietnam",2008,2
+"Vietnam",2009,4
+"Vietnam",2010,3
+"Vietnam",2011,3
+"Yemen",1981,NA
+"Yemen",1982,NA
+"Yemen",1983,NA
+"Yemen",1984,NA
+"Yemen",1985,NA
+"Yemen",1986,NA
+"Yemen",1987,NA
+"Yemen",1988,NA
+"Yemen",1989,NA
+"Yemen",1990,NA
+"Yemen",1991,3
+"Yemen",1992,2
+"Yemen",1993,2
+"Yemen",1994,2
+"Yemen",1995,2
+"Yemen",1996,1
+"Yemen",1997,2
+"Yemen",1998,2
+"Yemen",1999,3
+"Yemen",2000,2
+"Yemen",2001,2
+"Yemen",2002,5
+"Yemen",2003,2
+"Yemen",2004,2
+"Yemen",2005,4
+"Yemen",2006,3
+"Yemen",2007,4
+"Yemen",2008,2
+"Yemen",2009,1
+"Yemen",2010,0
+"Yemen",2011,0
+"Yemen Arab Republic",1981,3
+"Yemen Arab Republic",1982,4
+"Yemen Arab Republic",1983,5
+"Yemen Arab Republic",1984,4
+"Yemen Arab Republic",1985,6
+"Yemen Arab Republic",1986,6
+"Yemen Arab Republic",1987,4
+"Yemen Arab Republic",1988,4
+"Yemen Arab Republic",1989,3
+"Yemen Arab Republic",1990,4
+"Yemen Arab Republic",1991,NA
+"Yemen Arab Republic",1992,NA
+"Yemen Arab Republic",1993,NA
+"Yemen Arab Republic",1994,NA
+"Yemen Arab Republic",1995,NA
+"Yemen Arab Republic",1996,NA
+"Yemen Arab Republic",1997,NA
+"Yemen Arab Republic",1998,NA
+"Yemen Arab Republic",1999,NA
+"Yemen Arab Republic",2000,NA
+"Yemen Arab Republic",2001,NA
+"Yemen Arab Republic",2002,NA
+"Yemen Arab Republic",2003,NA
+"Yemen Arab Republic",2004,NA
+"Yemen Arab Republic",2005,NA
+"Yemen Arab Republic",2006,NA
+"Yemen Arab Republic",2007,NA
+"Yemen Arab Republic",2008,NA
+"Yemen Arab Republic",2009,NA
+"Yemen Arab Republic",2010,NA
+"Yemen Arab Republic",2011,NA
+"Yemen, South",1981,NA
+"Yemen, South",1982,NA
+"Yemen, South",1983,NA
+"Yemen, South",1984,NA
+"Yemen, South",1985,NA
+"Yemen, South",1986,NA
+"Yemen, South",1987,NA
+"Yemen, South",1988,NA
+"Yemen, South",1989,NA
+"Yemen, South",1990,NA
+"Yemen, South",1991,NA
+"Yemen, South",1992,NA
+"Yemen, South",1993,NA
+"Yemen, South",1994,NA
+"Yemen, South",1995,NA
+"Yemen, South",1996,NA
+"Yemen, South",1997,NA
+"Yemen, South",1998,NA
+"Yemen, South",1999,NA
+"Yemen, South",2000,NA
+"Yemen, South",2001,NA
+"Yemen, South",2002,NA
+"Yemen, South",2003,NA
+"Yemen, South",2004,NA
+"Yemen, South",2005,NA
+"Yemen, South",2006,NA
+"Yemen, South",2007,NA
+"Yemen, South",2008,NA
+"Yemen, South",2009,NA
+"Yemen, South",2010,NA
+"Yemen, South",2011,NA
+"Yugoslavia",1981,4
+"Yugoslavia",1982,3
+"Yugoslavia",1983,4
+"Yugoslavia",1984,4
+"Yugoslavia",1985,4
+"Yugoslavia",1986,4
+"Yugoslavia",1987,5
+"Yugoslavia",1988,3
+"Yugoslavia",1989,2
+"Yugoslavia",1990,5
+"Yugoslavia",1991,1
+"Yugoslavia",1992,NA
+"Yugoslavia",1993,NA
+"Yugoslavia",1994,NA
+"Yugoslavia",1995,NA
+"Yugoslavia",1996,NA
+"Yugoslavia",1997,NA
+"Yugoslavia",1998,NA
+"Yugoslavia",1999,NA
+"Yugoslavia",2000,NA
+"Yugoslavia",2001,NA
+"Yugoslavia",2002,NA
+"Yugoslavia",2003,NA
+"Yugoslavia",2004,NA
+"Yugoslavia",2005,NA
+"Yugoslavia",2006,NA
+"Yugoslavia",2007,NA
+"Yugoslavia",2008,NA
+"Yugoslavia",2009,NA
+"Yugoslavia",2010,NA
+"Yugoslavia",2011,NA
+"Yugoslavia, Federal Republic of",1981,NA
+"Yugoslavia, Federal Republic of",1982,NA
+"Yugoslavia, Federal Republic of",1983,NA
+"Yugoslavia, Federal Republic of",1984,NA
+"Yugoslavia, Federal Republic of",1985,NA
+"Yugoslavia, Federal Republic of",1986,NA
+"Yugoslavia, Federal Republic of",1987,NA
+"Yugoslavia, Federal Republic of",1988,NA
+"Yugoslavia, Federal Republic of",1989,NA
+"Yugoslavia, Federal Republic of",1990,NA
+"Yugoslavia, Federal Republic of",1991,NA
+"Yugoslavia, Federal Republic of",1992,NA
+"Yugoslavia, Federal Republic of",1993,NA
+"Yugoslavia, Federal Republic of",1994,NA
+"Yugoslavia, Federal Republic of",1995,NA
+"Yugoslavia, Federal Republic of",1996,NA
+"Yugoslavia, Federal Republic of",1997,NA
+"Yugoslavia, Federal Republic of",1998,NA
+"Yugoslavia, Federal Republic of",1999,NA
+"Yugoslavia, Federal Republic of",2000,1
+"Yugoslavia, Federal Republic of",2001,5
+"Yugoslavia, Federal Republic of",2002,6
+"Yugoslavia, Federal Republic of",2003,NA
+"Yugoslavia, Federal Republic of",2004,NA
+"Yugoslavia, Federal Republic of",2005,NA
+"Yugoslavia, Federal Republic of",2006,NA
+"Yugoslavia, Federal Republic of",2007,NA
+"Yugoslavia, Federal Republic of",2008,NA
+"Yugoslavia, Federal Republic of",2009,NA
+"Yugoslavia, Federal Republic of",2010,NA
+"Yugoslavia, Federal Republic of",2011,NA
+"Zambia",1981,4
+"Zambia",1982,5
+"Zambia",1983,4
+"Zambia",1984,5
+"Zambia",1985,6
+"Zambia",1986,6
+"Zambia",1987,4
+"Zambia",1988,5
+"Zambia",1989,4
+"Zambia",1990,4
+"Zambia",1991,4
+"Zambia",1992,7
+"Zambia",1993,4
+"Zambia",1994,6
+"Zambia",1995,6
+"Zambia",1996,3
+"Zambia",1997,3
+"Zambia",1998,4
+"Zambia",1999,5
+"Zambia",2000,5
+"Zambia",2001,5
+"Zambia",2002,5
+"Zambia",2003,5
+"Zambia",2004,4
+"Zambia",2005,4
+"Zambia",2006,4
+"Zambia",2007,5
+"Zambia",2008,4
+"Zambia",2009,4
+"Zambia",2010,4
+"Zambia",2011,4
+"Zimbabwe",1981,7
+"Zimbabwe",1982,5
+"Zimbabwe",1983,2
+"Zimbabwe",1984,0
+"Zimbabwe",1985,1
+"Zimbabwe",1986,5
+"Zimbabwe",1987,5
+"Zimbabwe",1988,6
+"Zimbabwe",1989,4
+"Zimbabwe",1990,2
+"Zimbabwe",1991,4
+"Zimbabwe",1992,5
+"Zimbabwe",1993,4
+"Zimbabwe",1994,6
+"Zimbabwe",1995,4
+"Zimbabwe",1996,4
+"Zimbabwe",1997,6
+"Zimbabwe",1998,5
+"Zimbabwe",1999,6
+"Zimbabwe",2000,4
+"Zimbabwe",2001,3
+"Zimbabwe",2002,2
+"Zimbabwe",2003,2
+"Zimbabwe",2004,2
+"Zimbabwe",2005,2
+"Zimbabwe",2006,2
+"Zimbabwe",2007,1
+"Zimbabwe",2008,0
+"Zimbabwe",2009,0
+"Zimbabwe",2010,1
+"Zimbabwe",2011,2

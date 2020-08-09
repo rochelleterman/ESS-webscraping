@@ -1,0 +1,137 @@
+---
+title: "Data Basics"
+author: "Rochelle Terman"
+date: "Fall 2020"
+output:
+  prettydoc::html_pretty:
+    theme: hpstr
+    highlight: github
+---
+
+```{r setup, include=FALSE}
+rm(list = ls())
+
+library(knitr)
+
+set.seed(1014)
+options(digits = 3)
+options(dplyr.print_min = 6, dplyr.print_max = 6)
+
+knitr::opts_chunk$set(
+  comment = "#>",
+  collapse = TRUE,
+  out.width = "70%",
+  fig.align = 'center',
+  fig.width = 6,
+  fig.asp = 0.618,  # 1 / phi
+  fig.show = "hold"
+)
+```
+
+```{r message=FALSE} 
+library(tidyverse)
+library(gapminder)
+```
+
+# Data Transformation
+
+## Introduction to Data
+
+The upcoming weeks will be focused on using R for data cleaning and analysis. Let's first get on the same page with some terms:
+
+* A **variable** is a quantity, quality, or property that you can measure.
+
+* An **observation** is a set of measurements for the same unit. An observation will contain several values, each associated with a different variable. I’ll sometimes refer to an observation as a **data point** or an **element**.
+
+* A **value** is the state of a variable for a particular observation. 
+
+* **Tabular data** is a set of values, each associated with a variable and an observation. Tabular data has rows (observations)  and columns (variables). Also called **rectangular** data or **spreadsheets**. 
+
+### The Gapminder Dataset
+
+This lesson discusses how to perform basic exploratory data analysis.
+
+For this unit, we'll be working with the "Gapminder" dataset, which is an excerpt of the data available at Gapminder.org. For each of 142 countries, the data provides values for life expectancy, GDP per capita, and population, every five years, from 1952 to 2007.
+
+```{r}
+require(gapminder)
+gap <- gapminder
+kable(head(gap))
+```
+
+### Structure and Dimensions
+
+The first things we want to know about a dataset are its dimensions and basic structure. For instance, we can look at the number of rows and columns: 
+
+```{r}
+# get number of rows and columns:
+dim(gap)
+```
+
+We might also want to see the names of the columns:
+
+```{r}
+# see column names
+names(gap)
+```
+
+The `str` function is helpful to see an overview of the data's structure:
+```{r}
+# see structure of data
+str(gap)
+```
+
+Finally, I encourage you to actually peak at the data itself. The `head` function displays the first 6 rows of any dataframe.
+```{r}
+head(gap)
+```
+
+### Summary statistics 
+
+We can get quick summary statistics using `summary`. Passing the entire dataframe will summarize all columns:
+```{r}
+summary(gap)
+```
+
+Passing a column with summarize that particular column:
+```{r}
+summary(gap$year)
+```
+
+Sometimes we need to do some basic checking for the number of observations or types of observations in our dataset. To do this quickly and easily, `table()` is our friend. 
+
+Let's look at the number of observations first by region, and then by both region and year.
+
+```{r}
+table(gap$continent)
+table(gap$continent, gap$year)
+```
+
+We can even divide by the total number of rows to get proportion, percent, etc.
+
+```{r}
+table(gap$continent)/nrow(gap)
+table(gap$continent)/nrow(gap)*100
+```
+
+### Challenges
+
+#### Challenge 1. {-}
+
+Read the `polity_sub` dataset.
+
+#### Challenge 2. {-}
+
+Report the number and names of each variable in the dataset.
+
+#### Challenge 3. {-}
+
+What is the mean `polity2` score in the dataset?
+
+#### Challenge 4. {-}
+
+What is the range of the polity2 variable?
+
+#### Challenge 5. {-}
+
+How many unique countries are in the dataset?
