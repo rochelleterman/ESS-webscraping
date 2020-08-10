@@ -39,5 +39,5 @@ vignettes/*.pdf
 .Renviron
 .Rproj.user
 
-# custom -- challenge solutions
-*-99_*
+# custom -- solution files
+*-99*
