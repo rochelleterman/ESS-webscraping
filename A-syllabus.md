@@ -7,7 +7,7 @@ Aug 10-21, 2020
 
 * TA: Philip Swatton, p.j.swatton@essex.ac.uk
 
-* Time: M-F, 14:15 – 17:45pm Essex Time.
+* Time: M-F, 14:15 – 17:45 Essex Time.
 
 
 ### Overview
