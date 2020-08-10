@@ -1,8 +1,12 @@
 ---
 title: "Lab 1"
-author: "ESS 3I"
+subtitle: "3I: Webcraping & Data Management in R"
+author: "Rochelle Terman"
 date: "August 2020"
-output: html_document
+output:
+  prettydoc::html_pretty:
+    theme: hpstr
+    highlight: github
 ---
 
 # Lab 1
