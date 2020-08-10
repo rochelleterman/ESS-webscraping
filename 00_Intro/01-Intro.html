@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+  <head>
+    <title>3I: Webcraping &amp; Data Management in R</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Rochelle Terman" />
+    <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link href="libs/remark-css-0.0.1/rladies.css" rel="stylesheet" />
+    <link href="libs/remark-css-0.0.1/rladies-fonts.css" rel="stylesheet" />
+    <link rel="stylesheet" href="test.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# 3I: Webcraping &amp; Data Management in R
+## Introduction
+### Rochelle Terman
+### Essex Summer School
+### August 2020
+
+---
+
+## About Me
+
+My name is Rochelle Terman and I'm an Assistant Professor in Political Science at the University of Chicago. 
+
+* I was a professional webdeveloper in a previous life, specializing in Drupal and Wordpress.
+* I program mostly in Python and R. I have a special interest in text analysis and webscraping.
+* My substantive research is on international norms and human rights. 
+* I won't be able to answer all your questions.
+* No one will.
+* But especially me.
+
+---
+## About Phil
+
+---
+## Outline of the course
+
+1. Clean, transform, and wrangle data using `tidyverse` packages.
+
+2. Brush up on R programming using strings, functions, conditions, iteration.
+
+3. Collect data via RESTful APIs:
+  - Plug-n-play R packages for popular APIs such as Twitter, etc.
+  - Custom API query to extract data from RESTful APIs,
+ 
+4. Collect data via web scraping:
+  - Understand how HTML &amp; CSS work.
+  - Inspect a website using SelectorGadget to understand its underlying structure and identify elements.
+  - Write a program that scrapes multiple webpages using R.
+  - Extract javascript-heavy and interactive sites using selenium.
+
+5.  Introduction computational text analysis.
+
+---
+## This Course will not...
+
+* teach you to be a professional programmer or software developer
+
+* teach you statistics, computer science, or specialized social science / digital humanities methods
+
+---
+## Class Activities
+
+* "Workshop style": You will be programming every session.
+
+* Combination of Lecture, Challenges, and Labs.
+
+* Figure out online pedagagy together!
+
+---
+## Course Websites
+
+#### Materials
+
+* Class notes and other materials are available here:
+https://github.com/rochelleterman/ESS-webscraping
+
+#### Piazza
+* Used for announcements and discussion. Please use liberally.
+
+---
+## Final Exams
+
+* In-class exam on Thursday, Aug 20.
+
+* Take-home exam to be completed the week following the course.
+
+---
+background-image: url("http://cdn.vox-cdn.com/uploads/chorus_asset/file/6851721/post-64231-this-is-fine-dog-fire-comic-Im-N7mp.png")
+
+
+---
+## What programming is like
+
+![xkcd](http://sslimgs.xkcd.com/comics/wisdom_of_the_ancients.png)
+
+When you're programming, 80% or more of your time will be spent debugging, looking stuff up, or testing. 
+
+This does not just apply to beginner or intermediate programmers, although you will grow more "fluent" over time.
+
+If you're a good programmer, you're a good detective!
+
+---
+## Reality Check
+
+&gt; Google software engineers write an average of 10-20 lines of code per day.
+
+Lesson: Programming is a slow activity, especially in the beginning.
+
+---
+## How to Learn to Program
+
+1. Learning to program is 5% intelligence, 95% endurance.
+
+--
+2. Like learning to play an instrument or speak a foreign language, it takes practice, practice, practice.
+
+--
+3. Program a little bit every day.
+
+--
+4. Program with others. Do the problem sets in pairs or groups.
+
+--
+5. It's better to type than to copy and paste. 
+
+--
+6. Most "programming" is actually researching, experimenting, thinking.
+
+--
+7. Stay organized.
+
+---
+## 15 minute rule
+
+.center[
+![](img/smash-computer.gif)
+]
+
+We will follow the **15 minute rule** in this class. If you encounter a problem in your assignments, spend 15 minutes troubleshooting the problem on your own. After 15 minutes, if you still cannot solve the problem, **ask for help**. 
+
+(Hat tip to [Computing for Social Sciences](https://cfss.uchicago.edu/faq/asking-questions/))
+
+---
+## Debugging
+
+Those first 15 minutes should be spent trying to debug your code. Here are some tips:
+
+- Read the errors!
+- Read the documentation
+- Make it smaller
+- Figure out what changed
+- Check your syntax
+- Print statements are your friend
+
+---
+## Using the Internet
+
+You should also make use of [Google](https://www.google.com) and [StackOverflow](http://stackoverflow.com/) to resolve the error. Here's some tips for how to google errors:
+
+- google: name-of-program + text in error message.
+- Remove user- and data-specific information first!
+- See if you can find examples that do and don't produce the error. Try other people's code, but don't fall into the copy-paste trap.
+
+---
+## Asking for Help
+
+We will use Piazza for class-related questions and discussion. You are highly encouraged to ask questions, and answer one another's questions.
+
+1. Include a brief, informative title.
+2. Explain what you're trying to do, and how it failed.
+3. Include a reproducible example.
+
+Here are some helpful guidelines on how to properly ask programming questions:
+
+1. ["How to Ask Programming Questions," ProPublica](https://www.propublica.org/nerds/how-to-ask-programming-questions)
+2. ["How do I ask a good question?" StackOverflow](https://stackoverflow.com/help/how-to-ask)
+3. ["How to properly ask for help" Computing for Social Science](https://cfss.uchicago.edu/faq/asking-questions/)
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

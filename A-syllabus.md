@@ -72,7 +72,10 @@ All Zoom sessions available here: https://essex-university.zoom.us/j/3214418327 
 
 ### Exams
 
-Students taking the course for credit will complete two exams. More details forthcoming.
+Students taking the course for credit will complete two exams:
+
+1. In-class exam on Thursday, Aug 20.
+2. Take-home exam to be completed the week following the course.
 
 ### Tentative Schedule
 
