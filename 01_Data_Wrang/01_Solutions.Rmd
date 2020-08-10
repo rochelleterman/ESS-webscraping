@@ -1,0 +1,155 @@
+---
+title: "01_Data_Wrang Solutions"
+output: html_document
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(tidyverse)
+gap <- gapminder
+```
+
+## 1_Data-Basics Challenges
+
+#### Challenge 1. {-}
+
+Read the `polity` dataset.
+
+```{r}
+polity <- read.csv("Data/polity_sub.csv", stringsAsFactors = F)
+```
+
+#### Challenge 2. {-}
+
+Report the number and names of each variable in the dataset.
+
+```{r}
+dim(polity)
+names(polity)
+```
+
+#### Challenge 3. {-}
+
+What is the mean `polity2` score in the dataset?
+
+```{r}
+mean(polity$polity2, na.rm = TRUE)
+```
+
+#### Challenge 4. {-}
+
+What is the range of the `polity2` variable?
+
+```{r}
+range(polity$polity2, na.rm = T)
+```
+
+#### Challenge 5. {-}
+
+How many unique countries are in the dataset?
+
+```{r}
+length(unique(polity$country))
+```
+
+## 2_dplyr Challenges
+
+#### Challenge 1. {-}
+
+Use `dplyr` to create a data frame containing the median `lifeExp` for each continent.
+
+```{r}
+gap %>%
+  group_by(continent) %>%
+  mutate(median = median(lifeExp))
+```
+
+#### Challenge 2. {-}
+
+Use `dplyr` to add a column to the gapminder dataset that contains the total population of the continent of each observation in a given year. For example, if the first observation is Afghanistan in 1952, the new column would contain the population of Asia in 1952. 
+
+```{r warning=F}
+gap %>%
+  group_by(continent, year) %>%
+  mutate(continent_pop = sum(as.numeric(pop)))
+```
+
+#### Challenge 3. {-}
+
+Use `dplyr` to: (a) add a column called `gdpPercap_diff` that contains the difference between the observation's `gdpPercap` and the mean `gdpPercap` of the continent in that year, (b) arrange the dataframe by the column you just created, in descending order (so that the relatively richest country-years are listed first).
+
+**hint**: You might have to `ungroup()` before you `arrange()`.
+
+```{r}
+gap <- gap %>%
+  group_by(continent, year) %>%
+  mutate(mean_gdpPercap = mean(gdpPercap)) %>%
+  mutate(gdpPercap_diff = gdpPercap - mean_gdpPercap) %>%
+  ungroup() %>%
+  arrange(desc(gdpPercap_diff), year)
+head(gap)
+
+# Top observation should be Kuwait in 1957, followed by Kuwait in 1952, 1972, etc
+```
+
+## 3_tidyr Challenges
+
+#### Challenge 1. {-}
+
+Subset the results from Challenge #3 (of the previous chapter) to select only the `country`, `year`, and `gdpPercap_diff` columns. Use `tidyr` to put it in wide format so that countries are rows and years are columns.
+
+
+```{r}
+# Solution from 2, Challenge 3:
+gap <- gap %>%
+  group_by(continent, year) %>%
+  mutate(mean_gdpPercap = mean(gdpPercap)) %>%
+  mutate(gdpPercap_diff = gdpPercap - mean_gdpPercap) %>%
+  ungroup() %>%
+  arrange(desc(gdpPercap_diff), year)
+
+# Spreading into wide format:
+gap <- gap %>%
+  select(country, year, gdpPercap_diff) %>%
+  spread(year, gdpPercap_diff)
+```
+
+#### Challenge 2. {-}
+Now turn the dataframe above back into the long format with three columns: `country`, `year`, and `gdpPercap_diff`.
+
+```{r}
+gap <- gap %>%
+  gather(year, gdpPercap_diff, 2:13)
+```
+
+## 4_Relational-Data Challenges
+
+```{r}
+polity <- read.csv("data/polity_sub.csv", stringsAsFactors = F)
+ciri <- read.csv("data/ciri_sub.csv", stringsAsFactors = F)
+
+gap1 <- gapminder %>%
+  left_join(polity)
+```
+
+#### Challenge 1. {-}
+
+Merge the polityVI and CIRI datasets, keeping all observations in polityVI. Save this merged dataframe as `p1`. How many observations does `p1` have? Why?
+
+```{r}
+p1 <- polity %>%
+  left_join(ciri, by = c("country" = "CTRY", "year" = "YEAR"))
+```
+
+`p1` has 16,727 observations, because `polity` has 16,727 observations, and `left_join()` keeps all observations in `x`.
+
+#### Challenge 2. {-}
+
+Merge the `gap1` dataset we created above with the `ciri` dataset, this time keeping all observations in `ciri`. Save this as `gap2`. How many observations does it have? What is the major problem with merging the datasets this way?
+
+```{r}
+gap2 <- ciri %>%
+  left_join(gap1, by = c("CTRY" = "country", "YEAR" = "year"))
+```
+
+`gap2` has 6,262 observations. Because the ciri dataframe has many more observations than `gap1`, merging in this direction introduces a lot of `NA`s into the data.
