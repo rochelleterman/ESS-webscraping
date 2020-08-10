@@ -64,15 +64,22 @@ My name is Rochelle Terman and I'm an Assistant Professor in Political Science a
 * Figure out online pedagagy together!
 
 ---
-## Course Websites
-
-#### Materials
-
-* Class notes and other materials are available here:
-https://github.com/rochelleterman/ESS-webscraping
+## Course Materials
 
 #### Piazza
 * Used for announcements and discussion. Please use liberally.
+
+#### Materials
+Download class notes and labs by typing this into RStudio's console:
+
+```
+library("usethis")
+use_course("rochelleterman/ESS-webscraping")
+```
+
+* Materials will change **regularly**
+
+* To save your work, go to File --> Save As --> change_final_name.Rmd.
 
 ---
 ## Final Exams
