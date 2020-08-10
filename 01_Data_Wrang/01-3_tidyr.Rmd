@@ -1,0 +1,240 @@
+---
+title: "Tidying Data with `tidyr`"
+subtitle: "3I: Webcraping & Data Management in R"
+author: "Rochelle Terman"
+date: "August 2020"
+output:
+  prettydoc::html_pretty:
+    theme: hpstr
+    highlight: github
+---
+
+```{r setup, include=FALSE}
+set.seed(1014)
+options(digits = 3)
+options(dplyr.print_min = 6, dplyr.print_max = 6)
+
+knitr::opts_chunk$set(
+  comment = "#>",
+  collapse = TRUE,
+  out.width = "70%",
+  fig.align = 'center',
+  fig.width = 6,
+  fig.asp = 0.618,  # 1 / phi
+  fig.show = "hold"
+)
+```
+
+```{r message=FALSE} 
+library(knitr)
+library(tidyverse)
+library(gapminder)
+```
+
+# Tidying Data
+
+Even before we conduct analyses or calculations, we need to put our data into the correct format. The goal here is to rearrange a messy dataset into one that is **tidy**.
+
+The two most important properties of tidy data are:
+
+1) Each column is a variable.
+2) Each row is an observation.
+
+Tidy data is easier to work with because you have a consistent way of referring to variables (as column names) and observations (as row indices). The data then becomes easier to manipulate, visualize, and model.
+
+For more on the concept of *tidy* data, read Hadley Wickham's paper [here](http://vita.had.co.nz/papers/tidy-data.html).
+
+## Wide vs. Long Formats
+
+> Tidy datasets are all alike, but every messy dataset is messy in its own way.
+
+> __Hadley Wickham__
+
+Tabular datasets can be arranged in many ways. For instance, consider the data below. Each dataset displays information on heart rates observed in individuals across three different time periods, but the data are organized differently in each table.
+
+```{r}
+wide <- data.frame(
+  name = c("Wilbur", "Petunia", "Gregory"),
+  time1 = c(67, 80, 64),
+  time2 = c(56, 90, 50),
+  time3 = c(70, 67, 101)
+)
+kable(wide)
+
+long <- data.frame(
+  name = c("Wilbur", "Petunia", "Gregory", "Wilbur", "Petunia", "Gregory", "Wilbur", "Petunia", "Gregory"),
+  time = c(1, 1, 1, 2, 2, 2, 3, 3, 3),
+  heartrate = c(67, 80, 64, 56, 90, 50, 70, 67, 10)
+)
+kable(long)
+```
+
+**Question**: Which one of these do you think is the *tidy* format?
+
+**Answer**: The first dataframe (the "wide" one) would not be considered *tidy* because values (i.e., heart rate) are spread across multiple columns.
+
+We often refer to these different structures as "long" vs. "wide" formats:
+
+- In the __"long"__ format, you usually have one column for the observed variable, and the other columns are ID variables. 
+
+- In the __"wide"__ format, each row is often a site/subject/patient, and you have multiple observation variables containing the same type of data. These can be either repeated observations over time or observations of multiple variables (or a mix of both). In the case above, we had the same kind of data (heart rate) entered across three different columns, corresponding to three different time periods.
+
+```{r echo = F}
+knitr::include_graphics(path = "img/tidyr-fig1.png")
+```
+
+You may find data input in the "wide" format to be simpler, and some other applications may prefer "wide"-format data. However, many of R’s functions have been designed assuming you have "long"-format data.
+
+## Tidying the Gapminder Data
+
+Let's look at the structure of our original gapminder dataframe:
+
+```{r}
+gap <- gapminder
+
+kable(head(gap))
+```
+
+**Question**: Is this data frame **wide** or **long**?
+
+**Answer**: This data frame is somewhere in between the purely 'long' and 'wide' formats. We have three "ID variables" (`continent`, `country`, `year`) and three "observation variables" (`pop`, `lifeExp`, `gdpPercap`). 
+
+Despite not having *all* observations in one column, this intermediate format makes sense given that all three observation variables have different units. As we have seen, many of the functions in R are often vector-based, and you usually do not want to do mathematical operations on values with different units.
+
+On the other hand, there are some instances in which a purely long or wide format is ideal (e.g., plotting). Likewise, sometimes you will get data on your desk that is poorly organized, and you will need to **reshape** it.
+
+## `tidyr` Functions
+
+Thankfully, the `tidyr` package will help you efficiently transform your data regardless of their original format.
+
+```{r}
+# Load the "tidyverse" package (necessary every new R session):
+require(tidyverse)
+```
+
+### `gather`
+
+Until now, we have been using the nicely formatted original gapminder dataset. This dataset is not quite wide and not quite long -- it is something in the middle -- but 'real' data (i.e., our own research data) will never be so well organized. Here let's start with the wide-format version of the gapminder dataset.
+
+```{r}
+gap_wide <- read.csv("data/gapminder_wide.csv", stringsAsFactors = FALSE)
+
+kable(head(gap_wide))
+```
+
+The first step towards getting our nice intermediate data format is to first convert from the wide to the long format. 
+
+The function `gather()` will 'gather' the observation variables into a single variable. This is sometimes called "melting" your data, because it melts the table from wide to long. Those data will be melted into two variables: one for the variable names and the other for the variable values. 
+
+```{r}
+gap_long <- gap_wide %>%
+    gather(obstype_year, obs_values, 3:38)
+
+kable(head(gap_long))
+```
+
+Notice that we put three arguments into the `gather()` function: 
+
+1. The name for the new ID variable (`obstype_year`).
+2. The name for the new amalgamated observation variable (`obs_value`).
+3. The indices of the old observation variables (`3:38`, signalling columns 3 through 38) that we want to gather into one variable. Notice that we do not want to melt down columns 1 and 2, as these are considered ID variables.
+
+We can select observation variables using:
+
+* Variable indices.
+* Variable names (without quotes).
+* `x:z` to select all variables between x and z.
+* `-y` to *exclude* y.
+* `starts_with(x, ignore.case = TRUE)`: All names that start with `x`.
+* `ends_with(x, ignore.case = TRUE)`: All names that end with `x`.
+* `contains(x, ignore.case = TRUE)`: All names that contain `x`.
+
+See the `select()` function in `dplyr` for more options.
+
+For instance, here we do the same thing with (1) the `starts_with` function and (2) the `-` operator:
+
+```{r}
+# 1. With the starts_with() function:
+gap_long <- gap_wide %>%
+    gather(obstype_year, obs_values, starts_with('pop'),
+           starts_with('lifeExp'), starts_with('gdpPercap'))
+
+# 2. With the - operator:
+gap_long <- gap_wide %>% 
+  gather(obstype_year, obs_values, -continent, -country)
+
+kable(head(gap_long))
+```
+
+However you choose to do it, notice that the output collapses all of the measured variables into two columns: one containing the new ID variable, the other containing the observation value for that row. 
+
+### `separate`
+
+You will notice that, in our long dataset, `obstype_year` actually contains two pieces of information, the observation type (`pop`, `lifeExp`, or `gdpPercap`) and the `year`.
+
+We can use the `separate()` function to split the character strings into multiple variables.
+
+```{r}
+gap_long_sep <- gap_long %>% 
+  separate(obstype_year, into = c('obs_type','year'), sep = "_") %>% 
+  mutate(year = as.integer(year))
+
+kable(head(gap_long_sep))
+```
+
+### `spread`
+
+The opposite of `gather()` is `spread()`. It spreads our observation variables back out to make a wider table. We can use this function to spread our `gap_long()` to the original "medium" format.
+
+```{r}
+gap_medium <- gap_long_sep %>% 
+  spread(obs_type, obs_values)
+
+kable(head(gap_medium))
+```
+
+All we need is some quick fixes to make this dataset identical to the original `gapminder` dataset:
+
+```{r}
+gap <- gapminder
+kable(head(gap))
+
+# Rearrange columns:
+gap_medium <- gap_medium %>%
+  select(country, continent, year, lifeExp, pop, gdpPercap)
+kable(head(gap_medium))
+
+# Arrange by country, continent, and year:
+gap_medium <- gap_medium %>% 
+  arrange(country,continent,year)
+kable(head(gap_medium))
+```
+
+**What we just told you will become obsolete...**
+
+`gather` and `spread` are being replaced by `pivot_longer` and `pivot_wider` in `tidyr 1.0.0`, which uses ideas from the `cdata` package to make reshaping easier to think about. In future classes, we will migrate to those functions.
+
+## More `tidyverse`
+
+`dplyr` and `tidyr` have many more functions to help you wrangle and manipulate 
+your data. See the  [Data Wrangling Cheatsheet](https://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf) for more.
+
+There are some other useful packages in the [tidyverse](http://www.tidyverse.org):
+
+* `ggplot2` for plotting (we will cover this in the Visualization module).
+* `readr` and `haven` for reading in data.
+* `purrr` for working iterations. 
+* `stringr`, `lubridate`, and `forcats` for manipulating strings, dates, and factors, respectively.
+* Many many more! Take a peak at the [tidyverse github page](https://github.com/tidyverse)...
+
+
+## Challenges
+
+#### Challenge 1. {-}
+
+Subset the results from Challenge #3 (of the previous chapter) to select only the `country`, `year`, and `gdpPercap_diff` columns. Use `tidyr` to put it in wide format so that countries are rows and years are columns.
+
+#### Challenge 2. {-}
+
+Now turn the dataframe above back into the long format with three columns: `country`, `year`, and `gdpPercap_diff`.
+
