@@ -52,7 +52,7 @@ library(stringr)
 library(tidyverse)
 
 # read all texts
-all_texts <- readtext("data/txts/")
+all_texts <- readtext("data/txts/*")
 ```
 
 ## 1. Extract One Document
