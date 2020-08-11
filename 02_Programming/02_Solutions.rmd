@@ -1,0 +1,176 @@
+---
+title: "Day 2: Challenge Solutions"
+subtitle: "ESS 3I: Webscraping and Data Management in R"
+author: "Rochelle Terman"
+date: "Fall 2019"
+output: html_document
+---
+
+```{r include=FALSE}
+library(tidyverse)
+library(knitr)
+library(gapminder)
+```
+
+## Strings
+
+#### Challenge 1.
+
+In code that doesn't use `stringr`, you'll often see `paste()` and `paste0()`. What's the difference between the two functions? What `stringr` function are they equivalent to? How do the functions differ in their handling of  `NA`?
+
+- `paste()` adds a space separater by default; `paste0()` does not. 
+- The `stringr` equivalent to `paste()` is `str_c()`, as in `str_c("hey", "you", sep = " ")`. 
+- `paste()` and `paste0()` will convert `NA`s to characters; `str_c()` will not.
+    
+#### Challenge 2. 
+
+In your own words, describe the difference between the `sep` and `collapse` arguments to `str_c()`.
+
+- `sep = ","` inserts a "," between vector arguments. Output is a vector.
+- `collapse = ","` will combine input vectors into a single string, Output is a single string (i.e. a vector of length = 1)
+
+```{r}
+vec1 <- c("a", "b", "c")
+vec2 <- c(1, 2, 3)
+
+str_c(vec1, vec2, sep = ".")
+# c("a.1" , "b.2" , "c.3")
+
+str_c(vec1, vec2, collapse = ".")
+# "a1.b2.c3"
+```
+
+
+#### Challenge 3.
+
+Use `str_length()` and `str_sub()` to extract the middle character from 
+a string. What will you do if the string has an even number of characters?
+
+```{r}
+# for odd cases
+x <- "lemon"
+str_sub(x,
+        start = ceiling(str_length(x) / 2 ), 
+        end = ceiling(str_length(x) / 2))
+
+# for both odd and even cases
+x <- "pies"
+str_sub(x,
+        start = ifelse(str_length(x) %% 2 == 0, 
+                       floor(str_length(x) / 2), 
+                       ceiling(str_length(x) / 2 )), 
+        end = floor(str_length(x) / 2) + 1)
+```
+
+
+#### Challenge 4. 
+
+What does `str_trim()` do? What's the opposite of `str_trim()`?
+
+- `str_trim()` removes whitespace from start and end of string.
+- `str_pad()` adds whitespace to star tand eng of string.
+
+## Functions
+
+#### Challenge 
+
+Write a function that calculates the sum of the squared value of two numbers. For instance, it should generate the following output:
+
+```{r eval = F}
+# SOLUTION
+my_function <- function(donut, kitten) {
+  sum <- sum(donut^2,  kitten^2)
+  return(sum)
+}
+
+my_function(3, 4)
+my_function(1,2)
+```
+
+#### Challenge 2 
+
+Write `both_na()`, a function that takes two vectors and returns the total number NAs in both vectors. 
+
+For instance, it should generate the following output:
+
+```{r eval = F}
+# SOLUTION
+both_na <- function(x, y) {
+  sum(is.na(x), is.na(y))
+}
+
+both_na(
+  c(NA, NA, 1, 2, NA, NA, 1),
+  c(NA, 1, NA, 2, NA, NA, 1)
+)
+```
+
+#### Challenge 3 
+
+Fill in the blanks to create a function that takes a name like "Rochelle Terman" and returns that name in uppercase and reversed, like "TERMAN, ROCHELLE"
+
+```{r eval = F}
+# SOLUTION
+standard_names <- function(name){
+    upper_case = toupper(name) # make upper
+    upper_case_vec = strsplit(upper_case, split = ' ')[[1]]  # turn into a list
+    first_name = upper_case_vec[1]# take first name
+    last_name = upper_case_vec[2] # take last name
+    reversed_name = paste(last_name, first_name, sep = ", ") # reverse and separate by a comma and space
+    return(reversed_name)
+}
+standard_names('Rochelle Terman')
+```
+
+#### Challenge 4
+
+Look at the following function:
+
+```{r}
+print_date <- function(year, month, day){
+    joined = paste(as.character(year), as.character(month), as.character(day), sep = "/")
+    return(joined)
+}
+```
+
+Why do the two lines of code below return different values? 
+
+```{r eval = F}
+print_date(day=1, month=2, year=2003)
+print_date(1, 2, 2003)
+```
+
+Line 81 uses keyword arguments; line 82 uses positional arguments. So `year` is assigned to 1, `month` to 2, and `day` to 2003.
+
+## Iteration
+
+### Challenges
+
+Write code that uses one of the map functions to:
+
+#### Challenge 1
+
+Calculates the arithmetic mean for every column in `mtcars`.
+
+```{r}
+map(mtcars, mean)
+```
+
+#### Challenge 2
+
+Calculates the number of unique values in each column of `iris`. 
+
+```{r}
+iris %>% 
+  map(unique) %>%
+  map_dbl(length)
+```
+
+#### Challenge 3
+
+Generate 10 random normals for each of $\mu = -10$, $0$, $10$, and $100$.
+
+```{r}
+mus <- c(-10, 0, 10, 100)
+map(mus, ~rnorm(n = 10, mean = .))
+```

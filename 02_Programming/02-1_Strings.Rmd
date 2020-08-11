@@ -8,22 +8,10 @@ output:
     highlight: github
 ---
 
-```{r setup, include=FALSE}
+```{r message = FALSE}
 library(knitr)
-
-set.seed(1014)
-options(digits = 3)
-options(dplyr.print_min = 6, dplyr.print_max = 6)
-
-knitr::opts_chunk$set(
-  comment = "#>",
-  collapse = TRUE,
-  out.width = "70%",
-  fig.align = 'center',
-  fig.width = 6,
-  fig.asp = 0.618,  # 1 / phi
-  fig.show = "hold"
-)
+library(tidyverse)
+library(stringr)
 ```
 
 # Programming in R
@@ -44,11 +32,6 @@ Note that these concepts are __not specific to R__. While the syntax might vary,
 This unit focuses on chracter (or "string") data. We'll focus on **string basics**, such as concatinating and subsettings. For more advanced topics, see [this chapter on strings and regular expressions.](https://plsc-31101.github.io/course/strings-and-regular-expressions.html)
 
 This chapter will focus on the __`stringr`__ package for string manipulation. `stringr` is not part of the core `tidyverse` because you don't always have textual data, so we need to load it explicitly.
-
-```{r message = FALSE}
-library(tidyverse)
-library(stringr)
-```
 
 ### Creating Strings
 
