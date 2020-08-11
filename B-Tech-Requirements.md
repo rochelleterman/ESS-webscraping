@@ -22,7 +22,7 @@ You’ll also need to install some R packages. An R package is a collection of f
 
 Many of the packages that you will learn in this class are part of the so-called `tidyverse`. The packages in the `tidyverse` share a common philosophy of data and R programming, and are designed to work together naturally.
 
-**To install packages, open RStudio. Go to Tools > Install Packages.** Enter the following: `tidyverse, knitr, gapminder, rtweet, kableExtra, devtools, tm, wordcloud, matrixStats, SnowballC, tidytext, textdata, stm`
+**To install packages, open RStudio. Go to Tools > Install Packages.** Enter the following: `tidyverse, knitr, gapminder, rtweet, kableExtra, devtools, tm, wordcloud, matrixStats, SnowballC, tidytext, textdata, stm, readtext`
 
 If you have problems installing packages, make sure that you are connected to the internet, and that https://cloud.r-project.org/ isn’t blocked by your firewall or proxy. If RStudio returns an error message, go to "Preferences" and check the "Packages" section. Under "CRAN Mirror," if no mirror is selected, choose "Global (CDN) - RStudio". 
 
