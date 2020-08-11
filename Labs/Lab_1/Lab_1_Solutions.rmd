@@ -1,0 +1,245 @@
+---
+title: "Lab 1 Solutions"
+subtitle: "3I: Webcraping & Data Management in R"
+author: "Rochelle Terman"
+date: "August 2020"
+output:
+  prettydoc::html_pretty:
+    theme: hpstr
+    highlight: github
+---
+
+```{r message = F}
+library(tidyverse)
+```
+
+
+# Lab 1
+
+For this lab, we'll be working with a dataset containing U.S. news coverage of women around the world (excluding the United States). In this dataset, the unit of observation is an *article* (each row represents an individual article) with variables for:
+
+* `publication`: NYT or Washington Post.
+* `year`: Year article was published.
+* `title`: Title of the article.
+* `country`: Country the article is mainly about.
+* `region`: Region where `country` is located.
+* `ccode`: Numerical code for `country`.
+
+We'll be merging these data with another dataset where the unit of observation is *country-year.* This dataset has the following variables:
+
+* `year`: Year.
+* `ccode`: Country numerical code.
+* `country`: Country name.
+* `idealpoint` UN Ideal point.
+* `polity2`: Polity2 score of regime type (from Polity IV).
+* `physint`: Physical Integrity Rights score (from CIRI dataset).
+* `speech`: Speech Rights score (from CIRI).
+* `gdp.pc.wdi`: GDP per capita (from World Bank).
+* `pop.wdi`: Population (from World Bank).
+* `amnesty`: Political Terror Scale using Amnesty International reports (from Political Terror Scale project).
+* `cinc`: Composite Index of Military Capabilities (Correlates of War).
+* `region`: Geographic region.
+
+## 1. Loading, subsetting, summarizing
+
+### 1.1
+
+Load the csv found in `data/articles.csv` into R. Be sure to set `stringsAsFactors` to `FALSE`. Store the dataframe to an object called `articles` and tell me the variable names.
+
+```{r message = F}
+articles <- read.csv("data/articles.csv", stringsAsFactors = F)
+names(articles)
+```
+
+### 1.2
+
+How many unique countries are covered in the dataset?
+
+```{r}
+length(unique(articles$country))
+```
+
+### 1.3
+
+The variable `ccode` reports a numerical ID corresponding to a given country. Print the names of the country or countries without a `ccode` (i.e. those countries where the `ccode` is `NA`.)
+
+**Hint**: The `is.na()` function will return a logical vector indicating which elements are missing. `!is.na()` returns the opposite.
+
+```{r}
+# base R way
+unique(articles$country[is.na(articles$ccode)])
+
+# tidyuverse way
+articles %>%
+  filter(is.na(ccode)) %>%
+  select(country) %>%
+  unique
+```
+
+### 1.4
+
+Remove all articles where the `ccode` variable is `NA`. How many observations are left with? Store the trimmed dataset in an objet called `articles_no_na`
+
+```{r}
+# baseR
+articles_no_na <- articles[!is.na(articles$ccode), ]
+
+# tidyverse
+articles_no_na <- articles %>%
+  filter(!is.na(ccode))
+
+nrow(articles_no_na)
+```
+
+## 2. Counting Frequencies and Merging
+
+### 2.1 
+
+With `articles_no_na`, create a new data frame called `articles_country_year` that tells us the number of articles per `ccode` (i.e. country code), per `year`.
+
+The final data frame `articles_country_year` should contain three columns: `ccode`, `year`, and `number_articles`.
+
+```{r}
+# solution 1
+articles_country_year <- articles_no_na %>%
+  count(ccode, year) %>%
+  select(ccode, year, number_articles = n)
+
+head(articles_country_year)
+```
+
+### 2.2. 
+
+Load `data/country-year.csv`.
+
+```{r}
+country_year <- read.csv("data/country-year.csv", stringsAsFactors = F)
+```
+
+### 2.3  
+
+Subset `country_year` such that it has the same year range as `articles_country_year`
+
+```{r}
+range(articles_country_year$year)
+range(country_year$year)
+
+country_year <-country_year %>% filter(year > 1979)
+```
+
+### 2.4  
+
+Merge (i.e. join) `articles_country_year` and `country_year` into a new dataframe called `merged`.
+
+When you're done, `merged` should have all the rows and columns of the country_year dataset, along with a new column called `number_articles`.
+
+```{r}
+merged <- country_year %>% 
+  left_join(articles_country_year)
+
+head(merged)
+```
+
+### 2.5 
+
+In `merged`, replace all instances of `NA` in the `number_articles` column to 0.
+
+**hint**: Checkout the `replace_na()` function.
+
+```{r}
+# solution 1
+merged$number_articles <- replace_na(merged$number_articles, 0)
+
+# solution 2
+merged <- merged %>% 
+  mutate(number_articles = ifelse(is.na(number_articles), 0, number_articles))
+
+# test
+summary(merged$number_articles)
+```
+
+### 2.6  
+
+Which country-year observation has the most number of articles? Write code that prints the year, country name, and number of articles for this observation.
+
+**hint**: Checkout the `top_n()` function.
+
+```{r}
+merged %>% 
+  top_n(1, number_articles) %>%
+  select(year, country, number_articles)
+```
+
+
+## 3. Group-wise Operations
+
+### 3.1 
+
+Using the `merged` data and our **split-apply-combine** strategies, print the total number of articles about women per region.
+
+```{r}
+n_region <- merged %>%
+  group_by(region) %>%
+  summarise(count = sum(number_articles, na.rm = T))
+
+n_region
+```
+
+## 4. Long v. wide formats
+
+### 4.1 
+
+Create a piped operation on `merged` that does the following:
+
+  1. Subsets the dataframe to select `year`, `country`, and `number_articles` columns.
+  2. Filters the dataframe to select only observations in the MENA region.
+  3. Spreads the dataframe so that each `country` is a column, and the cells represent `number_articles.
+
+
+```{r}
+wide <- merged %>%
+  filter(region == "MENA") %>%
+  select(year, country, number_articles) %>%
+  spread(country, number_articles, fill = 0)
+
+head(wide)
+```
+
+### 4.2 
+
+Transform the dataset you created above back into `long` format, with three variables: `year`, `country`, and `number_articles`
+
+```{r}
+long <- wide %>%
+  gather(country, number_articles, -year)
+
+head(long)
+```
+
+## 5. Extra Bonus Challenge
+
+Transform the `country_year` data into an undirected dyadic dataset. Here, the unit of observation should be the dyad-year, with five columns:
+
+  1. `ccode_1`: Country 1 `ccode`
+  2. `country_1`: Country 1 name
+  3. `ccode_2`: Country 2 `ccode`
+  4. `country_2`: Country 2 name
+  5. `year`: Year of observation
+  3. `gdp_diff`: Absolute difference of gdp between dyad. 
+
+This should be *undirected* dyadic dataset, meaning `USA-Canada-1980` is the same as `Canada-USA-1980`, and we shouldn't have duplicate rows for the same dyad.
+
+Try to do it all in 1 piped sequence. Then tell me the dyad-year with the greatest wealth disparity.
+
+```{r}
+dyad <- country_year %>% 
+  expand(ccode_1=ccode, ccode_2=ccode) %>% # make two columns of states
+  filter(ccode_1 > ccode_2) %>% # from directed to undirected dyads
+  left_join(., country_year, by=c("ccode_1"="ccode")) %>% # get state1 info
+  left_join(., country_year, by=c("year", "ccode_2"="ccode")) %>% # get state2 info 
+  mutate(gdp_diff = abs(gdp.pc.wdi.x - gdp.pc.wdi.y)) %>% # take absolute difference in gdp
+  select(ccode_1, country_1 = country.x, ccode_2, country_2 = country.y, year, gdp_diff) %>%
+  arrange(desc(gdp_diff))
+
+head(dyad, 1)
+```
