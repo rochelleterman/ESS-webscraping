@@ -1,7 +1,7 @@
 ---
 title: "RTweet"
-author: "PLSC 31101"
-date: "Fall 2019"
+author: "ESS 3I: Webscraping and Data Management in R"
+date: "August 2020"
 output: html_document
 ---
 
@@ -32,7 +32,7 @@ Let's go ahead and load `RTweet` along with some other helpful packages:
 library(tidyverse)
 library(rtweet)
 library(lubridate)
-library(kableExtra)
+library(knite)
 
 # Run this line and approve the browser pop-up
 search_tweets("Chicago Power Outage")

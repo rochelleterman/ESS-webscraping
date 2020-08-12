@@ -1,5 +1,5 @@
 ---
-title: "Manipulating Data with `dplyr`"
+title: "Web APIs"
 subtitle: "3I: Webcraping & Data Management in R"
 author: "Rochelle Terman"
 date: "August 2020"
