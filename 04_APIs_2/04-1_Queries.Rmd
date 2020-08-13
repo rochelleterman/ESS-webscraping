@@ -41,7 +41,7 @@ Most GET request URLs for API querying have three or four components:
 Let's go ahead and store the these values as variables:
 
 ```{r}
-key <- "Onz0BobMTn2IRJ7krcT5RXHknkGLqiaI"
+key <- "Onz0BobMTn2IRJ7krcT5RXHknkGLqiaI" # change to YOUR KEY!!!
 base.url <- "http://api.nytimes.com/svc/search/v2/articlesearch.json"
 search_term <- '"John Mearsheimer"'
 ```
@@ -162,7 +162,7 @@ nytapi <- function(term = NULL, n){
     return(response_df$response$docs)
 }
 
-docs <- nytapi("John Mearsheimer", 2)
+docs <- nytapi('"John Mearsheimer"', 2)
 ```
 
 Now, we're ready to iterate over each page. First, let's review what've done so far:
@@ -170,8 +170,8 @@ Now, we're ready to iterate over each page. First, let's review what've done so 
 ```{r}
 # set key and base
 base.url = "http://api.nytimes.com/svc/search/v2/articlesearch.json" 
-key = ""
-search_term = '"John Mearsheimer"' #change me
+key = "Onz0BobMTn2IRJ7krcT5RXHknkGLqiaI" #change me
+search_term = '"John Mearsheimer"' 
   
 # Send GET request
 r <- GET(base.url, query = list(`fq` = search_term,
@@ -191,7 +191,8 @@ pages = ceiling(hits/10)
 nytapi_slow <- slowly(nytapi, rate = rate_delay(1))
 
 # iterate over pages, getting all docs
-docs_list <- map(1:pages, ~nytapi_slow(term = search_term, n = .))
+page_vec <- (1:pages)-1
+docs_list <- map(page_vec, ~nytapi_slow(term = search_term, n = .))
 
 # flatten to create one big dataframe
 docs_df <- bind_rows(docs_list)
