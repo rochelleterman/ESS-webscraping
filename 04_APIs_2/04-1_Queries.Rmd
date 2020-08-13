@@ -170,7 +170,7 @@ Now, we're ready to iterate over each page. First, let's review what've done so 
 ```{r}
 # set key and base
 base.url = "http://api.nytimes.com/svc/search/v2/articlesearch.json" 
-key = "Onz0BobMTn2IRJ7krcT5RXHknkGLqiaI"
+key = ""
 search_term = '"John Mearsheimer"' #change me
   
 # Send GET request
