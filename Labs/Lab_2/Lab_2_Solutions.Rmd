@@ -1,0 +1,318 @@
+---
+title: "Lab 2 Solutions"
+subtitle: "ESS 3I: Webcraping & Data Management in R"
+date: "August 2020"
+author: "Rochelle Terman"
+output: html_document
+---
+
+In this lab, we'll use R to turn a bunch of loose text documents into a real-life database. (Note: This database was created for a project by R. Terman and E. Voeten, and was processed using much the same process as you'll be learning here.)
+
+The problem set will leverage your new R skills, especially working with strings, functions, iterations -- and thinking like a programmer!
+
+**Important**: The code has been scaffolded for you, meaning that you have to fill in the blanks. Once you're ready to knit, change the `eval = F` in the code below to `eval = T`. If you don't, the chunk won't execute when you knit the Rmarkdown file.
+
+```{r setup, include=T}
+knitr::opts_chunk$set(eval = T)
+```
+
+## About the Data
+
+We'll be creating a database from [Universal Period Review outcome reports](http://www.ohchr.org/EN/HRBodies/UPR/Pages/BasicFacts.aspx).
+
+The Universal Periodic Review (UPR) is a process run by the United Nations Human Rights Council, which involves a periodic review of the human rights records of all 193 UN Member States.
+
+Reviews take place through an interactive discussion between the State under review and other UN Member States. During this discussion any UN Member State can pose questions, comments and/or make recommendations to the States under review. States under review can then respond, stating which recommendations they reject, accept, will consider, etc. Reports are then drawn up detailing this discussion.
+
+We will be analyzing outcome reports from the 2014 Universal Period Reviews of 42 countries, which we retrieved [here](http://www.ohchr.org/EN/HRBodies/UPR/Pages/Documentation.aspx) and formatted as text documents.
+
+The goal is to convert these semi-structured texts to a tabular dataset of **recommendations** with the following variables:
+
+1. Text of recommendation (*text*)
+2. Country to which the recommendation is directed (*to*)
+3. Country that is making the recommendation (*from*)
+4. The year when the review took place (*year*)
+5. The response to the recommendation, i.e. whether the reviewed country rejects, accepts, etc (*decision*)
+
+In other words, we want to turn this:
+
+<img src="img/text.png" width="600">
+
+into this:
+
+<img src="img/tabular.png" width="400">
+
+Take a few minutes to look at the files, which are located in `data/txts`, and get a sense for how they're structured.
+
+Then run the following code to get started.
+
+```{r message = F}
+library(readtext)
+library(stringr)
+library(tidyverse)
+
+# read all texts
+all_texts <- readtext("data/txts/")
+```
+
+## 1. Extract One Document
+
+We're going to start off working with just one document. We'll then use that code to iterate over all the documents.
+
+**task**:
+
+- Extract one document.
+- Collect information on the country and year.
+- Extract the section we're interested in.
+- Turn each line (i.e. recommendation) into an item in a vector.
+
+Let's start off working with `cotedivoire2014.txt` (the third file).
+
+```{r}
+text <- all_texts$text[3]
+file_name <- all_texts$doc_id[3]
+```
+
+### 1.1 Assign `country` and `year` variables.
+
+You'll notice that the `file_name` consists of the name of the reviewed country and the year. Slice `file_name` to create 2 new variables, `country`, and `year`.
+
+Be careful! Remember that we are going to apply this to the other file names later. However you slice "cotedivoire2014.txt", it needs to work for the other files in the `data/txts` directory.
+
+```{r}
+country <- str_sub(file_name, 1, -9)
+year <-str_sub(file_name, -8, -5)
+```
+
+### 1.2 Get the "Recommendations" section.
+
+Note that the section we want starts with `"II. Conclusions and/or recommendations\n"`. What function would you use to get everything *after* this substring? Fill in the blank below and assign the value to a new variable called `rec_text`.
+
+```{r}
+sections = str_split(text, "II. Conclusions and/or recommendations\n")[[1]]
+rec_text = sections[2] # get second item -- everything after.
+```
+
+### 1.3 Turn it into a vector.
+
+Using a `stringr` function, transform the `rec_text` string into a vector of lines, and store it in a variable called `recs`. Remember that a new line is represented by `\n`.
+
+```{r}
+recs <- str_split(rec_text, "\n")[[1]]
+head(recs)
+```
+
+## 2. Chunk Recomendations
+
+These texts have 3 sections each:
+
+1. The first section contains those recommendations the country supports. 
+2. The second section contains recs the country will examine. 
+3. The third contains recommendations the country explicitely rejects. 
+
+**task**:
+
+- parse recommendations into three piles, corresponding to accepted recs, examined recs, and rejected recs.
+- combine these piles back into a dataframe, containing the text of the recommendation and its corresponding decision.
+- add additional columns for `to` country and `year`.
+
+### 2.1: Find the paragraph numbers.
+
+Each section starts with a main paragraph number (e.g. **127**). The individual recommendations are then noted as subparagraphs (e.g. **127.1, 127.2** etc.).
+
+All the accepted recommendations have the same main paragraph number (**127**). Next come the recommendations which will be examined, whose main paragraph number is just the next integer (**128**). After that are the rejected recommendations, with the next integer as their main paragraph number (**129**).
+
+We can't know the paragraph numbers beforehand, because each file is different. But we *can* leverage our knowledge of the structure of the documents to get them.
+
+Fill in the blanks below to create 3 variables containing the 3 paragraph numbers.
+
+```{r}
+para1 = str_extract(recs[1], "\\d+")
+para1 = as.numeric(para1)
+para2 = para1 + 1
+para3 = para2 + 1
+```
+
+### 2.2 Parse the text.
+
+Now create 3 new vectors: `accept_recs`, `examine_recs`, `reject_recs.` Each vector should contain the recommendations assigned to its corresponding section.
+
+**hint**: How do you know if a line belongs to a section? It starts with the main paragraph number for that section. So use the **str_starts** function.
+
+```{r}
+# subset recommendations
+accept_recs = recs[str_starts(recs, as.character(para1))]
+# accept_recs = str_subset(recs, str_c("^", as.character(para1)))
+examine_recs = recs[str_starts(recs, as.character(para2))]
+reject_recs = recs[str_starts(recs, as.character(para3))]
+
+# remove the first item from each list, which just demarcates the sections
+accept_recs = accept_recs[-1]
+examine_recs = examine_recs[-1]
+reject_recs = reject_recs[-1]
+```
+
+### 2.3 Tranform to dataframe.
+
+The following code combines the three vectors back into a dataframe with two column: `text` (of the recommendation), and `decicion` (whether the recommendation was accepted, examined, or rejected)
+
+```{r}
+recs_df <- list(accept = accept_recs,
+                    examine = examine_recs,
+                    reject = reject_recs)
+
+recs_df <- stack(recs_df) %>%
+  select("text" = values, "decision" = ind)
+```
+
+Your job is to add 2 new columns to this dataframe: `to` should contain the country under review, and `year` should contain the year under review. Note that we already created these variables above, in question 1.1
+
+```{r}
+recs_df <- recs_df %>%
+  mutate(to = country,
+         year = year)
+
+head(recs_df)
+```
+
+## 3. Get Recommending Country
+
+**task**
+- extract the substring representing the recommending country.
+- add this information to our dataframe.
+
+### 3.1 Extract recommending country.
+
+Take a look at several recommendation texts to get an idea of their format.
+
+```{r}
+head(recs_df$text)
+```
+
+Notice that they're all formatted the same way, with the recommending country in parenthesis at the end, in between parentheses.
+
+Using your string skills, find a way to pull out the recommending country from the first recommendation (stored in `first_rec` below).
+
+```{r}
+first_rec = recs_df$text[1]
+```
+
+```{r}
+rec_after_paran <- str_split(first_rec, "\\(")[[1]]
+rec_after_paran <- tail(rec_after_paran, 1)
+first_rec_country = str_split(rec_after_paran, "\\)")[[1]]
+first_rec_country <- first_rec_country[1]
+
+# this should be 'Philipines'.
+first_rec_country
+```
+
+### 3.2 Create a Function.
+
+Create a function called `get_country` that passes an individual recommendation text and returns the recommending country.
+
+```{r}
+get_country <- function(rec){
+  rec_after_paran <- str_split(rec, "\\(")[[1]]
+  rec_after_paran <- tail(rec_after_paran, 1) # get last item
+  first_rec_country = str_split(rec_after_paran, "\\)")[[1]]
+  first_rec_country <- first_rec_country[1] # get first item
+  
+  return(first_rec_country)
+}
+
+# test your code
+get_country(first_rec)
+```
+
+### 3.3 Add `from` column.
+
+Using your `map` and `dplyr` skills, add a column to `recs_df` that contains the country issuing each recommendation.
+
+```{r}
+recs_df <- recs_df %>% mutate(
+  from = map_chr(text, get_country)
+)
+```
+
+## 4. Repeat for all documents
+
+We just wrote code that takes one document and turns it into a dataset!
+
+The problem is we have 11 documents!
+
+**task**
+
+- combine the code we've written so far to create a function
+- apply that function to all files to create a single dataset.
+
+### 4.1 Make a function.
+
+Combine the functions that you wrote above to create a single function that passes a row number of `all_texts` (i.e. an integer), and returns a dataframe of fully parsed recommendations in that file.
+
+```{r}
+parse_file <- function(i){
+    # get filename and text
+    text <- all_texts$text[i]
+    file_name <- all_texts$doc_id[i]
+    
+    # get to country and year
+    country <- str_sub(file_name, 1, -9)
+    year <-str_sub(file_name, -8, -5)
+    
+    # get vector of recs
+    sections = str_split(text, "II. Conclusions and/or recommendations\n")[[1]]
+    rec_text = sections[2] # get second item -- everything after.
+    recs = str_split(rec_text, "\n")[[1]]
+    
+    # get paragraph numbers
+    para1 = str_extract(recs[1], "\\d+")
+    para1 = as.numeric(para1)
+    para2 = para1 + 1
+    para3 = para2 + 1
+    
+    # chunk recommendations
+    accept_recs = recs[str_starts(recs, as.character(para1))]
+    examine_recs = recs[str_starts(recs, as.character(para2))]
+    reject_recs = recs[str_starts(recs, as.character(para3))]
+    
+    # remove the first item from each list, which just demarcates the sections
+    accept_recs = accept_recs[-1]
+    examine_recs = examine_recs[-1]
+    reject_recs = reject_recs[-1]
+    
+    # transform to dataframe
+    recs_df <- list(accept = accept_recs,
+                        examine = examine_recs,
+                        reject = reject_recs)
+    
+    recs_df <- stack(recs_df) %>%
+      select("text" = values, "decision" = ind)
+    
+    recs_df <- recs_df %>%
+      mutate(to = country,
+             year = year)
+    
+    # add from column
+    recs_df <- recs_df %>% mutate(
+      from = map_chr(text, get_country)
+    )
+}
+```
+
+### 4.2 Map the function__
+
+Apply the function you created above to all rows in `all_texts` using your `map_` skills. The final output should contain a dataframe of all the recommendations from all the files.__
+
+```{r}
+all_recs <- map_dfr(1:nrow(all_texts), parse_file)
+```
+
+### 4.3 Print dimensions and write a csv.
+
+Print the dimensions and export the full dataframe into a csv.  You're done!
+
+```{r eval = F}
+dim(all_recs) # should be 1709 x 5
+write.csv(all_recs, "upr-recs.csv")
+```
