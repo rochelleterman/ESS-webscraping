@@ -1,0 +1,62 @@
+---
+title: "Lab 3"
+author: "3I: Webscraping and Data Management in R"
+date: "Aug 2020"
+output: html_document
+---
+
+In today's lecture, we introduced some tools to collect pieces of data from individual presidential documents. For this lab, we will be looking at __all__ documents in the database that contain the string "space exploration." Our goals in this problem set are:
+
+1. To scrape all documents returned from [this search query](https://www.presidency.ucsb.edu/advanced-search?field-keywords=%22space+exploration%22&field-keywords2=&field-keywords3=&from%5Bdate%5D=&to%5Bdate%5D=&person2=&items_per_page=100)
+
+2. To organize this data into a dataframe and ultimately output a CSV file.
+
+Below, I've given you the code for a function that passes the URL of an individual document, scrapes the information from that document, and returns this information in a list.
+
+But this is all I will be providing you. You must complete the rest of the task yourself.
+
+Specifically, you should:
+
+1. Write code that scrapes all documents, organizes the information in a dataframe, and writes a csv file.
+
+2. The end goal should be a dataset identical to the one I've provided for you in `data/space.csv`.
+
+3. Split the code up into discrete steps, each with their own corresponding Rmarkdown chunk.
+
+4. Document (i.e. describe) each step in clear but concise Rmarkdown prose.
+
+5. The final chunk should:
+  * print the structure (`str`) of the final data frame.
+  * write the dataframe to a csv file. 
+
+Onward!
+
+```{r}
+library(tidyverse)
+library(rvest)
+library(stringr)
+library(purrr)
+library(lubridate)
+
+scrape_docs <- function(URL){
+  doc <- read_html(URL)
+
+  speaker <- html_nodes(doc, ".diet-title a") %>% 
+    html_text()
+  
+  date <- html_nodes(doc, ".date-display-single") %>%
+    html_text() %>%
+    mdy()
+  
+  title <- html_nodes(doc, "h1") %>%
+    html_text()
+  
+  text <- html_nodes(doc, "div.field-docs-content") %>%
+    html_text()
+  
+  all_info <- list(speaker = speaker, date = date, title = title, text = text)
+  
+  return(all_info)
+}
+```
+
