@@ -42,7 +42,7 @@ Let's start with step one. We use the `read_html` function to call the results U
 ```{r}
 document1 <- read_html("https://www.presidency.ucsb.edu/documents/special-message-the-congress-relative-space-science-and-exploration")
 
-#Let's take a look at the object we just created
+# Let's take a look at the object we just created
 document1
 ```
 This is pretty messy. We need to use `RVest` to make this information more useable.
@@ -118,6 +118,8 @@ Believe it or not, that's all you need to scrape a website. Let's apply these sk
 
 We'll collect the document's date, speaker, title, and full text.
 
+Think: Why are we doing through all this effort to scrape just one page?
+
 1. Date
 
 ```{r, message=FALSE}
@@ -126,31 +128,31 @@ document1 <- read_html("https://www.presidency.ucsb.edu/documents/special-messag
 date <- html_nodes(document1, ".date-display-single") %>%
   html_text() %>% # grab element text
   mdy() #format using lubridate
+
 date
 ```
 
 2. Speaker
 
 ```{r, message=FALSE}
-#Speaker
 speaker <- html_nodes(document1, ".diet-title a") %>%
   html_text()
+
 speaker
 ```
 
 3. Title
 
 ```{r, message=FALSE}
-#Title
 title <- html_nodes(document1, "h1") %>%
   html_text()
+
 title
 ```
 
 4. Text
 
 ```{r, message=FALSE}
-#Text
 text <- html_nodes(document1, "div.field-docs-content") %>%
           html_text()
 
@@ -158,7 +160,7 @@ text <- html_nodes(document1, "div.field-docs-content") %>%
 text %>% substr(1, 1000) 
 ```
 
-### Challenge 1: Make a function
+### Challenge 2: Make a function
 
 Make a function called `scrape_docs` that accepts a URL of an individual document, scrapes the page, and returns a list containing the document's date, speaker, title, and full text.
 
