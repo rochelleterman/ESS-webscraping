@@ -1,0 +1,149 @@
+---
+title: "Selenium"
+author: "3I: Webscraping and Data Management in R"
+date: "Aug 2020"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+```{r}
+library(RSelenium)
+library(wdman)
+library(tidyverse)
+library(rvest)
+
+# Start a selenium server and browser
+rD <- rsDriver(browser = "firefox")
+remDr <- rD[["client"]]
+
+# check status
+remDr$getStatus()
+
+# navigate
+remDr$navigate("http://www.rochelleterman.com")
+```
+
+```{r}
+remDr$navigate("http://wbsec.gov.in/results/panchayat_election_detailed_result?election_year=2013")
+```
+
+### Zilla Parishad Wise
+
+We can use the method `findElements` to find an element on the page by its name. An easy way to do this is to inspect the element.
+
+```{r}
+# find "district" drop down
+district <- remDr$findElement(using = "name", value = "zilla_parishad")
+
+class(district)
+?webElement
+
+district$getElementText()
+district$clickElement()
+```
+
+Now if we want to get the different options in this drop down, we can do the same. You'll notice that each name is associated with a unique value.
+
+```{r}
+# find options in that drop down
+district$selectTag() #returns options
+
+# store all elements for options
+district_options = district$findChildElements(using = "css selector", value = "option")
+
+# get first option
+district_first <- district_options[[2]]
+
+# click on that
+district_first$clickElement()
+```
+
+We can do the same thing with the "Polling Date" drop down.
+
+```{r}
+# find "polling" drop down
+polling <- remDr$findElement(using = "name", value = "election_date")
+# find options
+polling_options = polling$findChildElements(using = "css selector", value = "option")
+# get first
+polling_first <- polling_options[[2]]
+# click on that
+polling_first$clickElement()
+```
+
+Let's get the results:
+
+```{r}
+submit <- remDr$findElement(using = "name", value = "submit")
+submit$clickElement()
+```
+
+  Our selections brought us to a table. Now let's get the underlying html. First we'll identify it by its CSS selector, and then use the `getPageSource` method.
+
+```{r}
+table = remDr$findElement(using = "class", value = "table_data")
+
+# extract html
+table_html <- table$getPageSource()
+
+# cleanup
+rm(district, district_first, polling_first, polling, submit, rD, remDr, table)
+```
+
+To parse the html, we'll use rVest:
+
+```{r}
+table_html <- read_html(table_html[[1]])
+rows <- html_nodes(table_html, "tr")
+rows[[1]]
+
+# handy-dandy function to parse html tables into dataframes -- and it's vectorized!
+table_dfs <- html_table(table_html, fill = F)
+
+knitr::kable(table_dfs[[1]])
+```
+
+What a mess. They should have taken my data management course.
+
+```{r}
+a_table <- table_dfs[[1]]
+
+# make election_level database
+election_level <- a_table %>%
+  select(`Seat Name`:`Votes Rejected`) %>%
+  head(1)
+
+# make candidate_level database
+candidate_level <- a_table %>%
+  select(`Seat Name`, OSN:`Vote Secured`) %>%
+  mutate(`Seat Name` = `Seat Name`[1])
+```
+
+# make functions and loop
+```{r}
+parse_election <- function(table_i) {
+  
+  # make election_level database
+  election_level <- table_i %>%
+    select(`Seat Name`:`Votes Rejected`) %>%
+    head(1)
+  
+  return(election_level)
+}
+
+parse_candidates <- function(table_i) {
+  
+  # make candidate_level database
+  candidate_level <- table_i %>%
+    select(`Seat Name`, OSN:`Vote Secured`) %>%
+    mutate(`Seat Name` = `Seat Name`[1])
+  
+  return(candidate_level)
+}
+  
+elections <- map(table_dfs, parse_election) %>% bind_rows
+candidates <- map(table_dfs, parse_candidates) %>% bind_rows
+```
+
+
