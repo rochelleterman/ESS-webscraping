@@ -88,6 +88,15 @@ Fill in the code chunk below to select the first option from the  "Polling Date"
 
 ```{r}
 # YOUR CODE HERE
+
+# find "polling" drop down
+polling <- remDr$findElement(using = "name", value = "election_date")
+# find options
+polling_options = polling$findChildElements(using = "css selector", value = "option")
+# get first
+polling_first <- polling_options[[2]]
+# click on that
+polling_first$clickElement()
 ```
 
 ### Getting the results
@@ -178,5 +187,56 @@ candidates <- map_dfr(table_dfs, parse_candidates)
 Using the code above as a guide, write a program that loops through all the options in the `Distrct` menu, grabs the results, and parses the data into a tidy dataframe.
 
 ```{r}
-# YOUR CODE HERE
+# write function to automate menu selection
+select_district <- function(option_i){
+  
+  remDr$navigate("http://wbsec.gov.in/results/panchayat_election_detailed_result?election_year=2013")
+  
+  Sys.sleep(2)
+      
+  # select "district" option
+  district <- remDr$findElement(using = "name", value = "zilla_parishad")
+  district_options = district$findChildElements(using = "css selector", value = "option")
+  district_selection <- district_options[[1 + option_i]]
+  district_name <- district_selection$getElementText()[[1]]
+  district_selection$clickElement()
+  
+  Sys.sleep(2)
+  
+  # find "polling" drop down
+  polling <- remDr$findElement(using = "name", value = "election_date")
+  polling_options = polling$findChildElements(using = "css selector", value = "option")
+  polling_selection <- polling_options[[2]]
+  polling_selection$clickElement()
+  
+  # click
+  submit <- remDr$findElement(using = "name", value = "submit")
+  submit$clickElement()
+  
+  Sys.sleep(2)
+  
+  # get tables
+  table = page$findElement(using = "class", value = "table_data")
+  
+  # extract html
+  table_html <- table$getPageSource()
+  
+  # read HTML
+  table_html <- read_html(table_html[[1]])
+  
+  # parse html tables into dataframes
+  table_dfs <- html_table(table_html, fill = F)
+  
+  # tidy data
+  elections <- map_dfr(table_dfs, parse_election)
+  candidates <- map_dfr(table_dfs, parse_candidates)
+  
+  # staple into a list
+  data_list <- list(Elections = elections, Candidates = candidates)
+  
+  return(data_list)
+}
+
+# get data for second option
+p2 <- select_district(2)
 ```
