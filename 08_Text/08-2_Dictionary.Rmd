@@ -1,0 +1,120 @@
+---
+title: "Preprocessing"
+author: "3I: Webscraping and Data Management in R"
+date: "Aug 2020"
+output: html_document
+---
+
+## Sentiment Analysis and Dictionary Methods
+
+To demonstrate sentiment analysis, we're going to explore lyrics from Taylor Swift songs. 
+
+Road the code below to get started.
+
+```{r message = F}
+require(tm)
+require(tidytext)
+require(tidyverse)
+require(stringr)
+require(textdata)
+
+ts <- read.csv("data/taylor_swift.csv")
+```
+
+### Preprocessing and Setup
+
+First we must preprocess the corpus. Create a document-term matrix from the `lyrics` column of the `ts` data frame. Complete the following preprocessing steps:
+- convert to lower
+- remove stop words
+- remove numbers
+- remove punctuation.
+
+**Think**: Why is stemming inappropriate for this application?
+
+```{r}
+# preprocess and create DTM
+docs <- Corpus(VectorSource(ts$lyrics))
+
+dtm <- DocumentTermMatrix(docs,
+           control = list(tolower = TRUE,
+                          removeNumbers = TRUE,
+                          removePunctuation = TRUE,
+                          stopwords = TRUE
+                         ))
+
+# convert to data frame
+dtm <- as.data.frame(as.matrix(dtm))
+```
+
+#### Sentiment dictionaries {-}
+
+We're going to use sentiment dictionaries from the `tidytext` package. Using the `get_sentiments` function, load the "bing" dictionary and store it in an object called `sent`. 
+
+```{r}
+sent <- get_sentiments("bing")
+head(sent)
+```
+
+We'll now add a column to `sent` called `score`. This column should hold a "1" for positive words and "-1" for negative words.
+
+```{r}
+sent$score <- ifelse(sent$sentiment=="positive", 1, -1)
+```
+
+### Scoring the songs
+
+We're now ready to score each song. 
+
+(**NB**: There are probably many ways to program a script that performs this task. If you can think of a more elegant way, go for it!)
+
+First, we'll create a dataframe that holds all the words in our dtm along with their sentiment score.
+
+```{r}
+# get all the words in our dtm and put it in a dataframe
+words = data.frame(word = colnames(dtm), stringsAsFactors = F)
+head(words)
+
+# get their sentiment scores
+words_sent <- words %>%
+  left_join(sent) %>% 
+  mutate(score = replace_na(score, 0))
+```
+
+We can now use matrix algebra (!!) to multiply our dtm by the scoring vector. This will return to us a score for each document (i.e., song).
+
+```{r}
+# calculate documents scores with matrix algebra! 
+doc_scores <- as.matrix(dtm) %*% words_sent$score
+
+# put it in the original documents data frame
+ts$sentiment <- doc_scores
+```
+
+Which song is happiest? Go listen to the song and see if you agree.
+
+### Challenges
+
+#### Challenge 1 {-} 
+
+Using the code we wrote above, make a function that accepts 1) a vector of texts, and 2) a sentiment dictionary (i.e., a data frame with words and scores), and returns a vector of sentiment scores for each text.
+
+```{r eval = F}
+sentiment_score <- function(texts, sent_dict){
+  
+  # YOUR CODE HERE
+
+  return(doc_scores)
+}
+  
+# uncomment to test it out!
+# sentiment_score(ts$lyrics, sent_dict)
+```
+
+#### Challenge 2 {-}
+
+Using the function you wrote above, find out what the most and least positive Taylor Swift album is.
+
+```{r eval = F}
+# YOUR CODE HERE
+```
+

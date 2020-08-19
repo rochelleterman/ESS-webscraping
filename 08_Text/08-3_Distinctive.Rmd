@@ -1,0 +1,153 @@
+---
+title: "Distinctive Words"
+author: "3I: Webscraping and Data Management in R"
+date: "Aug 2020"
+output: html_document
+---
+
+## Distinctive Words
+
+This lesson finds distinctive words in the speeches of Obama and Trump.
+
+Run the following code to:
+
+1. Import the corpus
+2. Create a DTM
+
+```{r message=F}
+require(tm)
+require(matrixStats) # for statistics
+require(tidyverse)
+
+# import corpus
+docs <- Corpus(DirSource("Data/trump_obama"))
+
+# preprocess and create DTM
+dtm <- DocumentTermMatrix(docs,
+           control = list(tolower = TRUE,
+                          removePunctuation = TRUE,
+                          removeNumbers = TRUE,
+                          stopwords = TRUE,
+                          stemming=TRUE))
+
+# print the dimensions of the DTM
+dim(dtm)
+
+# take a quick look
+inspect(dtm[,100:104])
+```
+
+Oftentimes scholars will want to compare different corpora by finding the words (or features) distinctive to each corpora. But finding distinctive words requires a decision about what “distinctive” means. As we will see, there are a variety of definitions that we might use. 
+
+### Unique usage
+
+The most obvious definition of distinctive is "exclusive". That is, distinctive words are those are found exclusively in texts associated with a single speaker (or group). For example, if Trump uses the word “access” and Obama never does, we should count “access” as distinctive. 
+Finding words that are exclusive to a group is a simple exercise. All we have to do is sum the usage of each word use across all texts for each speaker, and then look for cases where the sum is zero for one speaker.
+
+```{r}
+# turn DTM into dataframe
+dtm.m <- as.data.frame(as.matrix(dtm))
+dtm.m$that <- NULL # fix weird encoding error with stopwords.
+dtm.m$dont <- NULL
+
+# Subset into 2 dtms for each speaker
+obama <- dtm.m[1:8,]
+trump <- dtm.m[9:11,]
+
+# Sum word usage counts across all texts
+obama <- colSums(obama)
+trump <- colSums(trump)
+
+# Put those sums back into a dataframe
+df <- data.frame(rbind(obama, trump))
+df[ ,1:5]
+
+# Get words where one speaker's usage is 0
+solelyobama <- unlist(df[1, trump==0]) 
+solelyobama <- solelyobama[order(solelyobama, decreasing = T)] # order them by frequency
+head(solelyobama, 10) # get top 10 words for obama
+
+solelytrump <- unlist(df[2, obama==0])
+solelytrump <- solelytrump[order(solelytrump, decreasing = T)] # order them by frequency
+head(solelytrump, 10) # get top 10 words for trump
+```
+
+This is a start, but oftentimes these words tend not to be terribly interesting or informative. So we will remove them from our corpus in order to focus on identifying distinctive words that appear in texts associated with every speaker.
+
+```{r}
+# subset df with non-zero entries
+df <- df[,trump>0 & obama>0]
+
+# how many words are we left with?
+ncol(df)
+df[,1:5]
+```
+
+### Differences in frequences
+
+Another basic approach to identifying distinctive words is to compare the frequencies at which speakers use a word. If one speaker uses a word often across his or her oeuvre and another barely uses the word at all, the difference in their respective frequencies will be large. We can calculate this quantity the following way:
+
+```{r}
+# take the differences in frequences
+diffFreq <- obama - trump
+
+# sort the words
+diffFreq <- sort(diffFreq, decreasing = T)
+
+# the top obama words
+head(diffFreq, 10)
+
+# the top trump words
+tail(diffFreq, 10)
+```
+
+### Differences in averages
+
+This is a good start. But what if one speaker uses more words *overall*? Instead of using raw frenquncies, a better approach would look at the average *rate* at which speakers use various words. 
+
+We can calculate this quantity the following way:
+
+1. Normalize the DTM from counts to proportions
+2. Take the difference between one speaker's proportion of a word and another's proportion of the same word.
+3. Find the words with the highest absolute difference.
+
+```{r}
+# normalize into proportions
+rowTotals <- rowSums(df) #create vector with row totals, i.e. total number of words per document
+head(rowTotals) # notice that one speaker uses more words than the other
+
+# change frequencies to proportions
+df <- df/rowTotals #change frequencies to proportions
+df[,1:5]
+
+# get difference in proportions
+means.obama <- df[1,]
+means.trump <- df[2,]
+score <- unlist(means.obama - means.trump)
+
+# find words with highest difference
+score <- sort(score, decreasing = T)
+head(score,10) # top obama words
+tail(score,10) # top trump words
+```
+
+This is a start. The problem with this measure is that it tends to highlight differences in very frequent words. For example, this method gives greater attention to a word that occurs 30 times per 1,000 words in Obama and 25 times per 1,000 in Trump than it does to a word that occurs 5 times per 1,000 words in Obama and 0.1 times per 1,000 words in Trump This does not seem right. It seems important to recognize cases when one speaker uses a word frequently and another speaker barely uses it.
+
+As this initial attempt suggests, identifying distinctive words will be a balancing act. When comparing two groups of texts, differences in the rates of frequent words will tend to be large relative to differences in the rates of rarer words. Human language is variable; some words occur more frequently than others regardless of who is writing. We need to find a way of adjusting our definition of distinctive in light of this.
+
+### Difference in averages, adjustment
+
+One adjustment that is easy to make is to divide the difference in speakers’ average rates by the average rate across all speakers. Since dividing a quantity by a large number will make that quantity smaller, our new distinctiveness score will tend to be lower for words that occur frequently. While this is merely a heuristic, it does move us in the right direction.
+
+```{r}
+# get the average rate of all words across all speakers
+means.all <- colMeans(df)
+
+# now divide the difference in speakers' rates by the average rate across all speakers
+score <- unlist((means.obama - means.trump) / means.all)
+score <- sort(score, decreasing = T)
+head(score,10) # top obama words
+tail(score,10) # top trump words
+```
+
+
