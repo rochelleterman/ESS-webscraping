@@ -1,0 +1,71 @@
+---
+title: "Preprocessing"
+author: "3I: Webscraping and Data Management in R"
+date: "Aug 2020"
+output: html_document
+---
+
+## Dictionary
+
+#### Challenge 1 {-} 
+
+Using the code we wrote above, make a function that accepts 1) a vector of texts, and 2) a sentiment dictionary (i.e., a data frame with words and scores), and returns a vector of sentiment scores for each text.
+
+```{r eval = F}
+sentiment_score <- function(texts, sent_dict){
+  # preprocess and create DTM
+  docs <- Corpus(VectorSource(texts))
+  
+  dtm <- DocumentTermMatrix(docs,
+             control = list(tolower = TRUE,
+                            removeNumbers = TRUE,
+                            removePunctuation = TRUE,
+                            stopwords = TRUE
+                           ))
+  
+  # convert to data frame
+  dtm <- as.data.frame(as.matrix(dtm))
+
+  # get all the words in our dtm and put it in a dataframe
+  words = data.frame(word = colnames(dtm), stringsAsFactors = F)
+  head(words)
+
+  # get their sentiment scores
+  words_sent <- words %>% left_join(sent_dict) 
+  
+  # fix names
+  names(words_sent) <- c("word", "score")
+  
+  # replace nas with 0 
+  words_sent$score <- replace_na(words_sent$score, 0))
+  
+  # calculate documents scores with matrix algebra! 
+  doc_scores <- as.matrix(dtm) %*% words_sent$score
+
+  return(doc_scores)
+}
+  
+# uncomment to test it out!
+sentiment_score(ts$lyrics, sent_dict)
+```
+
+#### Challenge 2 {-}
+
+Using the function you wrote above, find out what the most and least positive Taylor Swift album is.
+
+```{r eval = F}
+# concatenate songs to make albums
+albums <- ts %>% 
+  group_by(album) %>%
+  summarise(lyrics = str_c(lyrics, collapse = ";"))
+
+# first load the dictionary
+afinn <- get_sentiments("afinn")
+
+# then run the function
+sentiment_score(albums$lyrics, afinn)
+
+# add to original df
+albums$sent <- sentiment_score(albums$lyrics, afinn)
+```
+
