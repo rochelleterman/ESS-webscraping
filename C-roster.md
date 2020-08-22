@@ -1,5 +1,8 @@
 # Roster
 
+Asilata: asilata.karandikar@protonmail.com
+I learnt to do a bunch fun things with R which I can use in my research! Thanks Rochelle and Phil!
+
 Yong Li coolest thing I learned from Rochelle: webscraping using Selenium
 
 Tim: I now understand how I can use APIs and Selenium to get data from the web! That's great for my research! Thanks :-)
