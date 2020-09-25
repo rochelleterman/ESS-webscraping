@@ -14,3 +14,9 @@ Rochelle Terman, Assistant Professor in Political Science, University of Chicago
 rterman@uchicago.edu
 
 For more information on this course, see the [course listing at Essex Summer School website.](https://essexsummerschool.com/summer-school-facts/courses/2020-course-list/3i-web-scraping-and-data-management-in-r/)
+
+![Creative Commons License](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)
+
+This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+
